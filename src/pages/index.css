@@ -11,3 +11,35 @@
 @import url("../blocks/cards/__title/cards__title.css");
 @import url("../blocks/section/section.css");
 @import url("../blocks/section/__title/section__title.css");
+
+@import url("../blocks/text/_small/text_small.css");
+@import url("../blocks/text/_main/text_main.css");
+@import url("../blocks/text/_label/text_label.css");
+@import url("../blocks/text/_big/text_big.css");
+
+@import url("../blocks/section/__title/section__title.css");
+@import url("../blocks/section/__subtitle/section__subtitle.css");
+@import url("../blocks/section/__highlight-h5/section__highlight-h5.css");
+@import url("../blocks/section/__highlight-h4/section__highlight-h4.css");
+@import url("../blocks/section/__headline/section__headline.css");
+
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/__icon/button__icon.css");
+@import url("../blocks/button/_type/_primary/button_type_primary.css");
+@import url("../blocks/button/_type/_secondary/button_type_secondary.css");
+@import url("../blocks/button/_type/_secondary/_black/button_type_secondary_black.css");
+@import url("../blocks/button/_type/_link/button_type_link.css");
+@import url("../blocks/button/_type/_slider/button_type_slider.css");
+@import url("../blocks/button/_type/_slider/_black/button_type_slider_black.css");
+@import url("../blocks/button/_type/_accordeon/button_type_accordeon.css");
+@import url("../blocks/button/_color/_blue/button_color_blue.css");
+@import url("../blocks/button/_color/_green/button_color_green.css");
+@import url("../blocks/button/_color/_orange/button_color_orange.css");
+@import url("../blocks/button/_color/_purple/button_color_purple.css");
+
+
+
+
+
+
+

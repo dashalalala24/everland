@@ -1,0 +1,22 @@
+.button_color_orange {
+    background-color: rgba(254, 239, 234, 1);
+    color: rgba(233, 133, 9, 1);
+    fill: rgba(233, 133, 9, 1);
+}
+
+.button_color_orange:hover {
+    background-color: rgba(233, 133, 9, 1);
+    color: rgba(255, 255, 255, 1);
+    fill: rgba(255, 255, 255, 1);
+}
+
+.button_color_orange:active {
+    background-color: rgba(134, 74, 0, 1);
+}
+
+.button_color_orange:disabled {
+    background-color: rgba(196, 196, 196, 1);
+    color: rgba(38, 38, 38, 0.5);
+    fill: rgba(38, 38, 38, 0.5);
+    cursor: not-allowed;
+}

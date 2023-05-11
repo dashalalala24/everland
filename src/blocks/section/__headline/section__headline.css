@@ -1,17 +1,17 @@
-.section__title {
+.section__headline {
     font-weight: bold;
-    font-size: 72px;
+    font-size: 36px;
     line-height: 120%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .section__title {
-        font-size: 38px;
+    .section__headline {
+        font-size: 26px;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .section__title {
-        font-size: 28px;
+    .section__headline {
+        font-size: 18px;
     }
 }
