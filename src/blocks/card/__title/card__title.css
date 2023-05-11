@@ -1,17 +1,17 @@
-.text_small {
-    font-weight: medium;
-    font-size: 18px;
+.card__title {
+    font-weight: bold;
+    font-size: 34px;
     line-height: 120%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .text_small {
-        font-size: 14px;
+    .card__title {
+        font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .text_small {
-        font-size: 12px;
+    .card__title {
+        font-size: 16px;
     }
 }

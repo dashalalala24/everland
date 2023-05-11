@@ -1,17 +1,20 @@
 .section__title {
     font-weight: bold;
-    font-size: 72px;
+    font-size: 64px;
     line-height: 120%;
+    margin-bottom: 50px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section__title {
-        font-size: 38px;
+        font-size: 36px;
+        margin-bottom: 32px;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .section__title {
-        font-size: 28px;
+        font-size: 26px;
+        margin-bottom: 24px;
     }
 }
