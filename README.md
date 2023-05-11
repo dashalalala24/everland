@@ -17,19 +17,19 @@ ___
     ***[ссылка на профиль Github](https://github.com/dashalalala24)***
 * Александр Вологузов (разработчик)
 
-    ***[ссылка на профиль Github]()***
+    ***[ссылка на профиль Github](https://github.com/Himany)***
 * Вагаршак Григорян (разработчик)
 
-    ***[ссылка на профиль Github]()***
+    ***[ссылка на профиль Github](https://github.com/VLGrigoryan)***
 *  Анастасия Проскурякова (разработчик)
 
-    ***[ссылка на профиль Github]()***
+    ***[ссылка на профиль Github](https://github.com/alicerossiinthecodeworld)***
 *  Ильдар Шайхутдинов (разработчик)
 
-    ***[ссылка на профиль Github]()***
+    ***[ссылка на профиль Github](https://github.com/misterildar)***
 * Фарит Зарифуллин (разработчик)
 
-    ***[ссылка на профиль Github]()***
+    ***[ссылка на профиль Github](https://github.com/FaRiT2504)***
 
 ___
 
