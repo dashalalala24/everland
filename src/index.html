@@ -1,64 +1,261 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="author"
+      content="Команда 2"
+    />
+    <title>Everland</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Команда 2">
-  <title>Everland</title>
-</head>
+  <body>
+    <header class="header">
+      <nav class="header__menu"></nav>
+    </header>
+    <main class="content">
+      <section class="info-slider"></section>
+      <section class="donations"></section>
+      <section class="cards">
+        <h2 class="section__title">Для кого мы работаем</h2>
+        <ul class="cards__gallery"></ul>
+      </section>
+      <section class="cards">
+        <h2 class="section__title">Наши направления</h2>
+        <ul class="cards__gallery"></ul>
+      </section>
+      <section class="accordion">
+        <ul>
+          <li class="accordion__item">
+            <button class="accordion__button"></button>
+            <div class="accordion__panel">
+              <p></p>
+            </div>
+          </li>
 
-<body>
-  <header class="header">
-    <nav class="header__menu">
-    </nav>
-  </header>
-  <main class="content">
-    <section class='info-slider'></section>
-    <section class='donations'>
-    </section>
-    <section class='cards'>
-      <h2 class="section__title">Для кого мы работаем</h2>
-      <ul class="cards__gallery"></ul>
-    </section>
-    <section class='cards'>
-      <h2 class="section__title">Наши направления</h2>
-      <ul class="cards__gallery"></ul>
-    </section>
-    <section class="accordion">
-      <ul>
-        <li class="accordion__item">
-          <button class="accordion__button"></button>
-          <div class="accordion__panel">
-            <p></p>
+          <li></li>
+          <li class="accordion__item">
+            <button class="accordion__button"></button>
+            <div class="accordion__panel">
+              <p></p>
+            </div>
+          </li>
+
+          <li></li>
+        </ul>
+      </section>
+      <section class="numbers"></section>
+      <section class="family"></section>
+      <section class="stories"></section>
+      <section class="gallery">
+        <h2 class="section__title">Лучшие проекты агентства</h2>
+      </section>
+      <section class="gallery">
+        <h2 class="section__title">Новости</h2>
+      </section>
+      <section class="support">
+        <h2 class="section__title">Поддержите нас</h2>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__everland-about">
+        <div>
+          <a href="#"><div class="logo_footer"></div></a>
+          <p class="small-text footer__platform">
+            Платформа Everland — инклюзивный социальный предпринимательский
+            проект. Реализуется&nbsp;ООО&nbsp;«ЭВЕРЛЭНД», АНО «Пространство
+            равных возможностей».
+          </p>
+        </div>
+
+        <div class="footer__about-project">
+          <ul class="footer__links">
+            <li><p class="main-text">О проекте</p></li>
+            <li>
+              <a
+                href="#"
+                class="main-text footer__link"
+                >Услуги</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="main-text footer__link"
+                >Людям с инвалидностью</a
+              >
+            </li>
+          </ul>
+          <ul class="footer__links">
+            <li>
+              <p class="main-text">Программы</p>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="main-text footer__link"
+                >Платформа</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="main-text footer__link"
+                >Мы благодарим</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__container">
+        <div class="footer__support-tel">
+          <h4 class="h4 footer__support">При поддержке</h4>
+          <ul class="footer__support-icon">
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                ><div class="footer__support-icon-1"></div
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                ><div class="footer__support-icon-2"></div
+              ></a>
+            </li>
+          </ul>
+          <div class="footer__contacts">
+            <div class="footer__telephone">
+              <p class="small-text">+7 (495) 646 04 28</p>
+              <p class="small-text">+7 (985) 473 08 93</p>
+            </div>
+            <p class="small-text footer__address">
+              Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.
+            </p>
           </div>
-        <li>
-        <li class="accordion__item">
-          <button class="accordion__button"></button>
-          <div class="accordion__panel">
-            <p></p>
-          </div>
-        <li>
-      </ul>
-    </section>
-    <section class = 'numbers'></section>
-    <section class = 'family'></section>
-    <section class = 'stories'></section>
-    <section class = 'gallery'>
-      <h2 class="section__title">Лучшие проекты агентства</h2>
-    </section>
-    <section class = 'gallery'>
-      <h2 class="section__title">Новости</h2>
-    </section>
-    <section class = 'support'>
-      <h2 class="section__title">Поддержите нас</h2>
-    </section>
-  </main>
-  <footer class="footer">
-  </footer>
+        </div>
+        <div class="footer__subscribe-copyright">
+          <h4 class="h4 footer__subscribe-title">
+            Подписывайтесь на нас в соцсетях
+          </h4>
+          <ul class="footer__subscribe-icons">
+            <li>
+              <a
+                href="#"
+                target="_blank"
+              >
+                <div class="footer__subscribe-icon-1"></div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+              >
+                <div class="footer__subscribe-icon-2"></div>
+              </a>
+            </li>
+          </ul>
+          <p class="small-text footer__copyright">
+            © ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей». Если не
+            указано иначе, все материалы сайта доступны по лицензии Creative
+            Commons CC-BY-SA 3.0
+          </p>
+        </div>
+      </div>
 
-  <script src="./pages/index.js"></script>
-  <script src="./blocks/slider/slider.js"></script>
-</body>
+      <div class="footer__made-yandex">
+        <a
+          href="#"
+          target="_blank"
+        >
+          <div class="footer__logo-yandex"></div>
+        </a>
+        <p class="small-text">сделано при участии Яндекс Практикума</p>
+      </div>
+    </footer>
 
+    <script src="./pages/index.js"></script>
+    <script src="./blocks/slider/slider.js"></script>
+  </body>
+
+  <style>
+    .small-text {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 130%;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: #333;
+      margin: 0;
+    }
+
+    @media screen and (max-width: 1439px) {
+      .small-text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .small-text {
+        font-size: 12px;
+      }
+    }
+
+    .h4 {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 120%;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: #333;
+      margin: 0;
+    }
+
+    @media screen and (max-width: 1439px) {
+      .h4 {
+        font-size: 20px;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .h4 {
+        font-size: 16px;
+      }
+    }
+
+    .main-text {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 130%;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: #333;
+      margin: 0;
+    }
+
+    @media screen and (max-width: 1439px) {
+      .main-text {
+        font-size: 16px;
+        line-height: 120%;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .main-text {
+        font-size: 14px;
+      }
+    }
+  </style>
 </html>

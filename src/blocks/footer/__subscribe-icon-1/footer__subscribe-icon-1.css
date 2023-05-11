@@ -1,0 +1,13 @@
+.footer__subscribe-icon-1 {
+  background-image: url(../../../images/telegram.jpg);
+  background-size: contain;
+  width: 64px;
+  height: 64px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__subscribe-icon-1 {
+    width: 40px;
+    height: 40px;
+  }
+}

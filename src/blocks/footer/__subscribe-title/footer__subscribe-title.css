@@ -1,0 +1,9 @@
+.footer__subscribe-title {
+  max-width: 655px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__subscribe-title {
+    max-width: 187px;
+  }
+}
