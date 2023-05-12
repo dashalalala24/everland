@@ -1,0 +1,38 @@
+.form-pay__input {
+  padding: 0 20px 0 20px;
+  border: 0;
+  margin-bottom: 21px;
+
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+
+  max-width: 455px;
+  height: 48px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: left;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: black;
+}
+
+.form-pay__input::placeholder {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: left;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #DADADA;
+}
+
+.form-pay__input:last-of-type {
+  margin-bottom: 0px;
+}
