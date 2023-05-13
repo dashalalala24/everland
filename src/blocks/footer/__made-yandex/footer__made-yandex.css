@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   column-gap: 20px;
-  padding-top: 35px;
+  padding-top: 38px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -17,15 +17,15 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .footer__made-yandex {
-    display: block;
-  }
-}
-
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .footer__made-yandex {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__made-yandex {
+    display: block;
   }
 }

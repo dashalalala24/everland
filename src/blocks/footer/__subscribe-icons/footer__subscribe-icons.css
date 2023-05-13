@@ -1,7 +1,7 @@
 .footer__subscribe-icons {
   display: flex;
   column-gap: 10px;
-  padding: 11px 0 50px;
+  padding: 11px 0 52px;
   list-style-type: none;
   margin: 0;
 }
@@ -9,7 +9,7 @@
 @media screen and (max-width: 1439px) {
   .footer__subscribe-icons {
     column-gap: 4px;
-    padding-bottom: 28px;
+    padding: 8px 0 30px;
   }
 }
 
