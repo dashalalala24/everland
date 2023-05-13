@@ -1,5 +1,6 @@
 .footer__subscribe-title {
   max-width: 655px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1439px) {
@@ -8,10 +9,10 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px) {
+@media screen and (min-width: 769px) and (max-width: 1438px) {
   .footer__subscribe-title {
     display: flex;
     justify-content: center;
-    max-width: 300px;
+    max-width: 655px;
   }
 }
