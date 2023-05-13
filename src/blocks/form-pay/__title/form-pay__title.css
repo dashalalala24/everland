@@ -1,6 +1,6 @@
 .form-pay__title {
   margin: 0;
-  padding: 0;
+  padding: 0 0 16px 0;
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -8,10 +8,11 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
   text-align: center;
+  width: 100%;
 }
 
 .form-pay__title:before, .form-pay__title:after {
-  border-top: 1px solid #DADADA;
+  border-top: 1px solid #dadada;
   content: '';
   position: relative;
   width: 50%;

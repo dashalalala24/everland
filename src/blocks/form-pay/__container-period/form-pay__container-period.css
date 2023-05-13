@@ -1,0 +1,12 @@
+.form-pay__container-period {
+  margin: 0 0 23px 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  box-sizing: border-box;
+}

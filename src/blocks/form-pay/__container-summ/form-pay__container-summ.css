@@ -1,0 +1,10 @@
+.form-pay__container-summ {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: grid;
+  column-gap: 5px;
+  row-gap: 12px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
