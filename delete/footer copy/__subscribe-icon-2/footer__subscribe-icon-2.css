@@ -1,0 +1,13 @@
+.footer__subscribe-icon-2 {
+  background-image: url(../../../images/vk.jpg);
+  background-size: contain;
+  width: 64px;
+  height: 64px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__subscribe-icon-2 {
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,31 @@
+.footer__made-yandex {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  padding-top: 35px;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__made-yandex {
+    column-gap: 11px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1439px) {
+  .footer__made-yandex {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__made-yandex {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .footer__made-yandex {
+    display: flex;
+    justify-content: center;
+  }
+}

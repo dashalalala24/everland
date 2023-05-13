@@ -1,0 +1,21 @@
+.footer__telephone {
+  min-width: 151px;
+  max-width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__telephone {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__telephone {
+    flex-direction: row;
+    column-gap: 16px;
+  }
+}
