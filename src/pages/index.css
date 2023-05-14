@@ -68,11 +68,14 @@
 @import url("../blocks/form-pay/__button/form-pay__button.css");
 @import url("../blocks/form-pay/__container-period/form-pay__container-period.css");
 @import url("../blocks/form-pay/__radio-label/form-pay__radio-label.css");
+@import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_small.css");
+@import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_medium.css");
+@import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_big.css");
+
+@import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_small.css");
+
 @import url("../blocks/form-pay/__radio-invisible/form-pay__radio-invisible.css");
 @import url("../blocks/form-pay/__radio/form-pay__radio.css");
-@import url("../blocks/form-pay/__radio/_size/form-pay__radio_size_small.css");
-@import url("../blocks/form-pay/__radio/_size/form-pay__radio_size_medium.css");
-@import url("../blocks/form-pay/__radio/_size/form-pay__radio_size_big.css");
 @import url("../blocks/form-pay/__radio-image/form-pay__radio-image.css");
 @import url("../blocks/form-pay/__container-summ/form-pay__container-summ.css");
 @import url("../blocks/form-pay/__container-wallet-type/form-pay__container-wallet-type.css");
