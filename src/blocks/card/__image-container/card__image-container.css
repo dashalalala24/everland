@@ -1,0 +1,19 @@
+.card__image-container {
+  /* width: 224px;
+    height: 224px;
+    margin: 73px 30px;
+    overflow: hidden;
+    border-radius: 50%; */
+  width: 380px;
+  height: 300px;
+  border-radius: 30px;
+
+  /* Inside auto layout */
+  /* background-image: url('../../../images/christmas.png'); */
+  flex: none;
+  object-fit: cover;
+  margin: 30px auto;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

@@ -1,7 +1,8 @@
 .text_size_small {
     font-weight: medium;
     font-size: 18px;
-    line-height: 120%;
+    margin: 30px;
+    color: rgba(38, 38, 38, 0.5);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -10,7 +11,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
     .text_size_small {
         font-size: 12px;
     }

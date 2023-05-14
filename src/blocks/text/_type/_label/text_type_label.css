@@ -1,9 +1,5 @@
 .text_type_label {
-    font-style: normal;
     font-size: 20px;
-    line-height: 120%;
-    font-feature-settings: 'pnum' on, 'lnum' on;
-    font-family: 'Raleway';
     font-weight: 500;
 }
 
@@ -13,7 +9,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
     .text_type_label {
         font-size: 14px;
     }

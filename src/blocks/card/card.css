@@ -1,0 +1,12 @@
+.card {
+    background: #fff;
+    border-radius: 30px;
+    list-style-type: none;
+    max-width: 440px;
+    min-height: 428px;
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
