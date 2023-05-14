@@ -6,10 +6,10 @@
   .title_type_h1 {
     font-size: 38px;
   }
-} 
+}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .title_type_h1 {
     font-size: 28px;
   }
-} 
+}
