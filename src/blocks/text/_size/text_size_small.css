@@ -1,0 +1,16 @@
+.text_size_small {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .text_size_small {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .text_size_small {
+        font-size: 12px;
+    }
+}

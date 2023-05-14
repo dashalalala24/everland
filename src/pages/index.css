@@ -9,10 +9,11 @@
 @import url("../blocks/donations/donations.css");
 @import url("../blocks/card/card.css");
 @import url("../blocks/section/section.css");
-@import url("../blocks/text/_size/_big/text_size_big.css");
-@import url("../blocks/text/_size/_small/text_size_small.css");
-@import url("../blocks/text/_type/_main/text_type_main.css");
-@import url("../blocks/text/_type/_label/text_type_label.css");
+@import url("../blocks/text/text.css");
+@import url("../blocks/text/_size/text_size_big.css");
+@import url("../blocks/text/_size/text_size_small.css");
+@import url("../blocks/text/_type/text_type_label.css");
+@import url("../blocks/text/_type/text_type_main.css");
 @import url("../blocks/button/button.css");
 @import url("../blocks/button/__icon/button__icon.css");
 @import url("../blocks/button/_type/_primary/button_type_primary.css");
