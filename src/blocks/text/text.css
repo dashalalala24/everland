@@ -3,4 +3,6 @@
   font-style: normal;
   font-feature-settings: 'pnum' on, 'lnum' on;
   line-height: 120%;
+  color: #3a3a3c;
+  margin: 0;
 }
