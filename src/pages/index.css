@@ -83,7 +83,7 @@
 
 /* ---------------------logo------------ */
 
-@import url(../blocks/logo/logo.css);
+/*@import url(../blocks/logo/logo.css);*/
 @import url(../blocks/logo/logo_footer.css);
 
 
@@ -105,7 +105,7 @@
 
 /* ---------------------info-slider------------ */
 
-@import url(../blocks/info-slider/info-slider.css);
+/*@import url(../blocks/info-slider/info-slider.css);*/
 /* остальные элементы */
 
 
@@ -119,63 +119,63 @@
 
 /* ---------------------partnering------------ */
 
-@import url(../blocks/partnering/partnering.css);
+/*@import url(../blocks/partnering/partnering.css);*/
 /* остальные элементы */
 
 
 
 /* ---------------------activities------------ */
 
-@import url(../blocks/activities/activities.css);
+/*@import url(../blocks/activities/activities.css);*/
 /* остальные элементы */
 
 
 
 /* ---------------------accordion------------ */
 
-@import url(../blocks/accordion/accordion.css);
+/*@import url(../blocks/accordion/accordion.css);*/
 /* остальные элементы */
 
 
 
 /* ---------------------digits------------ */
 
-@import url(../blocks/digits/digits.css);
+/*@import url(../blocks/digits/digits.css);*/
 /* остальные элементы */
 
 
 
 /* ---------------------project------------ */
 
-@import url(../blocks/project/project.css);
+/*@import url(../blocks/project/project.css);*/
 /* остальные элементы */
 
 
 
 /* ---------------------stories------------ */
 
-@import url(../blocks/stories/stories.css);
+/*@import url(../blocks/stories/stories.css);*/
 /* остальные элементы */
 
 
 
 /* ---------------------gallery------------ */
 
-@import url(../blocks/gallery/gallery.css);
+/*@import url(../blocks/gallery/gallery.css);*/
 /* остальные элементы */
 
 
 
 /* ---------------------news------------ */
 
-@import url(../blocks/news/news.css);
+/*@import url(../blocks/news/news.css);*/
 /* остальные элементы */
 
 
 
 /* ---------------------support------------ */
 
-@import url(../blocks/support/support.css);
+/*@import url(../blocks/support/support.css);*/
 /* остальные элементы */
 
 
