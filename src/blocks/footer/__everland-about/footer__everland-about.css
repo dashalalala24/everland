@@ -1,7 +1,7 @@
 .footer__everland-about {
   display: flex;
   column-gap: 116px;
-  padding-bottom: 87px;
+  padding-bottom: 91px;
 }
 
 @media screen and (max-width: 1439px) {

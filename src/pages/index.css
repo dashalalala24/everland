@@ -3,27 +3,28 @@
 @import url('../blocks/page/page.css');
 /* ---------------------footer------------ */
 @import url('../blocks/footer/footer.css');
-@import url(../blocks/footer/__about-project/footer__about-project.css);
-@import url(../blocks/footer/__address/footer__address.css);
-@import url(../blocks/footer/__contacts/footer__contacts.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/logo/logo_footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__made-yandex/footer__made-yandex.css);
+@import url(../blocks/footer/__address/footer__address.css);
 @import url(../blocks/footer/__platform/footer__platform.css);
-@import url(../blocks/footer/__subscribe-icons/footer__subscribe-icons.css);
-@import url(../blocks/footer/__support-icon/footer__support-icon.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__telephone/footer__telephone.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__made-yandex/footer__made-yandex.css);
+@import url(../blocks/footer/__logo-yandex/footer__logo-yandex.css);
+@import url(../blocks/footer/__support-tel/footer__support-tel.css);
+@import url(../blocks/footer/__support-icon/footer__support-icon.css);
+@import url(../blocks/footer/__about-project/footer__about-project.css);
+@import url(../blocks/footer/__logo-container/footer__logo-container.css);
+@import url(../blocks/footer/__everland-about/footer__everland-about.css);
 @import url(../blocks/footer/__support-icon-1/footer__support-icon-1.css);
 @import url(../blocks/footer/__support-icon-2/footer__support-icon-2.css);
-@import url(../blocks/footer/__container/footer__container.css);
-@import url(../blocks/logo/logo_footer.css);
-@import url(../blocks/footer/__logo-yandex/footer__logo-yandex.css);
+@import url(../blocks/footer/__subscribe-icons/footer__subscribe-icons.css);
 @import url(../blocks/footer/__subscribe-title/footer__subscribe-title.css);
 @import url(../blocks/footer/__subscribe-icon-1/footer__subscribe-icon-1.css);
 @import url(../blocks/footer/__subscribe-icon-2/footer__subscribe-icon-2.css);
-@import url(../blocks/footer/__everland-about/footer__everland-about.css);
-@import url(../blocks/footer/__support-tel/footer__support-tel.css);
 @import url(../blocks/footer/__subscribe-copyright/footer__subscribe-copyright.css);
 /* ---------------------footer------------ */
 
@@ -34,6 +35,8 @@
 @import url('../blocks/donations/donations.css');
 @import url('../blocks/card/card.css');
 @import url('../blocks/section/section.css');
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/_rgba/text_rgba.css);
 @import url('../blocks/text/_size/_big/text_size_big.css');
 @import url('../blocks/text/_size/_small/text_size_small.css');
 @import url('../blocks/text/_type/_main/text_type_main.css');

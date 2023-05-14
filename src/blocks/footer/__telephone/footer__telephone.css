@@ -19,3 +19,9 @@
     column-gap: 16px;
   }
 }
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .footer__telephone {
+    min-width: 400px;
+  }
+}
