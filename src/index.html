@@ -129,78 +129,76 @@
     </section>
     <section class='support'>
       <h2 class="title title_type_h2">Поддержите нас</h2>
-      <div class="form-pay-test">
-        <form class="form-pay">
-          <fieldset class="form-pay__container-period">
-            <label for="monthly" class="form-pay__radio-label">
-              <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="monthly" value="monthly" checked>
-              <span class="form-pay__radio form-pay__radio_size_big text text_type_label">Ежемесячно<img class="form-pay__radio-image" src="<%=require('./images/icon_question.svg')%>" alt="Пояснение"></span>
-            </label>
-            <label for="once" class="form-pay__radio-label">
-              <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="once" value="once">
-              <span class="form-pay__radio form-pay__radio_size_big text text_type_label">Разово</span>
-            </label>
-          </fieldset>
-          <h5 class="form-pay__title title title_type_h5">Размер пожертвования</h5>
-          <fieldset class="form-pay__container-summ">
-            <label for="donat_250" class="form-pay__radio-label">
-              <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_250" value="250">
-              <span class="form-pay__radio form-pay__radio_size_small text text_type_label">250 &#8381;</span>
-            </label>
-            <label for="donat_500" class="form-pay__radio-label">
-              <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_500" value="500" checked>
-              <span class="form-pay__radio form-pay__radio_size_small text text_type_label">500 &#8381;</span>
-            </label>
-            <label for="donat_750" class="form-pay__radio-label">
-              <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_750" value="750">
-              <span class="form-pay__radio form-pay__radio_size_small text text_type_label">750 &#8381;</span>
-            </label>
-            <label for="donat_1000" class="form-pay__radio-label">
-              <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_1000" value="1000">
-              <span class="form-pay__radio form-pay__radio_size_small text text_type_label">1000 &#8381;</span>
-            </label>
-            <label for="donat_other" class="form-pay__radio-label">
-              <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_other" value="other">
-              <span class="form-pay__radio form-pay__radio_size_small text text_type_label">Другая сумма</span>
-            </label>
-          </fieldset>
-          <p class="form-pay__description">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу. Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.</p>
-          <h5 class="form-pay__title title title_type_h5">Способ оплаты</h5>
-          <fieldset class="form-pay__container-wallet-type">
-            <label for="card" class="form-pay__radio-label">
-              <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="card" value="card" checked>
-              <span class="form-pay__radio form-pay__radio_size_medium"><img class="form-pay__wallet-image" src="<%=require('./images/pay_card.svg')%>" alt="Банковская карта"></span>
-            </label>
-            <label for="io" class="form-pay__radio-label">
-              <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="io" value="io">
-              <span class="form-pay__radio form-pay__radio_size_medium"><img class="form-pay__wallet-image" src="<%=require('./images/pay_io.svg')%>" alt="Юmoney"></span>
-            </label>
-            <label for="webmoney" class="form-pay__radio-label">
-              <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="webmoney" value="webmoney">
-              <span class="form-pay__radio form-pay__radio_size_medium"><img class="form-pay__wallet-image" src="<%=require('./images/pay_webmoney.svg')%>" alt="Webmoney"></span>
-            </label>
-            <div class="form-pay__wallet-right"></div>
-          </fieldset>
-          <h5 class="form-pay__title title title_type_h5">Ваши данные</h5>
-          <div class="form-pay__container-pers-data">
-            <input type="text" class="form-pay__input" name="name" placeholder="Иван Иванов" required novalidate>
-            <input type="email" class="form-pay__input" name="email" placeholder="myemail@example.com" required novalidate>
-            <label for="oferta" class="form-pay__checkbox-label">
-              <input type="checkbox" class="form-pay__checkbox-invisible" id="oferta" name="oferta" checked required>
-              <span class="form-pay__checkbox"></span>
-              <span class="form-pay__checkbox-text">Соглашаюсь с <a href="#">офертой</a></span>
-            </label>
-            <label for="personal_data" class="form-pay__checkbox-label">
-              <input type="checkbox" class="form-pay__checkbox-invisible" id="personal_data" name="personal_data" checked required>
-              <span class="form-pay__checkbox"></span>
-              <span class="form-pay__checkbox-text">Соглашаюсь на <a href="#">обработку моих персональных данных</a></span>
-            </label>
-          </div>
-          <button class="form-pay__button button button_type_primary">
-            <span class="text_type_label">Поддержать</span>
-          </button>
-        </form>
-      </div>
+      <form class="form-pay">
+        <fieldset class="form-pay__container-period">
+          <label for="monthly" class="form-pay__radio-label">
+            <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="monthly" value="monthly" checked>
+            <span class="form-pay__radio form-pay__radio_size_big text text_type_label">Ежемесячно<img class="form-pay__radio-image" src="<%=require('./images/icon_question.svg')%>" alt="Пояснение"></span>
+          </label>
+          <label for="once" class="form-pay__radio-label">
+            <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="once" value="once">
+            <span class="form-pay__radio form-pay__radio_size_big text text_type_label">Разово</span>
+          </label>
+        </fieldset>
+        <h5 class="form-pay__title title title_type_h5">Размер пожертвования</h5>
+        <fieldset class="form-pay__container-summ">
+          <label for="donat_250" class="form-pay__radio-label">
+            <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_250" value="250">
+            <span class="form-pay__radio form-pay__radio_size_small text text_type_label">250 &#8381;</span>
+          </label>
+          <label for="donat_500" class="form-pay__radio-label">
+            <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_500" value="500" checked>
+            <span class="form-pay__radio form-pay__radio_size_small text text_type_label">500 &#8381;</span>
+          </label>
+          <label for="donat_750" class="form-pay__radio-label">
+            <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_750" value="750">
+            <span class="form-pay__radio form-pay__radio_size_small text text_type_label">750 &#8381;</span>
+          </label>
+          <label for="donat_1000" class="form-pay__radio-label">
+            <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_1000" value="1000">
+            <span class="form-pay__radio form-pay__radio_size_small text text_type_label">1000 &#8381;</span>
+          </label>
+          <label for="donat_other" class="form-pay__radio-label">
+            <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_other" value="other">
+            <span class="form-pay__radio form-pay__radio_size_small text text_type_label">Другая сумма</span>
+          </label>
+        </fieldset>
+        <p class="form-pay__description">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу. Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.</p>
+        <h5 class="form-pay__title title title_type_h5">Способ оплаты</h5>
+        <fieldset class="form-pay__container-wallet-type">
+          <label for="card" class="form-pay__radio-label">
+            <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="card" value="card" checked>
+            <span class="form-pay__radio form-pay__radio_size_medium"><img class="form-pay__wallet-image" src="<%=require('./images/pay_card.svg')%>" alt="Банковская карта"></span>
+          </label>
+          <label for="io" class="form-pay__radio-label">
+            <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="io" value="io">
+            <span class="form-pay__radio form-pay__radio_size_medium"><img class="form-pay__wallet-image" src="<%=require('./images/pay_io.svg')%>" alt="Юmoney"></span>
+          </label>
+          <label for="webmoney" class="form-pay__radio-label">
+            <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="webmoney" value="webmoney">
+            <span class="form-pay__radio form-pay__radio_size_medium"><img class="form-pay__wallet-image" src="<%=require('./images/pay_webmoney.svg')%>" alt="Webmoney"></span>
+          </label>
+          <div class="form-pay__wallet-right"></div>
+        </fieldset>
+        <h5 class="form-pay__title title title_type_h5">Ваши данные</h5>
+        <div class="form-pay__container-pers-data">
+          <input type="text" class="form-pay__input" name="name" placeholder="Иван Иванов" required novalidate>
+          <input type="email" class="form-pay__input" name="email" placeholder="myemail@example.com" required novalidate>
+          <label for="oferta" class="form-pay__checkbox-label">
+            <input type="checkbox" class="form-pay__checkbox-invisible" id="oferta" name="oferta" checked required>
+            <span class="form-pay__checkbox"></span>
+            <span class="form-pay__checkbox-text">Соглашаюсь с <a href="#">офертой</a></span>
+          </label>
+          <label for="personal_data" class="form-pay__checkbox-label">
+            <input type="checkbox" class="form-pay__checkbox-invisible" id="personal_data" name="personal_data" checked required>
+            <span class="form-pay__checkbox"></span>
+            <span class="form-pay__checkbox-text">Соглашаюсь на <a href="#">обработку моих персональных данных</a></span>
+          </label>
+        </div>
+        <button class="form-pay__button button button_type_primary">
+          <span class="text_type_label">Поддержать</span>
+        </button>
+      </form>
     </section>
   </main>
   <footer class="footer">
