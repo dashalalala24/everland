@@ -1,0 +1,21 @@
+.footer__support-icon-2 {
+  background-image: url(../../../images/fond-grant.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 48px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__support-icon-2 {
+    width: 89px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__support-icon-2 {
+    width: 73px;
+    height: 25px;
+  }
+}

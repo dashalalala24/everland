@@ -1,0 +1,18 @@
+.footer__subscribe-copyright {
+  max-width: 630px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__subscribe-copyright {
+    max-width: 336px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .footer__subscribe-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
