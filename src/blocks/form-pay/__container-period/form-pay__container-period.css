@@ -10,3 +10,15 @@
   gap: 20px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 768px) {
+  .form-pay__container-period {
+    gap: 16px;
+  }
+} 
+
+@media screen and (max-width: 320px) {
+  .form-pay__container-period {
+    flex-wrap: nowrap;
+  }
+} 

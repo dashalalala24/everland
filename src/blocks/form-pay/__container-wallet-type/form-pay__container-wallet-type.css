@@ -8,3 +8,10 @@
   align-items: center;
   gap: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .form-pay__container-wallet-type {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+} 

@@ -40,3 +40,29 @@
 .form-pay__input:last-of-type {
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .form-pay__input {
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 16px;
+  }
+  
+  .form-pay__input::placeholder {
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .form-pay__input:first-of-type {
+    margin-top: 0;
+  }
+  .form-pay__input:last-of-type {
+    margin-bottom: 18px;
+  }
+} 
+
+@media screen and (max-width: 320px) {
+  .form-pay__input:first-of-type {
+    margin-top: 9px;
+  }
+} 

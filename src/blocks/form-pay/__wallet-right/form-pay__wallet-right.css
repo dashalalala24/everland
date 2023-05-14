@@ -9,3 +9,14 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 320px) {
+  .form-pay__wallet-right {
+    background-image: url("../../../images/arrow_bottom.svg");
+    top: unset;
+    right: calc(50% - 7px);
+    bottom: -24px;
+    width: 8.72px;
+    height: 14px;
+  }
+} 

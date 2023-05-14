@@ -1,8 +1,10 @@
 .form-pay__checkbox {
   display: inline-block;
   vertical-align: middle;
-  width: 23px;
-  height: 23px;
+  width: 21px;
+  height: 21px;
+  min-width: 21px;
+  min-height: 21px;
   border: 2px solid #DADADA;
   border-radius: 10px;
   cursor: pointer;
