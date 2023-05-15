@@ -22,7 +22,7 @@
 @import url("../blocks/header/__menu-pic/header__menu-pic.css");
 @import url("../blocks/header/__button/header__button.css");
 @import url('../blocks/title/_type/title_type_h3.css');
-@import url('../blocks/title/_type/title_type_h4.cs');
+@import url('../blocks/title/_type/title_type_h4.css');
 @import url('../blocks/title/_type/title_type_h5.css');
 
 
@@ -48,14 +48,14 @@
 @import url('../blocks/button/_type/_accordeon/button_type_accordeon.css');
 @import url('../blocks/button/_color/_blue/button_color_blue.css');
 @import url('../blocks/button/_color/_green/button_color_green.css');
-@import url('../blocks/button/_color/_orange/button_color_orange.css");
-@import url('../blocks/button/_color/_purple/button_color_purple.css');
-@import url('../blocks/button/__icon/button__icon.css');
+@import url("../blocks/button/_color/_orange/button_color_orange.css");
+@import url("../blocks/button/_color/_purple/button_color_purple.css");
+@import url("../blocks/button/__icon/button__icon.css");
 
 
 /* ---------------------card------------ */
 
-@import url('../blocks/card/card.css');
+@import url("../blocks/card/card.css");
 /* остальные блоки */
 
 
