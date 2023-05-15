@@ -1,6 +1,6 @@
 import('../pages/index.css');
 
-document.querySelectorAll('.accordion__item-triger').forEach((item) =>
+document.querySelectorAll('.accordion__item-container').forEach((item) =>
   item.addEventListener('click', () => {
     const parent = item.parentNode
     if (parent.classList.contains('accordion__item-active')) {
