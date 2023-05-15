@@ -9,9 +9,49 @@
 </head>
 <body>
   <header class="header">
-    <nav class="header__menu">
-    </nav>
+    <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="лого Эверланд">
+    <div class = "header__menu">
+      <img сlass ="header__menu-pic" src="<%=require('./images/menu.svg')%>" alt="меню">
+      <p class="header__menu-text">Меню</p>
+    </div>
+    <div class = "header__unit">
+      <button class="header__button button button_type_secondary">Платформа</button>
+      <button class="header__button button button_type_primary">Поддержать</button>
+    </div>
   </header>
+  <section class="menu">
+    <ul class="menu__column">
+      <li class="menu__column-header"><a href="#" class="menu__link">О проекте</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">АНО Пространство&nbsp;равных возможностей</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Новости</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Инклюзия</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Учебным заведениям</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Годовые отчеты</a></li>
+    </ul>
+    <ul class="menu__column">
+      <li class="menu__column-header"><a href="#" class="menu__link">Людям&nbsp;с инвалидностью</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Платформа</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Курсы</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Everland Profi</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Бесплатное такси</a></li>
+    </ul>
+    <ul class="menu__column">
+      <li class="menu__column-header"><a href="#" class="menu__link">Услуги</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Услуги агентства</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Готовые сайты</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Доступность для людей с инвалидностью</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Работодателям</a></li>
+      <li class="menu__link_accordeon"><a href="#" class="menu__link">Портфолио</a></li>
+    </ul>
+    <ul class="menu__column menu__column_type_gratitude">
+      <li class="menu__column-header"><a href="#" class="menu__link">Мы благодарим</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link">Программы</a></li>
+    </ul>
+    <ul class="menu__column menu__column_type_gratitude">
+      <li class="menu__column-header"><a href="#" class="menu__link">Наставникам</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link">Помочь</a></li>
+    </ul>
+  </section>
   <main class="content">
     <section class='info-slider'>
       <button class="button button_type_primary">
