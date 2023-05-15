@@ -3,7 +3,7 @@
   column-gap: 53px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .footer__contacts {
     display: block;
     row-gap: 16px;

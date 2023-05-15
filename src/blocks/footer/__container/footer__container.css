@@ -1,15 +1,25 @@
 .footer__container {
-  display: flex;
-  column-gap: 81px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 550px) minmax(
+      min-content,
+      max-content
+    );
+  grid-template-areas:
+    'footer__logo-container footer__about-project'
+    'footer__support footer__subscribe'
+    'footer__made-yandex footer__made-yandex';
+  column-gap: 50px;
+  row-gap: 41px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .footer__container {
-    column-gap: 56px;
+    column-gap: 0;
+    row-gap: 5px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
   .footer__container {
     display: block;
   }

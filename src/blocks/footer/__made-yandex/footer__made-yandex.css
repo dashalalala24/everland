@@ -1,18 +1,19 @@
 .footer__made-yandex {
+  grid-area: footer__made-yandex;
   display: flex;
-  align-items: center;
   column-gap: 20px;
-  padding-top: 38px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .footer__made-yandex {
-    /* column-gap: 11px; */
+    column-gap: 11px;
+    padding-top: 31px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
   .footer__made-yandex {
     display: block;
+    padding-top: 38px;
   }
 }

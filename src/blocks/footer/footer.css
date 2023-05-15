@@ -4,22 +4,34 @@
   justify-content: center;
 }
 
-@media screen and (width: 1440px) {
+@media screen and (max-width: 1440px) {
   .footer {
     justify-content: start;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .footer {
+    padding: 60px 40px 50px;
+    justify-content: center;
   }
 }
 
 @media screen and (width: 768px) {
   .footer {
-    padding: 58px 40px 53px;
     justify-content: start;
   }
 }
 
-@media screen and (width: 450px) {
+@media screen and (max-width: 767px) {
   .footer {
-    padding: 32px 10px 30px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
     justify-content: start;
+    padding: 40px 10px 50px;
   }
 }

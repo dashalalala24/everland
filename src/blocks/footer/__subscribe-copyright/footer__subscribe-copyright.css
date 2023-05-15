@@ -1,9 +1,0 @@
-.footer__subscribe-copyright {
-  max-width: 630px;
-}
-
-@media screen and (max-width: 768px) {
-  .footer__subscribe-copyright {
-    max-width: 336px;
-  }
-}
