@@ -6,7 +6,7 @@
   height: 53px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .footer__support-icon-1 {
     background-image: url(../../../images/bilain-768.jpg);
     width: 56px;
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   .footer__support-icon-1 {
     width: 48px;
     height: 34px;

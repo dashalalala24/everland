@@ -6,14 +6,14 @@
   height: 48px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .footer__support-icon-2 {
     width: 89px;
     height: 30px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   .footer__support-icon-2 {
     width: 73px;
     height: 25px;
