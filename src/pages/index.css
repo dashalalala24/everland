@@ -71,9 +71,7 @@
 @import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_small.css");
 @import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_medium.css");
 @import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_big.css");
-
 @import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_small.css");
-
 @import url("../blocks/form-pay/__radio-invisible/form-pay__radio-invisible.css");
 @import url("../blocks/form-pay/__radio/form-pay__radio.css");
 @import url("../blocks/form-pay/__radio-image/form-pay__radio-image.css");
@@ -82,6 +80,7 @@
 @import url("../blocks/form-pay/__wallet-image/form-pay__wallet-image.css");
 @import url("../blocks/form-pay/__wallet-right/form-pay__wallet-right.css");
 @import url("../blocks/form-pay/__container-pers-data/form-pay__container-pers-data.css");
+@import url("../blocks/form-pay/__checkbox-link/form-pay__checkbox-link.css");
 
 
 /* ---------------------logo------------ */
