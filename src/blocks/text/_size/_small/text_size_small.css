@@ -1,8 +1,7 @@
 .text_size_small {
     font-weight: medium;
     font-size: 18px;
-    margin: 30px;
-    color: rgba(38, 38, 38, 0.5);
+    margin: 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

@@ -1,6 +1,7 @@
 .title_type_h2 {
   font-size: 64px;
-  margin: 0 0 50px 40px;
+  /* margin: 100px 0 0; */
+margin: 0;
 }
 
 @media screen and (max-width: 768px) {

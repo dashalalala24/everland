@@ -8,16 +8,20 @@
 @import url("../blocks/header/__subtitle/header__subtitle.css");
 @import url("../blocks/donations/donations.css");
 @import url("../blocks/section/section.css");
+@import url("../blocks/section/__title-container/section__title-container.css");
+@import url("../blocks/section/_color/_grey/section_color_grey.css");
+@import url("../blocks/section/_color/_blue/section_color_blue.css");
 
 @import url("../blocks/cards/cards.css");
-@import url("../blocks/cards/_color/_grey/cards_color_grey.css");
-@import url("../blocks/cards/__list/cards__list.css");
 @import url("../blocks/cards/_type/_horizontale/cards_type_horizontale.css");
 @import url("../blocks/card/card.css");
 @import url("../blocks/card/_color/_blue/card_color_blue.css");
 @import url("../blocks/card/_color/_orange/card_color_orange.css");
 @import url("../blocks/card/_color/_green/card_color_green.css");
 @import url("../blocks/card/_color/_purple/card_color_purple.css");
+@import url("../blocks/card/_color/_white/white.css");
+@import url("../blocks/card/_color/_transparent/card_color_transparent.css");
+
 @import url("../blocks/card/__icon-container/card__icon-container.css");
 @import url("../blocks/card/__icon/card__icon.css");
 @import url("../blocks/card/__image-container/card__image-container.css");
@@ -25,11 +29,17 @@
 
 @import url("../blocks/card/__text-container/card__text-container.css");
 @import url("../blocks/card/__discription/card__discription.css");
+@import url("../blocks/card/__publication-date/card__publication-date.css");
+@import url("../blocks/card/__chapter/card__chapter.css");
+
+
 @import url("../blocks/text/text.css");
 @import url("../blocks/text/_size/_big/text_size_big.css");
 @import url("../blocks/text/_size/_small/text_size_small.css");
 @import url("../blocks/text/_type/_main/text_type_main.css");
 @import url("../blocks/text/_type/_label/text_type_label.css");
+@import url("../blocks/text/_color/_grey/text_color_grey.css");
+
 @import url("../blocks/button/button.css");
 @import url("../blocks/button/__icon/button__icon.css");
 @import url("../blocks/button/_type/_primary/button_type_primary.css");
@@ -52,3 +62,5 @@
 @import url("../blocks/title/_type/title_type_h4.css");
 @import url("../blocks/title/_type/title_type_h5.css");
 
+@import url("../blocks/gallery/gallery.css");
+@import url("../blocks/gallery/__actions/gallery__actions.css");
