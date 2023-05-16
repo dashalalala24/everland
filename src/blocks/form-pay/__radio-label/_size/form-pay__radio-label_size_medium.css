@@ -10,7 +10,7 @@
   }
 } 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .form-pay__radio-label_size_medium {
     width: 260px;
     height: 44px;

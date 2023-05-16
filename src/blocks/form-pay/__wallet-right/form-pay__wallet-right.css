@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .form-pay__wallet-right {
     background-image: url("../../../images/arrow_bottom.svg");
     top: unset;

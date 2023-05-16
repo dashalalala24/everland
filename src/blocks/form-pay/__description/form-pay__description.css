@@ -19,7 +19,7 @@
   }
 } 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .form-pay__description {
     font-size: 12px;
   }
