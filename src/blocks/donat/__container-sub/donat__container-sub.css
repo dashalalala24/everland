@@ -1,0 +1,10 @@
+.donat__container-sub {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-bottom: 28px;
+}
+
+.donat__container-sub:last-of-type {
+  padding-bottom: unset;
+}

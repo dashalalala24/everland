@@ -1,0 +1,14 @@
+.form-pay__checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  width: 21px;
+  height: 21px;
+  min-width: 21px;
+  min-height: 21px;
+  border: 2px solid #DADADA;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+}

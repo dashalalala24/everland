@@ -1,0 +1,26 @@
+.support__container-sub {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 117px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1280px) {
+  .support__container-sub {
+    gap: 50px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .support__container-sub {
+    padding-top: 24px;
+  }
+} 
+
+@media screen and (max-width: 450px) {
+  .support__container-sub {
+    gap: 32px;
+  }
+} 

@@ -1,0 +1,22 @@
+.footer__support-icon-bilain {
+  background-image: url(../../../images/bilain.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 53px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__support-icon-bilain {
+    background-image: url(../../../images/bilain-768.svg);
+    width: 56px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__support-icon-bilain {
+    width: 48px;
+    height: 34px;
+  }
+}

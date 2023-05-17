@@ -1,0 +1,18 @@
+.support {
+  background-color: #E7F0FF;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .support {
+    padding-top: 44px;
+  }
+} 
+
+@media screen and (max-width: 450px) {
+  .support {
+    padding-top: 31px;
+  }
+} 

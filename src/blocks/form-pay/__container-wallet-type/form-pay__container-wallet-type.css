@@ -1,0 +1,23 @@
+.form-pay__container-wallet-type {
+  position: relative;
+  margin: 0 0 41px 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-pay__container-wallet-type {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+} 
+
+@media screen and (max-width: 600px) {
+  .form-pay__container-wallet-type {
+    flex-direction: column;
+  }
+} 
