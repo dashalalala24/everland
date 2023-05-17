@@ -61,3 +61,11 @@
 @import url('../blocks/title/_type/title_type_h3.css');
 @import url('../blocks/title/_type/title_type_h4.css');
 @import url('../blocks/title/_type/title_type_h5.css');
+
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__container/accordion__container.css);
+@import url(../blocks/accordion/__item-active/accordion__item-active.css);
+@import url(../blocks/accordion/__item-container/accordion__item-container.css);
+@import url(../blocks/accordion/__item-content/accordion__item-content.css);
+@import url(../blocks/accordion/__item/accordion__item.css);
+@import url(../blocks/accordion/__title/accordion__title.css);
