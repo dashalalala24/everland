@@ -1,9 +1,11 @@
 .footer__contacts {
   display: flex;
   column-gap: 53px;
+  flex-wrap: wrap;
+  padding-right: 30px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .footer__contacts {
     display: block;
     row-gap: 16px;

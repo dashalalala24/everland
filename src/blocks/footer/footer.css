@@ -4,32 +4,13 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1440px) {
-  .footer {
-    justify-content: start;
-  }
-}
-
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .footer {
     padding: 60px 40px 50px;
-    justify-content: center;
   }
 }
 
-@media screen and (width: 768px) {
-  .footer {
-    justify-content: start;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .footer {
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .footer {
     justify-content: start;
     padding: 40px 10px 50px;

@@ -2,7 +2,7 @@
   padding-top: 26px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   .footer__support {
     padding-top: 2px;
   }
