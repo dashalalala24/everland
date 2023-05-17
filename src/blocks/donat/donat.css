@@ -5,12 +5,14 @@
 
 @media screen and (max-width: 1335px) {
   .donat {
-    max-width: 531px;
+    max-width: min(calc(100vh - 80px),531px);
+    margin: 0 40px 0 40px;
   }
 } 
 
 @media screen and (max-width: 450px) {
   .donat {
     max-width: calc(100vh - 20px);
+    margin: 0 10px 0 10px;
   }
 } 
