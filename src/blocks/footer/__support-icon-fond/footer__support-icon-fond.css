@@ -1,4 +1,4 @@
-.footer__support-icon-2 {
+.footer__support-icon-fond {
   background-image: url(../../../images/fond-grant.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -6,15 +6,15 @@
   height: 48px;
 }
 
-@media screen and (max-width: 1439px) {
-  .footer__support-icon-2 {
+@media screen and (max-width: 768px) {
+  .footer__support-icon-fond {
     width: 89px;
     height: 30px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .footer__support-icon-2 {
+@media screen and (max-width: 450px) {
+  .footer__support-icon-fond {
     width: 73px;
     height: 25px;
   }

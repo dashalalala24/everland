@@ -1,18 +1,20 @@
 .footer__platform {
   max-width: 483px;
-  padding-top: 14px;
+  padding-top: 20px;
   margin: 0;
+  padding-right: 30px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .footer__platform {
     max-width: 294px;
+    padding-top: 15px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   .footer__platform {
     max-width: 300px;
-    padding-bottom: 30px;
+    padding-bottom: 41px;
   }
 }
