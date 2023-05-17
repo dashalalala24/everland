@@ -118,7 +118,12 @@
 /* ---------------------accordion------------ */
 
 @import url(../blocks/accordion/accordion.css);
-/* остальные элементы */
+@import url(../blocks/accordion/__container/accordion__container.css);
+@import url(../blocks/accordion/__item-active/accordion__item-active.css);
+@import url(../blocks/accordion/__item-container/accordion__item-container.css);
+@import url(../blocks/accordion/__item-content/accordion__item-content.css);
+@import url(../blocks/accordion/__item/accordion__item.css);
+@import url(../blocks/accordion/__title/accordion__title.css);
 
 /* ---------------------digits------------ */
 
