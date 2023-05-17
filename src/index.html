@@ -13,6 +13,7 @@
     <title>Everland</title>
   </head>
 
+
   <body>
     <header class="header">
       <nav class="header__menu"></nav>
@@ -175,17 +176,199 @@
           </svg>
         </span>
       </button>
+      <button class="button button_type_question">?</button>
+    <section class='info-slider'>
+    </section>
+    <section class='donations'>
+    </section>
 
       <section class="info-slider"></section>
       <section class="donations"></section>
-      <section class="partnering">
-        <h2 class="title title_type_h2">Для кого мы&nbsp;работаем</h2>
-        <ul class="cards__gallery"></ul>
-      </section>
-      <section class="activities">
+      <section class="partnering section section_color_grey">
+      <div class="section__title-container">
+        <h2 class="title title_type_h2">Для кого мы работаем</h2>
+      </div>
+      <ul class="cards">
+        <li class="card">
+          <div class="card__discription">
+            <div class="card__icon-container card_color_blue">
+              <img class="card__icon" src="<%=require('./images/Icon/disabled.svg')%>" alt="инвалид">
+            </div>
+            <h4 class="title title_type_h4">Для людей с&nbsp;инвалидностью</h4>
+            <div class="card__text-container">
+              <p class="text text_type_main">
+                Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки
+              </p>
+            </div>
+          </div>
+          <button class="button button_color_blue">
+            <span class="text text_type_label">Подробнее</span>
+            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+              </svg>
+            </span>
+          </button>
+        </li>
+        <li class="card">
+          <div class="card__discription">
+            <div class="card__icon-container card_color_orange">
+              <img class="card__icon" src="<%=require('./images/Icon/briefcase.svg')%>" alt="портфель">
+            </div>
+            <h4 class="title title_type_h4">Для работодателей</h4>
+            <div class="card__text-container">
+              <p class="text text_type_main">Помогаем создать устойчивые инклюзивные команды,
+                вовлекаем интеллектуальных волонтеров</p>
+            </div>
+          </div>
+          <button class="button button_color_orange">
+            <span class="text text_type_label">Подробнее</span>
+            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+              </svg>
+            </span>
+          </button>
+        </li>
+        <li class="card">
+          <div class="card__discription">
+            <div class="card__icon-container card_color_green">
+              <img class="card__icon" src="<%=require('./images/Icon/following.svg')%>" alt="фаворит">
+            </div>
+            <h4 class="title title_type_h4">Для КСО-партнеров</h4>
+            <div class="card__text-container">
+              <p class="text text_type_main">Помогаем найти работу, пройти обучение,
+                предоставляем разные виды поддержки</p>
+            </div>
+          </div>
+          <button class="button button_color_green">
+            <span class="text text_type_label">Подробнее</span>
+            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+              </svg>
+            </span>
+          </button>
+        </li>
+      </ul>
+    </section>
+    <section class='activities section'>
+      <div class="section__title-container">
         <h2 class="title title_type_h2">Наши направления</h2>
-        <ul class="cards__gallery"></ul>
-      </section>
+      </div>
+      <ul class="cards">
+        <li class="card card_color_orange">
+          <div class="card__discription">
+            <h4 class="title title_type_h4">Доступность услуг Disquestion</h4>
+            <p class="text text_type_main">
+              Сервисы для бизнеса по повышению доступности услуг для маломобильных клиентов
+              ― контракты с крупнейшими компаниями в России</p>
+          </div>
+          <button class="button button_type_link">
+            <span class="text text_type_label">Подробнее</span>
+            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+              </svg>
+            </span>
+          </button>
+        </li>
+        <li class="card card_color_blue">
+          <div class="card__discription">
+            <h4 class="title title_type_h4">Трудоустройство</h4>
+            <p class="text text_type_main">Решение социальной проблемы с
+              использованием предпринимательских
+              инструментов: оказываем услуги разным компаниям и НКО,
+              таким образом зарабатываем и даем работу людям с
+              инвалидностью
+            </p>
+          </div>
+          <button class="button button_type_link">
+            <span class="text text_type_label">Подробнее</span>
+            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+              </svg>
+            </span>
+          </button>
+        </li>
+        <li class="card card_color_green">
+          <div class="card__discription">
+            <h4 class="title title_type_h4">Биржа проектов и&nbsp;готовые решения</h4>
+            <p class="text text_type_main">ИТ-система для интеграции в открытый рынок труда людей
+              с инвалидностью в качестве самозанятых и
+              в рамках трудоустройства в другие компании</p>
+          </div>
+          <button class="button button_type_link">
+            <span class="text text_type_label">Подробнее</span>
+            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+              </svg>
+            </span>
+          </button>
+        </li>
+        <li class="card card_color_blue">
+          <div class="card__discription">
+            <h4 class="title title_type_h4">Агентство</h4>
+            <p class="text text_type_main">Услуги специалистов с инвалидностью для крупных компаний
+              (дизайн, право, контент и другие)
+            </p>
+          </div>
+          <button class="button button_type_link">
+            <span class="text text_type_label">Подробнее</span>
+            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+              </svg>
+            </span>
+          </button>
+        </li>
+        <li class="card card_color_green">
+          <div class="card__discription">
+            <h4 class="title title_type_h4">Коворкинг</h4>
+            <p class="text text_type_main">Уникальное пространство, в котором специалисты с
+              инвалидностью могут работать и офлайн – приходить, участвовать в
+              образовательных мероприятиях, встречаться с заказчиками, работать в команде
+            </p>
+          </div>
+          <button class="button button_type_link">
+            <span class="text text_type_label">Подробнее</span>
+            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+              </svg>
+            </span>
+          </button>
+        </li>
+        <li class="card card_color_orange">
+          <div class="card__discription">
+            <h4 class="title title_type_h4">Для людей с&nbsp;инвалидностью
+            </h4>
+            <p class="text text_type_main">Помогаем найти работу, пройти обучение,
+              предоставляем разные виды поддержки
+            </p>
+          </div>
+          <button class="button button_type_link">
+            <span class="text text_type_label">Подробнее</span>
+            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+              </svg>
+            </span>
+          </button>
+        </li>
+      </ul>
+    </section>
 
       <section class="accordion">
 
@@ -429,7 +612,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -437,12 +619,93 @@
       <section class="stories">
         <h2 class="title title_type_h2">Истории</h2>
       </section>
-      <section class="gallery">
+      <section class='gallery section section_color_grey'>
+      <div class="section__title-container">
         <h2 class="title title_type_h2">Лучшие проекты агентства</h2>
-      </section>
-      <section class="news">
+        <h4 class="title title_type_h4">Мы выполняем работы в области веб-разработки,
+          дизайна, права, видео, анимации и контента</h4>
+      </div>
+      <ul class="cards">
+        <li class="card card_color_transparent">
+          <img class="card__image" src="<%=require('./images/Image_5.png')%>"
+            alt="Скрипты-рекомендации для бизнеса (DisQuestion)">
+          <h5 class="title title_type_h5">Скрипты-рекомендации для бизнеса (DisQuestion)</h5>
+        </li>
+        <li class="card card_color_transparent">
+          <img class="card__image" src="<%=require('./images/Image_6.png')%>"
+            alt="Скрипты-рекомендации для бизнеса (DisQuestion)">
+          <h5 class="title title_type_h5">Проект «Онконавигатор»</h5>
+        </li>
+        <li class="card card_color_transparent">
+          <img class="card__image" src="<%=require('./images/Image_7.png')%>"
+            alt="Скрипты-рекомендации для бизнеса (DisQuestion)">
+          <h5 class="title title_type_h5">Проект «Миграции: приоткрывая личное»</h5>
+        </li>
+      </ul>
+      <div class="gallery__actions"><button class="button button_type_secondary">
+          <span class="text text_type_label">Посмотреть все</span>
+          </span>
+        </button></div>
+    </section>
+    <section class="news section">
+      <div class="section__title-container">
         <h2 class="title title_type_h2">Новости</h2>
-      </section>
+      </div>
+      <button class="button button_type_secondary">
+        <span class="text text_type_label">Все новости</span>
+        </span>
+      </button>
+      <ul class="cards">
+        <li class="card card_color_white">
+          <div class="card__discription">
+            <div class="card__chapter">
+              <p class="text text_size_small">Тема</p>
+            </div>
+            <div class="card__image-container">
+              <img class="card__image" src="<%=require('./images/christmas.png')%>" alt="">
+            </div>
+            <h4 class="title title_type_h4">Ура! Новое партнерство — с PepsiCo
+            </h4>
+            <p class="text text_type_main">Everland совместно с PepsiCo приняли участие в акции
+              &shy;«Благотворительность вместо сувениров»</p>
+          </div>
+          <div class="card__publication-date">
+            <p class="text text_size_small text_color_grey">20 сентября 2021</p>
+          </div>
+        </li>
+        <li class="card card_color_green">
+          <div class="card__discription">
+            <div class="card__chapter">
+              <p class="text text_size_small">Тема</p>
+            </div>
+            <h4 class="title title_type_h4">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как
+              строить&nbsp;эффективные программы»</h4>
+            <p class="text text_type_main">Эксперты с инвалидностью, представители бизнеса и некоммерческих
+              организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству людей с
+              инвалидностью, обсудили проблемы, к которым нужно быть готовым, и поделились успешными кейсами</p>
+          </div>
+          <div class="card__publication-date">
+            <p class="text text_size_small text_color_grey">20 сентября 2021</p>
+          </div>
+        </li>
+        <li class="card card_color_white">
+          <div class="card__discription">
+            <div class="card__chapter">
+              <p class="text text_size_small">Тема</p>
+            </div>
+            <h4 class="title title_type_h4">Тестируем супермаркеты на доступность</h4>
+            <p class="text text_type_main">Everland совместно с торговой сетью «Перекресток» провели аудит продуктовых
+              магазинов на доступность&nbsp;для людей с разными видами инвалидности</p>
+            <div class="card__image-container">
+              <img class="card__image" src="<%=require('./images/supermarket.png')%>" alt="">
+            </div>
+          </div>
+          <div class="card__publication-date">
+            <p class="text text_size_small text_color_grey">20 сентября 2021</p>
+          </div>
+        </li>
+      </ul>
+    </section>
        <section class='support'>
       <div class="support__container">
         <h2 class="title title_type_h2">Поддержите нас</h2>

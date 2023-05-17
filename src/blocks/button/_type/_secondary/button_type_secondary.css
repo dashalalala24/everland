@@ -23,3 +23,9 @@
     cursor: not-allowed;
     padding: 11px 15px;
 }
+
+@media  screen and (max-width: 480px) {
+    .button_type_secondary {
+        padding: 0 15.5px;
+    }
+}

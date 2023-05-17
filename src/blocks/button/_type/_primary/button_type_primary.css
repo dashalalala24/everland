@@ -19,3 +19,8 @@
     color: rgba(196, 196, 196, 1);
     cursor: not-allowed;
 }
+@media  screen and (max-width: 480px) {
+    .button_type_primary {
+        padding: 0 16.5px;
+    }
+}
