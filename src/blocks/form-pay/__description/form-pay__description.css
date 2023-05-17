@@ -1,26 +1,5 @@
 .form-pay__description {
-  margin: 0;
   padding: 16px 0 24px 0;
   max-width: 652px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 130%;
-  font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
 }
-
-@media screen and (max-width: 768px) {
-  .form-pay__description {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 120%;
-  }
-} 
-
-@media screen and (max-width: 320px) {
-  .form-pay__description {
-    font-size: 12px;
-  }
-} 

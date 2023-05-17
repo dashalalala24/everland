@@ -21,7 +21,6 @@
 /* ---------------------text------------ */
 
 @import url(../blocks/text/text.css);
-@import url(../blocks/text/_rgba/text_rgba.css);
 @import url('../blocks/text/_size/_big/text_size_big.css');
 @import url('../blocks/text/_size/_small/text_size_small.css');
 @import url('../blocks/text/_type/_main/text_type_main.css');
@@ -50,31 +49,31 @@
 
 /* ---------------------form-pay------------ */
 
-@import url('../blocks/form-pay/form-pay.css');
-@import url('../blocks/form-pay/__title/form-pay__title.css');
-@import url('../blocks/form-pay/__description/form-pay__description.css');
-@import url('../blocks/form-pay/__input/form-pay__input.css');
-@import url('../blocks/form-pay/__checkbox-label/form-pay__checkbox-label.css');
-@import url('../blocks/form-pay/__checkbox-invisible/form-pay__checkbox-invisible.css');
-@import url('../blocks/form-pay/__checkbox/form-pay__checkbox.css');
-@import url('../blocks/form-pay/__checkbox-text/form-pay__checkbox-text');
-@import url('../blocks/form-pay/__button/form-pay__button.css');
-@import url('../blocks/form-pay/__container-period/form-pay__container-period.css');
-@import url('../blocks/form-pay/__radio-label/form-pay__radio-label.css');
-@import url('../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_small.css');
-@import url('../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_medium.css');
-@import url('../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_big.css');
+@import url("../blocks/form-pay/form-pay.css");
+@import url("../blocks/form-pay/__title/form-pay__title.css");
+@import url("../blocks/form-pay/__description/form-pay__description.css");
+@import url("../blocks/form-pay/__input/form-pay__input.css");
+@import url("../blocks/form-pay/__checkbox-label/form-pay__checkbox-label.css");
+@import url("../blocks/form-pay/__checkbox-invisible/form-pay__checkbox-invisible.css");
+@import url("../blocks/form-pay/__checkbox/form-pay__checkbox.css");
+@import url("../blocks/form-pay/__checkbox-text/form-pay__checkbox-text");
+@import url("../blocks/form-pay/__button/form-pay__button.css");
+@import url("../blocks/form-pay/__container-period/form-pay__container-period.css");
+@import url("../blocks/form-pay/__radio-label/form-pay__radio-label.css");
+@import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_small.css");
+@import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_medium.css");
+@import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_big.css");
+@import url("../blocks/form-pay/__radio-invisible/form-pay__radio-invisible.css");
+@import url("../blocks/form-pay/__radio/form-pay__radio.css");
+@import url("../blocks/form-pay/__radio-image/form-pay__radio-image.css");
+@import url("../blocks/form-pay/__container-summ/form-pay__container-summ.css");
+@import url("../blocks/form-pay/__container-wallet-type/form-pay__container-wallet-type.css");
+@import url("../blocks/form-pay/__wallet-image/form-pay__wallet-image.css");
+@import url("../blocks/form-pay/__wallet-right/form-pay__wallet-right.css");
+@import url("../blocks/form-pay/__container-pers-data/form-pay__container-pers-data.css");
+@import url("../blocks/form-pay/__checkbox-link/form-pay__checkbox-link.css");
 
-@import url('../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_small.css');
 
-@import url('../blocks/form-pay/__radio-invisible/form-pay__radio-invisible.css');
-@import url('../blocks/form-pay/__radio/form-pay__radio.css');
-@import url('../blocks/form-pay/__radio-image/form-pay__radio-image.css');
-@import url('../blocks/form-pay/__container-summ/form-pay__container-summ.css');
-@import url('../blocks/form-pay/__container-wallet-type/form-pay__container-wallet-type.css');
-@import url('../blocks/form-pay/__wallet-image/form-pay__wallet-image.css');
-@import url('../blocks/form-pay/__wallet-right/form-pay__wallet-right.css');
-@import url('../blocks/form-pay/__container-pers-data/form-pay__container-pers-data.css');
 
 /* ---------------------logo------------ */
 
@@ -157,7 +156,19 @@
 /* ---------------------support------------ */
 
 @import url(../blocks/support/support.css);
-/* остальные элементы */
+@import url(../blocks/support/__container/support__container.css);
+@import url(../blocks/support/__container-sub/support__container-sub.css);
+
+@import url(../blocks/donat/donat.css);
+@import url(../blocks/donat/__title/donat__title.css);
+@import url(../blocks/donat/__container/donat__container.css);
+@import url(../blocks/donat/__container-sub/donat__container-sub.css);
+@import url(../blocks/donat/__text-container/donat__text-container.css);
+@import url(../blocks/donat/__line/donat__line.css);
+@import url(../blocks/donat/__text/donat__text.css);
+@import url(../blocks/donat/__text/_type/donat__text_type_date.css);
+@import url(../blocks/donat/__text/_type/donat__text_type_name.css);
+@import url(../blocks/donat/__text/_type/donat__text_type_summ.css);
 
 /* ---------------------footer------------ */
 

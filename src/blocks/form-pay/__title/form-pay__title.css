@@ -26,7 +26,7 @@
   }
 } 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .form-pay__title {
     padding: 0 0 16px 0;
   }
