@@ -1,5 +1,11 @@
 import('../pages/index.css');
 import './menu';
+import FormValidator from './FormValidator.js';
+import {formPay, formSettings} from '../utils/constants.js';
+
+const formPayValidator = new FormValidator(formPay, formSettings);
+formPayValidator.enableValidation();
+
 
 const slider = document.querySelector('.slider__list');
 const previousButton = document.querySelector('.button_type_slider_previous');
