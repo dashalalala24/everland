@@ -20,8 +20,9 @@
 @media screen and (max-width: 1320px) {
   .menu{
     grid-template-columns:  1fr 1fr 1fr;
-    grid-template-rows: 270px auto; 
+    grid-template-rows: max-content auto; 
     margin: 40px auto 0px auto;
+    row-gap: 20px;
   }
 }
 
