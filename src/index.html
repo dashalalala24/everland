@@ -13,7 +13,6 @@
     <title>Everland</title>
   </head>
 
-
   <body>
     <header class="header">
       <nav class="header__menu"></nav>
@@ -177,201 +176,335 @@
         </span>
       </button>
       <button class="button button_type_question">?</button>
-    <section class='info-slider'>
-    </section>
-    <section class='donations'>
-    </section>
+      <section class="info-slider"></section>
+      <section class="donations"></section>
 
       <section class="info-slider"></section>
       <section class="donations"></section>
       <section class="partnering section section_color_grey">
-      <div class="section__title-container">
-        <h2 class="title title_type_h2">Для кого мы работаем</h2>
-      </div>
-      <ul class="cards">
-        <li class="card">
-          <div class="card__discription">
-            <div class="card__icon-container card_color_blue">
-              <img class="card__icon" src="<%=require('./images/Icon/disabled.svg')%>" alt="инвалид">
+        <div class="section__title-container">
+          <h2 class="title title_type_h2">Для кого мы работаем</h2>
+        </div>
+        <ul class="cards">
+          <li class="card">
+            <div class="card__discription">
+              <div class="card__icon-container card_color_blue">
+                <img
+                  class="card__icon"
+                  src="<%=require('./images/Icon/disabled.svg')%>"
+                  alt="инвалид"
+                />
+              </div>
+              <h4 class="title title_type_h4">
+                Для людей с&nbsp;инвалидностью
+              </h4>
+              <div class="card__text-container">
+                <p class="text text_type_main">
+                  Помогаем найти работу, пройти обучение, предоставляем разные
+                  виды поддержки
+                </p>
+              </div>
             </div>
-            <h4 class="title title_type_h4">Для людей с&nbsp;инвалидностью</h4>
-            <div class="card__text-container">
+            <button class="button button_color_blue">
+              <span class="text text_type_label">Подробнее</span>
+              <span class="button__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  vviewBox="0 24 24 24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </li>
+          <li class="card">
+            <div class="card__discription">
+              <div class="card__icon-container card_color_orange">
+                <img
+                  class="card__icon"
+                  src="<%=require('./images/Icon/briefcase.svg')%>"
+                  alt="портфель"
+                />
+              </div>
+              <h4 class="title title_type_h4">Для работодателей</h4>
+              <div class="card__text-container">
+                <p class="text text_type_main">
+                  Помогаем создать устойчивые инклюзивные команды, вовлекаем
+                  интеллектуальных волонтеров
+                </p>
+              </div>
+            </div>
+            <button class="button button_color_orange">
+              <span class="text text_type_label">Подробнее</span>
+              <span class="button__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  vviewBox="0 24 24 24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </li>
+          <li class="card">
+            <div class="card__discription">
+              <div class="card__icon-container card_color_green">
+                <img
+                  class="card__icon"
+                  src="<%=require('./images/Icon/following.svg')%>"
+                  alt="фаворит"
+                />
+              </div>
+              <h4 class="title title_type_h4">Для КСО-партнеров</h4>
+              <div class="card__text-container">
+                <p class="text text_type_main">
+                  Помогаем найти работу, пройти обучение, предоставляем разные
+                  виды поддержки
+                </p>
+              </div>
+            </div>
+            <button class="button button_color_green">
+              <span class="text text_type_label">Подробнее</span>
+              <span class="button__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  vviewBox="0 24 24 24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="activities section">
+        <div class="section__title-container">
+          <h2 class="title title_type_h2">Наши направления</h2>
+        </div>
+        <ul class="cards">
+          <li class="card card_color_orange">
+            <div class="card__discription">
+              <h4 class="title title_type_h4">Доступность услуг Disquestion</h4>
               <p class="text text_type_main">
-                Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки
+                Сервисы для бизнеса по повышению доступности услуг для
+                маломобильных клиентов ― контракты с крупнейшими компаниями в
+                России
               </p>
             </div>
-          </div>
-          <button class="button button_color_blue">
-            <span class="text text_type_label">Подробнее</span>
-            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
-                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
-              </svg>
-            </span>
-          </button>
-        </li>
-        <li class="card">
-          <div class="card__discription">
-            <div class="card__icon-container card_color_orange">
-              <img class="card__icon" src="<%=require('./images/Icon/briefcase.svg')%>" alt="портфель">
+            <button class="button button_type_link">
+              <span class="text text_type_label">Подробнее</span>
+              <span class="button__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  vviewBox="0 24 24 24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </li>
+          <li class="card card_color_blue">
+            <div class="card__discription">
+              <h4 class="title title_type_h4">Трудоустройство</h4>
+              <p class="text text_type_main">
+                Решение социальной проблемы с использованием предпринимательских
+                инструментов: оказываем услуги разным компаниям и НКО, таким
+                образом зарабатываем и даем работу людям с инвалидностью
+              </p>
             </div>
-            <h4 class="title title_type_h4">Для работодателей</h4>
-            <div class="card__text-container">
-              <p class="text text_type_main">Помогаем создать устойчивые инклюзивные команды,
-                вовлекаем интеллектуальных волонтеров</p>
+            <button class="button button_type_link">
+              <span class="text text_type_label">Подробнее</span>
+              <span class="button__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  vviewBox="0 24 24 24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </li>
+          <li class="card card_color_green">
+            <div class="card__discription">
+              <h4 class="title title_type_h4">
+                Биржа проектов и&nbsp;готовые решения
+              </h4>
+              <p class="text text_type_main">
+                ИТ-система для интеграции в открытый рынок труда людей с
+                инвалидностью в качестве самозанятых и в рамках трудоустройства
+                в другие компании
+              </p>
             </div>
-          </div>
-          <button class="button button_color_orange">
-            <span class="text text_type_label">Подробнее</span>
-            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
-                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
-              </svg>
-            </span>
-          </button>
-        </li>
-        <li class="card">
-          <div class="card__discription">
-            <div class="card__icon-container card_color_green">
-              <img class="card__icon" src="<%=require('./images/Icon/following.svg')%>" alt="фаворит">
+            <button class="button button_type_link">
+              <span class="text text_type_label">Подробнее</span>
+              <span class="button__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  vviewBox="0 24 24 24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </li>
+          <li class="card card_color_blue">
+            <div class="card__discription">
+              <h4 class="title title_type_h4">Агентство</h4>
+              <p class="text text_type_main">
+                Услуги специалистов с инвалидностью для крупных компаний
+                (дизайн, право, контент и другие)
+              </p>
             </div>
-            <h4 class="title title_type_h4">Для КСО-партнеров</h4>
-            <div class="card__text-container">
-              <p class="text text_type_main">Помогаем найти работу, пройти обучение,
-                предоставляем разные виды поддержки</p>
+            <button class="button button_type_link">
+              <span class="text text_type_label">Подробнее</span>
+              <span class="button__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  vviewBox="0 24 24 24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </li>
+          <li class="card card_color_green">
+            <div class="card__discription">
+              <h4 class="title title_type_h4">Коворкинг</h4>
+              <p class="text text_type_main">
+                Уникальное пространство, в котором специалисты с инвалидностью
+                могут работать и офлайн – приходить, участвовать в
+                образовательных мероприятиях, встречаться с заказчиками,
+                работать в команде
+              </p>
             </div>
-          </div>
-          <button class="button button_color_green">
-            <span class="text text_type_label">Подробнее</span>
-            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
-                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
-              </svg>
-            </span>
-          </button>
-        </li>
-      </ul>
-    </section>
-    <section class='activities section'>
-      <div class="section__title-container">
-        <h2 class="title title_type_h2">Наши направления</h2>
-      </div>
-      <ul class="cards">
-        <li class="card card_color_orange">
-          <div class="card__discription">
-            <h4 class="title title_type_h4">Доступность услуг Disquestion</h4>
-            <p class="text text_type_main">
-              Сервисы для бизнеса по повышению доступности услуг для маломобильных клиентов
-              ― контракты с крупнейшими компаниями в России</p>
-          </div>
-          <button class="button button_type_link">
-            <span class="text text_type_label">Подробнее</span>
-            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
-                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
-              </svg>
-            </span>
-          </button>
-        </li>
-        <li class="card card_color_blue">
-          <div class="card__discription">
-            <h4 class="title title_type_h4">Трудоустройство</h4>
-            <p class="text text_type_main">Решение социальной проблемы с
-              использованием предпринимательских
-              инструментов: оказываем услуги разным компаниям и НКО,
-              таким образом зарабатываем и даем работу людям с
-              инвалидностью
-            </p>
-          </div>
-          <button class="button button_type_link">
-            <span class="text text_type_label">Подробнее</span>
-            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
-                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
-              </svg>
-            </span>
-          </button>
-        </li>
-        <li class="card card_color_green">
-          <div class="card__discription">
-            <h4 class="title title_type_h4">Биржа проектов и&nbsp;готовые решения</h4>
-            <p class="text text_type_main">ИТ-система для интеграции в открытый рынок труда людей
-              с инвалидностью в качестве самозанятых и
-              в рамках трудоустройства в другие компании</p>
-          </div>
-          <button class="button button_type_link">
-            <span class="text text_type_label">Подробнее</span>
-            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
-                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
-              </svg>
-            </span>
-          </button>
-        </li>
-        <li class="card card_color_blue">
-          <div class="card__discription">
-            <h4 class="title title_type_h4">Агентство</h4>
-            <p class="text text_type_main">Услуги специалистов с инвалидностью для крупных компаний
-              (дизайн, право, контент и другие)
-            </p>
-          </div>
-          <button class="button button_type_link">
-            <span class="text text_type_label">Подробнее</span>
-            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
-                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
-              </svg>
-            </span>
-          </button>
-        </li>
-        <li class="card card_color_green">
-          <div class="card__discription">
-            <h4 class="title title_type_h4">Коворкинг</h4>
-            <p class="text text_type_main">Уникальное пространство, в котором специалисты с
-              инвалидностью могут работать и офлайн – приходить, участвовать в
-              образовательных мероприятиях, встречаться с заказчиками, работать в команде
-            </p>
-          </div>
-          <button class="button button_type_link">
-            <span class="text text_type_label">Подробнее</span>
-            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
-                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
-              </svg>
-            </span>
-          </button>
-        </li>
-        <li class="card card_color_orange">
-          <div class="card__discription">
-            <h4 class="title title_type_h4">Для людей с&nbsp;инвалидностью
-            </h4>
-            <p class="text text_type_main">Помогаем найти работу, пройти обучение,
-              предоставляем разные виды поддержки
-            </p>
-          </div>
-          <button class="button button_type_link">
-            <span class="text text_type_label">Подробнее</span>
-            <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
-                stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
-              </svg>
-            </span>
-          </button>
-        </li>
-      </ul>
-    </section>
+            <button class="button button_type_link">
+              <span class="text text_type_label">Подробнее</span>
+              <span class="button__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  vviewBox="0 24 24 24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </li>
+          <li class="card card_color_orange">
+            <div class="card__discription">
+              <h4 class="title title_type_h4">
+                Для людей с&nbsp;инвалидностью
+              </h4>
+              <p class="text text_type_main">
+                Помогаем найти работу, пройти обучение, предоставляем разные
+                виды поддержки
+              </p>
+            </div>
+            <button class="button button_type_link">
+              <span class="text text_type_label">Подробнее</span>
+              <span class="button__icon">
+                <svg
+                  width="16"
+                  height="16"
+                  vviewBox="0 24 24 24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </li>
+        </ul>
+      </section>
 
       <section class="accordion">
-
         <div>
           <h2 class="title title_type_h2 accordion__title">
             Главное в нашей работе
@@ -382,7 +515,7 @@
                 <h4 class="title title_type_h4 accordion__title">
                   Заработанные средства
                 </h4>
-                <button class="button button_type_accordeon">
+                <button class="button button_type_accordeon accordeon__button">
                   <span class="button__icon">
                     <svg
                       width="21"
@@ -412,7 +545,7 @@
                 <h4 class="title title_type_h4 accordion__title">
                   Крупные клиенты
                 </h4>
-                <button class="button button_type_accordeon">
+                <button class="button button_type_accordeon accordeon__button">
                   <span class="button__icon">
                     <svg
                       width="21"
@@ -442,7 +575,7 @@
                 <h4 class="title title_type_h4 accordion__title">
                   Инклюзивность
                 </h4>
-                <button class="button button_type_accordeon">
+                <button class="button button_type_accordeon accordeon__button">
                   <span class="button__icon">
                     <svg
                       width="21"
@@ -472,7 +605,7 @@
                 <h4 class="title title_type_h4 accordion__title">
                   Свои исследования
                 </h4>
-                <button class="button button_type_accordeon">
+                <button class="button button_type_accordeon accordeon__button">
                   <span class="button__icon">
                     <svg
                       width="21"
@@ -502,7 +635,7 @@
                 <h4 class="title title_type_h4 accordion__title">
                   Использование Digital
                 </h4>
-                <button class="button button_type_accordeon">
+                <button class="button button_type_accordeon accordeon__button">
                   <span class="button__icon">
                     <svg
                       width="21"
@@ -532,7 +665,7 @@
                 <h4 class="title title_type_h4 accordion__title">
                   Большой опыт
                 </h4>
-                <button class="button button_type_accordeon">
+                <button class="button button_type_accordeon accordeon__button">
                   <span class="button__icon">
                     <svg
                       width="21"
@@ -616,242 +749,649 @@
       </section>
 
       <section class="projects"></section>
+
       <section class="stories">
-        <h2 class="title title_type_h2">Истории</h2>
-      </section>
-      <section class='gallery section section_color_grey'>
-      <div class="section__title-container">
-        <h2 class="title title_type_h2">Лучшие проекты агентства</h2>
-        <h4 class="title title_type_h4">Мы выполняем работы в области веб-разработки,
-          дизайна, права, видео, анимации и контента</h4>
-      </div>
-      <ul class="cards">
-        <li class="card card_color_transparent">
-          <img class="card__image" src="<%=require('./images/Image_5.png')%>"
-            alt="Скрипты-рекомендации для бизнеса (DisQuestion)">
-          <h5 class="title title_type_h5">Скрипты-рекомендации для бизнеса (DisQuestion)</h5>
-        </li>
-        <li class="card card_color_transparent">
-          <img class="card__image" src="<%=require('./images/Image_6.png')%>"
-            alt="Скрипты-рекомендации для бизнеса (DisQuestion)">
-          <h5 class="title title_type_h5">Проект «Онконавигатор»</h5>
-        </li>
-        <li class="card card_color_transparent">
-          <img class="card__image" src="<%=require('./images/Image_7.png')%>"
-            alt="Скрипты-рекомендации для бизнеса (DisQuestion)">
-          <h5 class="title title_type_h5">Проект «Миграции: приоткрывая личное»</h5>
-        </li>
-      </ul>
-      <div class="gallery__actions"><button class="button button_type_secondary">
-          <span class="text text_type_label">Посмотреть все</span>
-          </span>
-        </button></div>
-    </section>
-    <section class="news section">
-      <div class="section__title-container">
-        <h2 class="title title_type_h2">Новости</h2>
-      </div>
-      <button class="button button_type_secondary">
-        <span class="text text_type_label">Все новости</span>
-        </span>
-      </button>
-      <ul class="cards">
-        <li class="card card_color_white">
-          <div class="card__discription">
-            <div class="card__chapter">
-              <p class="text text_size_small">Тема</p>
+        <div>
+          <h2 class="title title_type_h2">Наши истории</h2>
+          <div class="stories__box">
+            <div class="card stories__card-size-big">
+              <div class="stories__item">
+                <img
+                  class="stories__image-circle"
+                  src="<%=require('./images/gilfanov.png')%>"
+                  alt="фото Максима"
+                />
+                <div class="stories__container">
+                  <div class="stories__quote">
+                    <img
+                      src="<%=require('./images/Icon/icon_quote.svg')%>"
+                      alt=",,"
+                    />
+                  </div>
+                  <div class="stories__discription">
+                    <div class="stories__discription-container">
+                      <h4 class="title title_type_h4">
+                        Мне интересно слушать интервью с людьми. Это мотивация и
+                        вдохновение, которых так не хватает
+                      </h4>
+                      <p class="text text_type_main">
+                        Максиму Гильфанову из Узбекистана 41 год. Диплом
+                        программиста и курсы по веб-дизайну не решили проблему с
+                        трудоустройством
+                      </p>
+                    </div>
+                    <button class="button button_color_blue stories__button">
+                      <span class="text text_type_label">История Максима</span>
+                      <span class="button__icon">
+                        <svg
+                          width="16"
+                          height="16"
+                          vviewBox="0 24 24 24"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="card__image-container">
-              <img class="card__image" src="<%=require('./images/christmas.png')%>" alt="">
+            <div class="card stories__card-size-big">
+              <div class="stories__item stories__item_reverse">
+                <img
+                  class="stories__image-circle"
+                  src="<%=require('./images/chernyshov.png')%>"
+                  alt="фото Максима"
+                />
+                <div class="stories__container">
+                  <div class="stories__quote">
+                    <img
+                      src="<%=require('./images/Icon/icon_quote.svg')%>"
+                      alt=",,"
+                    />
+                  </div>
+                  <div class="stories__discription">
+                    <div class="stories__discription-container">
+                      <h4 class="title title_type_h4">
+                        Платформа дала надежду: кто-то заинтересован в
+                        трудоустройстве инвалидов
+                      </h4>
+                      <p class="text text_type_main">
+                        Максиму Чернышову из Набережных Челнов 32 года. В
+                        детстве он неудачно сделал сальто и повредил
+                        позвоночник. С тех пор ему тяжело передвигаться на
+                        большие расстояния
+                      </p>
+                    </div>
+                    <button class="button button_color_blue stories__button">
+                      <span class="text text_type_label">История Максима</span>
+                      <span class="button__icon">
+                        <svg
+                          width="16"
+                          height="16"
+                          vviewBox="0 24 24 24"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <h4 class="title title_type_h4">Ура! Новое партнерство — с PepsiCo
-            </h4>
-            <p class="text text_type_main">Everland совместно с PepsiCo приняли участие в акции
-              &shy;«Благотворительность вместо сувениров»</p>
-          </div>
-          <div class="card__publication-date">
-            <p class="text text_size_small text_color_grey">20 сентября 2021</p>
-          </div>
-        </li>
-        <li class="card card_color_green">
-          <div class="card__discription">
-            <div class="card__chapter">
-              <p class="text text_size_small">Тема</p>
-            </div>
-            <h4 class="title title_type_h4">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как
-              строить&nbsp;эффективные программы»</h4>
-            <p class="text text_type_main">Эксперты с инвалидностью, представители бизнеса и некоммерческих
-              организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству людей с
-              инвалидностью, обсудили проблемы, к которым нужно быть готовым, и поделились успешными кейсами</p>
-          </div>
-          <div class="card__publication-date">
-            <p class="text text_size_small text_color_grey">20 сентября 2021</p>
-          </div>
-        </li>
-        <li class="card card_color_white">
-          <div class="card__discription">
-            <div class="card__chapter">
-              <p class="text text_size_small">Тема</p>
-            </div>
-            <h4 class="title title_type_h4">Тестируем супермаркеты на доступность</h4>
-            <p class="text text_type_main">Everland совместно с торговой сетью «Перекресток» провели аудит продуктовых
-              магазинов на доступность&nbsp;для людей с разными видами инвалидности</p>
-            <div class="card__image-container">
-              <img class="card__image" src="<%=require('./images/supermarket.png')%>" alt="">
-            </div>
-          </div>
-          <div class="card__publication-date">
-            <p class="text text_size_small text_color_grey">20 сентября 2021</p>
-          </div>
-        </li>
-      </ul>
-    </section>
-       <section class='support'>
-      <div class="support__container">
-        <h2 class="title title_type_h2">Поддержите нас</h2>
-        <div class="support__container-sub">
-          <form class="form-pay">
-            <fieldset class="form-pay__container-period">
-              <label for="monthly" class="form-pay__radio-label form-pay__radio-label_size_big">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="monthly" value="monthly" checked>
-                <span class="form-pay__radio text text_type_label">Ежемесячно<img class="form-pay__radio-image" src="<%=require('./images/icon_question.svg')%>" alt="Пояснение"></span>
-              </label>
-              <label for="once" class="form-pay__radio-label form-pay__radio-label_size_big">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="once" value="once">
-                <span class="form-pay__radio text text_type_label">Разово</span>
-              </label>
-            </fieldset>
-            <h5 class="form-pay__title title title_type_h5">Размер пожертвования</h5>
-            <fieldset class="form-pay__container-summ">
-              <label for="donat_250" class="form-pay__radio-label form-pay__radio-label_size_small">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_250" value="250">
-                <span class="form-pay__radio text text_type_label">250 &#8381;</span>
-              </label>
-              <label for="donat_500" class="form-pay__radio-label form-pay__radio-label_size_small">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_500" value="500" checked>
-                <span class="form-pay__radio text text_type_label">500 &#8381;</span>
-              </label>
-              <label for="donat_750" class="form-pay__radio-label form-pay__radio-label_size_small">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_750" value="750">
-                <span class="form-pay__radio text text_type_label">750 &#8381;</span>
-              </label>
-              <label for="donat_1000" class="form-pay__radio-label form-pay__radio-label_size_small">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_1000" value="1000">
-                <span class="form-pay__radio text text_type_label">1000 &#8381;</span>
-              </label>
-              <label for="donat_other" class="form-pay__radio-label form-pay__radio-label_size_small">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_other" value="other">
-                <span class="form-pay__radio text text_type_label">Другая сумма</span>
-              </label>
-            </fieldset>
-            <p class="form-pay__description text text_size_small">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу. Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.</p>
-            <h5 class="form-pay__title title title_type_h5">Способ оплаты</h5>
-            <fieldset class="form-pay__container-wallet-type">
-              <label for="card" class="form-pay__radio-label form-pay__radio-label_size_medium">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="card" value="card" checked>
-                <span class="form-pay__radio"><img class="form-pay__wallet-image" src="<%=require('./images/pay_card.svg')%>" alt="Банковская карта"></span>
-              </label>
-              <label for="io" class="form-pay__radio-label form-pay__radio-label_size_medium">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="io" value="io">
-                <span class="form-pay__radio"><img class="form-pay__wallet-image" src="<%=require('./images/pay_io.svg')%>" alt="Юmoney"></span>
-              </label>
-              <label for="webmoney" class="form-pay__radio-label form-pay__radio-label_size_medium">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="webmoney" value="webmoney">
-                <span class="form-pay__radio"><img class="form-pay__wallet-image" src="<%=require('./images/pay_webmoney.svg')%>" alt="Webmoney"></span>
-              </label>
-              <div class="form-pay__wallet-right"></div>
-            </fieldset>
-            <h5 class="form-pay__title title title_type_h5">Ваши данные</h5>
-            <div class="form-pay__container-pers-data">
-              <input type="text" class="form-pay__input" name="name" placeholder="Иван Иванов" required novalidate>
-              <input type="email" class="form-pay__input" name="email" placeholder="myemail@example.com" required novalidate>
-              <label for="oferta" class="form-pay__checkbox-label">
-                <input type="checkbox" class="form-pay__checkbox-invisible" id="oferta" name="oferta" checked required>
-                <span class="form-pay__checkbox"></span>
-                <span class="text form-pay__checkbox-text">Соглашаюсь с <a class="form-pay__checkbox-link" href="#">офертой</a></span>
-              </label>
-              <label for="personal_data" class="form-pay__checkbox-label">
-                <input type="checkbox" class="form-pay__checkbox-invisible" id="personal_data" name="personal_data" checked required>
-                <span class="form-pay__checkbox"></span>
-                <span class="text form-pay__checkbox-text">Соглашаюсь на <a class="form-pay__checkbox-link" href="#">обработку моих персональных данных</a></span>
-              </label>
-            </div>
-            <button class="form-pay__button button button_type_primary">
-              <span class="text text_type_label">Поддержать</span>
-            </button>
-          </form>
-          <div class="donat">
-            <h4 class="donat__title title title_type_h4">Everland создается силами многих. Мы благодарны каждому за поддержку!</h4>
-            <div class="donat__container">
-              <div class="donat__container-sub">
-                <p class="donat__text donat__text_type_name">Аноним</p>
-                <hr class="donat__line"/>
-                <div class="donat__text-container">
-                  <p class="donat__text donat__text_type_summ">500 ₽</p>
-                  <p class="donat__text donat__text_type_date">2 часа назад</p>
+            <div class="stoties__cmall-card-container">
+              <div class="card stories__card-size-small card_color_purple">
+                <div class="stories__item">
+                  <img
+                    class="stories__image-circle"
+                    src="<%=require('./images/aislu.png')%>"
+                    alt="фото Максима"
+                  />
+                  <div class="stories__discription">
+                    <div class="stories__discription-container">
+                      <p class="text text_size_big">Айслу Асан</p>
+                      <h4 class="title title_type_h4">Когда хочется жить</h4>
+                    </div>
+                    <div class="stories__small-text">
+                      <p class="text text_type_small">История Айслу</p>
+                      <div class="stories__small-text-button">
+                        <img
+                          src="<%=require('./images/icon/Icon_paly.svg')%>"
+                          alt="кнопка"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="donat__container-sub">
-                <p class="donat__text donat__text_type_name">Татьяна</p>
-                <hr class="donat__line"/>
-                <div class="donat__text-container">
-                  <p class="donat__text donat__text_type_summ">600 ₽</p>
-                  <p class="donat__text donat__text_type_date">3 часа назад</p>
-                </div>
-              </div>
-              <div class="donat__container-sub">
-                <p class="donat__text donat__text_type_name">Аноним</p>
-                <hr class="donat__line"/>
-                <div class="donat__text-container">
-                  <p class="donat__text donat__text_type_summ">300 ₽</p>
-                  <p class="donat__text donat__text_type_date">4 часа назад</p>
-                </div>
-              </div>
-              <div class="donat__container-sub">
-                <p class="donat__text donat__text_type_name">Аноним</p>
-                <hr class="donat__line"/>
-                <div class="donat__text-container">
-                  <p class="donat__text donat__text_type_summ">200 ₽</p>
-                  <p class="donat__text donat__text_type_date">4 часа назад</p>
-                </div>
-              </div>
-              <div class="donat__container-sub">
-                <p class="donat__text donat__text_type_name">Аноним</p>
-                <hr class="donat__line"/>
-                <div class="donat__text-container">
-                  <p class="donat__text donat__text_type_summ">100 ₽</p>
-                  <p class="donat__text donat__text_type_date">6 часа назад</p>
-                </div>
-              </div>
-              <div class="donat__container-sub">
-                <p class="donat__text donat__text_type_name">Наталья</p>
-                <hr class="donat__line"/>
-                <div class="donat__text-container">
-                  <p class="donat__text donat__text_type_summ">600 ₽</p>
-                  <p class="donat__text donat__text_type_date">9 часа назад</p>
-                </div>
-              </div>
-              <div class="donat__container-sub">
-                <p class="donat__text donat__text_type_name">Наталья</p>
-                <hr class="donat__line"/>
-                <div class="donat__text-container">
-                  <p class="donat__text donat__text_type_summ">600 ₽</p>
-                  <p class="donat__text donat__text_type_date">9 часа назад</p>
-                </div>
-              </div>
-              <div class="donat__container-sub">
-                <p class="donat__text donat__text_type_name">Наталья</p>
-                <hr class="donat__line"/>
-                <div class="donat__text-container">
-                  <p class="donat__text donat__text_type_summ">600 ₽</p>
-                  <p class="donat__text donat__text_type_date">9 часа назад</p>
+              <div class="card stories__card-size-small card_color_purple">
+                <div class="stories__item">
+                  <img
+                    class="stories__image-circle"
+                    src="<%=require('./images/artem.png')%>"
+                    alt="фото Максима"
+                  />
+                  <div class="stories__discription">
+                    <div class="stories__discription-container">
+                      <p class="text text_size_big">Артём Плаксин</p>
+                      <h4 class="title title_type_h4">
+                        Не видеть и смотреть в будущее
+                      </h4>
+                    </div>
+                    <div class="stories__small-text">
+                      <p class="text text_type_small">История Артёма</p>
+                      <div class="stories__small-text-button">
+                        <img
+                          src="<%=require('./images/icon/Icon_paly.svg')%>"
+                          alt="кнопка"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="gallery section section_color_grey">
+        <div class="section__title-container">
+          <h2 class="title title_type_h2">Лучшие проекты агентства</h2>
+          <h4 class="title title_type_h4">
+            Мы выполняем работы в области веб-разработки, дизайна, права, видео,
+            анимации и контента
+          </h4>
+        </div>
+        <ul class="cards">
+          <li class="card card_color_transparent">
+            <img
+              class="card__image"
+              src="<%=require('./images/Image_5.png')%>"
+              alt="Скрипты-рекомендации для бизнеса (DisQuestion)"
+            />
+            <h5 class="title title_type_h5">
+              Скрипты-рекомендации для бизнеса (DisQuestion)
+            </h5>
+          </li>
+          <li class="card card_color_transparent">
+            <img
+              class="card__image"
+              src="<%=require('./images/Image_6.png')%>"
+              alt="Скрипты-рекомендации для бизнеса (DisQuestion)"
+            />
+            <h5 class="title title_type_h5">Проект «Онконавигатор»</h5>
+          </li>
+          <li class="card card_color_transparent">
+            <img
+              class="card__image"
+              src="<%=require('./images/Image_7.png')%>"
+              alt="Скрипты-рекомендации для бизнеса (DisQuestion)"
+            />
+            <h5 class="title title_type_h5">
+              Проект «Миграции: приоткрывая личное»
+            </h5>
+          </li>
+        </ul>
+        <div class="gallery__actions">
+          <button class="button button_type_secondary">
+            <span class="text text_type_label">Посмотреть все</span>
+            <!-- </span> -->
+          </button>
+        </div>
+      </section>
+      <section class="news section">
+        <div class="section__title-container">
+          <h2 class="title title_type_h2">Новости</h2>
+        </div>
+        <button class="button button_type_secondary">
+          <span class="text text_type_label">Все новости</span>
+          <!-- </span> -->
+        </button>
+        <ul class="cards">
+          <li class="card card_color_white">
+            <div class="card__discription">
+              <div class="card__chapter">
+                <p class="text text_size_small">Тема</p>
+              </div>
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="<%=require('./images/christmas.png')%>"
+                  alt=""
+                />
+              </div>
+              <h4 class="title title_type_h4">
+                Ура! Новое партнерство — с PepsiCo
+              </h4>
+              <p class="text text_type_main">
+                Everland совместно с PepsiCo приняли участие в акции
+                &shy;«Благотворительность вместо сувениров»
+              </p>
+            </div>
+            <div class="card__publication-date">
+              <p class="text text_size_small text_color_grey">
+                20 сентября 2021
+              </p>
+            </div>
+          </li>
+          <li class="card card_color_green">
+            <div class="card__discription">
+              <div class="card__chapter">
+                <p class="text text_size_small">Тема</p>
+              </div>
+              <h4 class="title title_type_h4">
+                Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как
+                строить&nbsp;эффективные программы»
+              </h4>
+              <p class="text text_type_main">
+                Эксперты с инвалидностью, представители бизнеса и некоммерческих
+                организаций поговорили о том, что такое инклюзия, рассмотрели
+                подходы к трудоустройству людей с инвалидностью, обсудили
+                проблемы, к которым нужно быть готовым, и поделились успешными
+                кейсами
+              </p>
+            </div>
+            <div class="card__publication-date">
+              <p class="text text_size_small text_color_grey">
+                20 сентября 2021
+              </p>
+            </div>
+          </li>
+          <li class="card card_color_white">
+            <div class="card__discription">
+              <div class="card__chapter">
+                <p class="text text_size_small">Тема</p>
+              </div>
+              <h4 class="title title_type_h4">
+                Тестируем супермаркеты на доступность
+              </h4>
+              <p class="text text_type_main">
+                Everland совместно с торговой сетью «Перекресток» провели аудит
+                продуктовых магазинов на доступность&nbsp;для людей с разными
+                видами инвалидности
+              </p>
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="<%=require('./images/supermarket.png')%>"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card__publication-date">
+              <p class="text text_size_small text_color_grey">
+                20 сентября 2021
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="support">
+        <div class="support__container">
+          <h2 class="title title_type_h2">Поддержите нас</h2>
+          <div class="support__container-sub">
+            <form class="form-pay">
+              <fieldset class="form-pay__container-period">
+                <label
+                  for="monthly"
+                  class="form-pay__radio-label form-pay__radio-label_size_big"
+                >
+                  <input
+                    type="radio"
+                    class="form-pay__radio-invisible"
+                    name="donat_period"
+                    id="monthly"
+                    value="monthly"
+                    checked
+                  />
+                  <span class="form-pay__radio text text_type_label"
+                    >Ежемесячно<img
+                      class="form-pay__radio-image"
+                      src="<%=require('./images/icon_question.svg')%>"
+                      alt="Пояснение"
+                  /></span>
+                </label>
+                <label
+                  for="once"
+                  class="form-pay__radio-label form-pay__radio-label_size_big"
+                >
+                  <input
+                    type="radio"
+                    class="form-pay__radio-invisible"
+                    name="donat_period"
+                    id="once"
+                    value="once"
+                  />
+                  <span class="form-pay__radio text text_type_label"
+                    >Разово</span
+                  >
+                </label>
+              </fieldset>
+              <h5 class="form-pay__title title title_type_h5">
+                Размер пожертвования
+              </h5>
+              <fieldset class="form-pay__container-summ">
+                <label
+                  for="donat_250"
+                  class="form-pay__radio-label form-pay__radio-label_size_small"
+                >
+                  <input
+                    type="radio"
+                    class="form-pay__radio-invisible"
+                    name="donat_summ"
+                    id="donat_250"
+                    value="250"
+                  />
+                  <span class="form-pay__radio text text_type_label"
+                    >250 &#8381;</span
+                  >
+                </label>
+                <label
+                  for="donat_500"
+                  class="form-pay__radio-label form-pay__radio-label_size_small"
+                >
+                  <input
+                    type="radio"
+                    class="form-pay__radio-invisible"
+                    name="donat_summ"
+                    id="donat_500"
+                    value="500"
+                    checked
+                  />
+                  <span class="form-pay__radio text text_type_label"
+                    >500 &#8381;</span
+                  >
+                </label>
+                <label
+                  for="donat_750"
+                  class="form-pay__radio-label form-pay__radio-label_size_small"
+                >
+                  <input
+                    type="radio"
+                    class="form-pay__radio-invisible"
+                    name="donat_summ"
+                    id="donat_750"
+                    value="750"
+                  />
+                  <span class="form-pay__radio text text_type_label"
+                    >750 &#8381;</span
+                  >
+                </label>
+                <label
+                  for="donat_1000"
+                  class="form-pay__radio-label form-pay__radio-label_size_small"
+                >
+                  <input
+                    type="radio"
+                    class="form-pay__radio-invisible"
+                    name="donat_summ"
+                    id="donat_1000"
+                    value="1000"
+                  />
+                  <span class="form-pay__radio text text_type_label"
+                    >1000 &#8381;</span
+                  >
+                </label>
+                <label
+                  for="donat_other"
+                  class="form-pay__radio-label form-pay__radio-label_size_small"
+                >
+                  <input
+                    type="radio"
+                    class="form-pay__radio-invisible"
+                    name="donat_summ"
+                    id="donat_other"
+                    value="other"
+                  />
+                  <span class="form-pay__radio text text_type_label"
+                    >Другая сумма</span
+                  >
+                </label>
+              </fieldset>
+              <p class="form-pay__description text text_size_small">
+                Регулярные пожертвования очень важны для Everland. Это то, что
+                помогает нашим программам работать бесперебойно, что открывает
+                новые востребованные проекты, что максимально эффективно решает
+                социальную задачу. Если вы захотите поддерживать наши программы
+                постоянно, то каждый месяц с вашей карты будет списываться
+                указанная вами сумма.
+              </p>
+              <h5 class="form-pay__title title title_type_h5">Способ оплаты</h5>
+              <fieldset class="form-pay__container-wallet-type">
+                <label
+                  for="card"
+                  class="form-pay__radio-label form-pay__radio-label_size_medium"
+                >
+                  <input
+                    type="radio"
+                    class="form-pay__radio-invisible"
+                    name="donat_period"
+                    id="card"
+                    value="card"
+                    checked
+                  />
+                  <span class="form-pay__radio"
+                    ><img
+                      class="form-pay__wallet-image"
+                      src="<%=require('./images/pay_card.svg')%>"
+                      alt="Банковская карта"
+                  /></span>
+                </label>
+                <label
+                  for="io"
+                  class="form-pay__radio-label form-pay__radio-label_size_medium"
+                >
+                  <input
+                    type="radio"
+                    class="form-pay__radio-invisible"
+                    name="donat_period"
+                    id="io"
+                    value="io"
+                  />
+                  <span class="form-pay__radio"
+                    ><img
+                      class="form-pay__wallet-image"
+                      src="<%=require('./images/pay_io.svg')%>"
+                      alt="Юmoney"
+                  /></span>
+                </label>
+                <label
+                  for="webmoney"
+                  class="form-pay__radio-label form-pay__radio-label_size_medium"
+                >
+                  <input
+                    type="radio"
+                    class="form-pay__radio-invisible"
+                    name="donat_period"
+                    id="webmoney"
+                    value="webmoney"
+                  />
+                  <span class="form-pay__radio"
+                    ><img
+                      class="form-pay__wallet-image"
+                      src="<%=require('./images/pay_webmoney.svg')%>"
+                      alt="Webmoney"
+                  /></span>
+                </label>
+                <div class="form-pay__wallet-right"></div>
+              </fieldset>
+              <h5 class="form-pay__title title title_type_h5">Ваши данные</h5>
+              <div class="form-pay__container-pers-data">
+                <input
+                  type="text"
+                  class="form-pay__input"
+                  name="name"
+                  placeholder="Иван Иванов"
+                  required
+                  novalidate
+                />
+                <input
+                  type="email"
+                  class="form-pay__input"
+                  name="email"
+                  placeholder="myemail@example.com"
+                  required
+                  novalidate
+                />
+                <label
+                  for="oferta"
+                  class="form-pay__checkbox-label"
+                >
+                  <input
+                    type="checkbox"
+                    class="form-pay__checkbox-invisible"
+                    id="oferta"
+                    name="oferta"
+                    checked
+                    required
+                  />
+                  <span class="form-pay__checkbox"></span>
+                  <span class="text form-pay__checkbox-text"
+                    >Соглашаюсь с
+                    <a
+                      class="form-pay__checkbox-link"
+                      href="#"
+                      >офертой</a
+                    ></span
+                  >
+                </label>
+                <label
+                  for="personal_data"
+                  class="form-pay__checkbox-label"
+                >
+                  <input
+                    type="checkbox"
+                    class="form-pay__checkbox-invisible"
+                    id="personal_data"
+                    name="personal_data"
+                    checked
+                    required
+                  />
+                  <span class="form-pay__checkbox"></span>
+                  <span class="text form-pay__checkbox-text"
+                    >Соглашаюсь на
+                    <a
+                      class="form-pay__checkbox-link"
+                      href="#"
+                      >обработку моих персональных данных</a
+                    ></span
+                  >
+                </label>
+              </div>
+              <button class="form-pay__button button button_type_primary">
+                <span class="text text_type_label">Поддержать</span>
+              </button>
+            </form>
+            <div class="donat">
+              <h4 class="donat__title title title_type_h4">
+                Everland создается силами многих. Мы благодарны каждому за
+                поддержку!
+              </h4>
+              <div class="donat__container">
+                <div class="donat__container-sub">
+                  <p class="donat__text donat__text_type_name">Аноним</p>
+                  <hr class="donat__line" />
+                  <div class="donat__text-container">
+                    <p class="donat__text donat__text_type_summ">500 ₽</p>
+                    <p class="donat__text donat__text_type_date">
+                      2 часа назад
+                    </p>
+                  </div>
+                </div>
+                <div class="donat__container-sub">
+                  <p class="donat__text donat__text_type_name">Татьяна</p>
+                  <hr class="donat__line" />
+                  <div class="donat__text-container">
+                    <p class="donat__text donat__text_type_summ">600 ₽</p>
+                    <p class="donat__text donat__text_type_date">
+                      3 часа назад
+                    </p>
+                  </div>
+                </div>
+                <div class="donat__container-sub">
+                  <p class="donat__text donat__text_type_name">Аноним</p>
+                  <hr class="donat__line" />
+                  <div class="donat__text-container">
+                    <p class="donat__text donat__text_type_summ">300 ₽</p>
+                    <p class="donat__text donat__text_type_date">
+                      4 часа назад
+                    </p>
+                  </div>
+                </div>
+                <div class="donat__container-sub">
+                  <p class="donat__text donat__text_type_name">Аноним</p>
+                  <hr class="donat__line" />
+                  <div class="donat__text-container">
+                    <p class="donat__text donat__text_type_summ">200 ₽</p>
+                    <p class="donat__text donat__text_type_date">
+                      4 часа назад
+                    </p>
+                  </div>
+                </div>
+                <div class="donat__container-sub">
+                  <p class="donat__text donat__text_type_name">Аноним</p>
+                  <hr class="donat__line" />
+                  <div class="donat__text-container">
+                    <p class="donat__text donat__text_type_summ">100 ₽</p>
+                    <p class="donat__text donat__text_type_date">
+                      6 часа назад
+                    </p>
+                  </div>
+                </div>
+                <div class="donat__container-sub">
+                  <p class="donat__text donat__text_type_name">Наталья</p>
+                  <hr class="donat__line" />
+                  <div class="donat__text-container">
+                    <p class="donat__text donat__text_type_summ">600 ₽</p>
+                    <p class="donat__text donat__text_type_date">
+                      9 часа назад
+                    </p>
+                  </div>
+                </div>
+                <div class="donat__container-sub">
+                  <p class="donat__text donat__text_type_name">Наталья</p>
+                  <hr class="donat__line" />
+                  <div class="donat__text-container">
+                    <p class="donat__text donat__text_type_summ">600 ₽</p>
+                    <p class="donat__text donat__text_type_date">
+                      9 часа назад
+                    </p>
+                  </div>
+                </div>
+                <div class="donat__container-sub">
+                  <p class="donat__text donat__text_type_name">Наталья</p>
+                  <hr class="donat__line" />
+                  <div class="donat__text-container">
+                    <p class="donat__text donat__text_type_summ">600 ₽</p>
+                    <p class="donat__text donat__text_type_date">
+                      9 часа назад
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
@@ -951,7 +1491,9 @@
                   href="#"
                   target="_blank"
                 >
-                  <div class="footer__subscribe-icon-tg"></div>
+                  <div
+                    class="footer__subscribe-icon-tg footer__subscribe-icon"
+                  ></div>
                 </a>
               </li>
               <li>
@@ -959,7 +1501,9 @@
                   href="#"
                   target="_blank"
                 >
-                  <div class="footer__subscribe-icon-vk"></div>
+                  <div
+                    class="footer__subscribe-icon-vk footer__subscribe-icon"
+                  ></div>
                 </a>
               </li>
             </ul>
@@ -986,4 +1530,136 @@
     <script src="./pages/index.js"></script>
     <script src="./blocks/slider/slider.js"></script>
   </body>
+
+  <style>
+    .stories__box {
+      display: flex;
+      flex-direction: column;
+      row-gap: 100px;
+    }
+
+    .stories__card-size-big {
+      max-width: 1360px;
+      min-height: 0;
+      /* padding: 50px 50px 50px 0; */
+      box-sizing: border-box;
+    }
+
+    .stoties__cmall-card-container {
+      column-gap: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    .stories__discription-container {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    .stories__small-text {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+    }
+
+    .stories__small-text-button:hover {
+      cursor: pointer;
+    }
+
+    .stories__card-size-small {
+      max-width: 670px;
+      min-height: 0;
+      padding: 25px;
+      box-sizing: border-box;
+    }
+
+    .stories__item_reverse {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+
+    .stories__container {
+      display: flex;
+      column-gap: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .stories__container {
+        display: flex;
+        flex-direction: column;
+        /* row-gap: 20px; */
+      }
+    }
+
+    .stories__discription {
+      display: flex;
+      flex-direction: column;
+      row-gap: 32px;
+      /* justify-content: space-between; */
+    }
+
+    .stories__quote {
+      display: flex;
+      align-items: flex-start;
+      padding-top: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .stories__quote {
+        padding-top: 0;
+      }
+    }
+
+    .stories__item {
+      display: flex;
+      column-gap: 80px;
+    }
+
+    .stories__button {
+      width: 229px;
+    }
+
+    .stories {
+      max-width: 1360px;
+      display: flex;
+      justify-content: center;
+      padding: 150px 40px 0;
+    }
+
+    @media screen and (max-width: 768px) {
+      .stories {
+        padding: 100px 40px 0;
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+      .stories {
+        padding: 64px 10px 0;
+      }
+    }
+    .stories__image-circle {
+      width: 224px;
+      height: 224px;
+      border-radius: 112px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .stories__image-circle {
+        width: 204px;
+        height: 204px;
+        border-radius: 102px;
+        margin-top: 20px;
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+      .stories__image-circle {
+        width: 80px;
+        height: 80px;
+        border-radius: 60px;
+      }
+    }
+  </style>
 </html>

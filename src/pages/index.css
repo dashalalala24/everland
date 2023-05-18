@@ -25,7 +25,7 @@
 @import url('../blocks/text/_size/_small/text_size_small.css');
 @import url('../blocks/text/_type/_main/text_type_main.css');
 @import url('../blocks/text/_type/_label/text_type_label.css');
-@import url("../blocks/text/_color/_grey/text_color_grey.css");
+@import url('../blocks/text/_color/_grey/text_color_grey.css');
 
 /* ---------------------button------------ */
 
@@ -37,7 +37,7 @@
 @import url('../blocks/button/_type/_slider/button_type_slider.css');
 @import url('../blocks/button/_type/_slider/_black/button_type_slider_black.css');
 @import url('../blocks/button/_type/_accordeon/button_type_accordeon.css');
-@import url("../blocks/button/_type/_question/button_type_question.css");
+@import url('../blocks/button/_type/_question/button_type_question.css');
 @import url('../blocks/button/_color/_blue/button_color_blue.css');
 @import url('../blocks/button/_color/_green/button_color_green.css');
 @import url('../blocks/button/_color/_orange/button_color_orange.css');
@@ -46,56 +46,52 @@
 
 /* ---------------------cards------------ */
 
-@import url("../blocks/cards/cards.css");
-@import url("../blocks/cards/_type/_horizontale/cards_type_horizontale.css");
-
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/cards/_type/_horizontale/cards_type_horizontale.css');
 
 /* ---------------------card------------ */
 
-@import url("../blocks/card/card.css");
-@import url("../blocks/card/_color/_blue/card_color_blue.css");
-@import url("../blocks/card/_color/_orange/card_color_orange.css");
-@import url("../blocks/card/_color/_green/card_color_green.css");
-@import url("../blocks/card/_color/_purple/card_color_purple.css");
-@import url("../blocks/card/_color/_white/white.css");
-@import url("../blocks/card/_color/_transparent/card_color_transparent.css");
-@import url("../blocks/card/__icon-container/card__icon-container.css");
-@import url("../blocks/card/__icon/card__icon.css");
-@import url("../blocks/card/__image-container/card__image-container.css");
-@import url("../blocks/card/__image/card__image.css");
-@import url("../blocks/card/__text-container/card__text-container.css");
-@import url("../blocks/card/__discription/card__discription.css");
-@import url("../blocks/card/__publication-date/card__publication-date.css");
-@import url("../blocks/card/__chapter/card__chapter.css");
-
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/_color/_blue/card_color_blue.css');
+@import url('../blocks/card/_color/_orange/card_color_orange.css');
+@import url('../blocks/card/_color/_green/card_color_green.css');
+@import url('../blocks/card/_color/_purple/card_color_purple.css');
+@import url('../blocks/card/_color/_white/white.css');
+@import url('../blocks/card/_color/_transparent/card_color_transparent.css');
+@import url('../blocks/card/__icon-container/card__icon-container.css');
+@import url('../blocks/card/__icon/card__icon.css');
+@import url('../blocks/card/__image-container/card__image-container.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__text-container/card__text-container.css');
+@import url('../blocks/card/__discription/card__discription.css');
+@import url('../blocks/card/__publication-date/card__publication-date.css');
+@import url('../blocks/card/__chapter/card__chapter.css');
 
 /* ---------------------form-pay------------ */
 
-@import url("../blocks/form-pay/form-pay.css");
-@import url("../blocks/form-pay/__title/form-pay__title.css");
-@import url("../blocks/form-pay/__description/form-pay__description.css");
-@import url("../blocks/form-pay/__input/form-pay__input.css");
-@import url("../blocks/form-pay/__checkbox-label/form-pay__checkbox-label.css");
-@import url("../blocks/form-pay/__checkbox-invisible/form-pay__checkbox-invisible.css");
-@import url("../blocks/form-pay/__checkbox/form-pay__checkbox.css");
-@import url("../blocks/form-pay/__checkbox-text/form-pay__checkbox-text");
-@import url("../blocks/form-pay/__button/form-pay__button.css");
-@import url("../blocks/form-pay/__container-period/form-pay__container-period.css");
-@import url("../blocks/form-pay/__radio-label/form-pay__radio-label.css");
-@import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_small.css");
-@import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_medium.css");
-@import url("../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_big.css");
-@import url("../blocks/form-pay/__radio-invisible/form-pay__radio-invisible.css");
-@import url("../blocks/form-pay/__radio/form-pay__radio.css");
-@import url("../blocks/form-pay/__radio-image/form-pay__radio-image.css");
-@import url("../blocks/form-pay/__container-summ/form-pay__container-summ.css");
-@import url("../blocks/form-pay/__container-wallet-type/form-pay__container-wallet-type.css");
-@import url("../blocks/form-pay/__wallet-image/form-pay__wallet-image.css");
-@import url("../blocks/form-pay/__wallet-right/form-pay__wallet-right.css");
-@import url("../blocks/form-pay/__container-pers-data/form-pay__container-pers-data.css");
-@import url("../blocks/form-pay/__checkbox-link/form-pay__checkbox-link.css");
-
-
+@import url('../blocks/form-pay/form-pay.css');
+@import url('../blocks/form-pay/__title/form-pay__title.css');
+@import url('../blocks/form-pay/__description/form-pay__description.css');
+@import url('../blocks/form-pay/__input/form-pay__input.css');
+@import url('../blocks/form-pay/__checkbox-label/form-pay__checkbox-label.css');
+@import url('../blocks/form-pay/__checkbox-invisible/form-pay__checkbox-invisible.css');
+@import url('../blocks/form-pay/__checkbox/form-pay__checkbox.css');
+@import url('../blocks/form-pay/__checkbox-text/form-pay__checkbox-text');
+@import url('../blocks/form-pay/__button/form-pay__button.css');
+@import url('../blocks/form-pay/__container-period/form-pay__container-period.css');
+@import url('../blocks/form-pay/__radio-label/form-pay__radio-label.css');
+@import url('../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_small.css');
+@import url('../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_medium.css');
+@import url('../blocks/form-pay/__radio-label/_size/form-pay__radio-label_size_big.css');
+@import url('../blocks/form-pay/__radio-invisible/form-pay__radio-invisible.css');
+@import url('../blocks/form-pay/__radio/form-pay__radio.css');
+@import url('../blocks/form-pay/__radio-image/form-pay__radio-image.css');
+@import url('../blocks/form-pay/__container-summ/form-pay__container-summ.css');
+@import url('../blocks/form-pay/__container-wallet-type/form-pay__container-wallet-type.css');
+@import url('../blocks/form-pay/__wallet-image/form-pay__wallet-image.css');
+@import url('../blocks/form-pay/__wallet-right/form-pay__wallet-right.css');
+@import url('../blocks/form-pay/__container-pers-data/form-pay__container-pers-data.css');
+@import url('../blocks/form-pay/__checkbox-link/form-pay__checkbox-link.css');
 
 /* ---------------------logo------------ */
 
@@ -107,9 +103,9 @@
 /* ---------------------section------------ */
 
 @import url(../blocks/section/section.css);
-@import url("../blocks/section/__title-container/section__title-container.css");
-@import url("../blocks/section/_color/_grey/section_color_grey.css");
-@import url("../blocks/section/_color/_blue/section_color_blue.css");
+@import url('../blocks/section/__title-container/section__title-container.css');
+@import url('../blocks/section/_color/_grey/section_color_grey.css');
+@import url('../blocks/section/_color/_blue/section_color_blue.css');
 
 /* ---------------------header------------ */
 
@@ -170,8 +166,8 @@
 
 /* ---------------------gallery------------ */
 
-@import url("../blocks/gallery/gallery.css");
-@import url("../blocks/gallery/__actions/gallery__actions.css");
+@import url('../blocks/gallery/gallery.css');
+@import url('../blocks/gallery/__actions/gallery__actions.css');
 
 /* ---------------------news------------ */
 
@@ -215,6 +211,7 @@
 @import url(../blocks/footer/__support-icon-bilain/footer__support-icon-bilain.css);
 @import url(../blocks/footer/__support-icon-fond/footer__support-icon-fond.css);
 @import url(../blocks/footer/__subscribe-icons/footer__subscribe-icons.css);
+@import url(../blocks/footer/__subscribe-icon/footer__subscribe-icon.css);
 @import url(../blocks/footer/__subscribe-title/footer__subscribe-title.css);
 @import url(../blocks/footer/__subscribe-icon-tg/footer__subscribe-icon-tg.css);
 @import url(../blocks/footer/__subscribe-icon-vk/footer__subscribe-icon-vk.css);
