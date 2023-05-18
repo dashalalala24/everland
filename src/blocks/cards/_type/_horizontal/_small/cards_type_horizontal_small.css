@@ -1,0 +1,6 @@
+.cards_type_horizontal_small {
+    display: grid;
+    grid-template-columns: minmax(0, 670px) minmax(0, 670px) 1fr;
+    gap: 20px;
+    
+}
