@@ -202,23 +202,29 @@
             <h5 class="form-pay__title title title_type_h5">Способ оплаты</h5>
             <fieldset class="form-pay__container-wallet-type">
               <label for="card" class="form-pay__radio-label form-pay__radio-label_size_medium">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="card" value="card" checked>
+                <input type="radio" class="form-pay__radio-invisible" name="donat_type" id="card" value="card" checked>
                 <span class="form-pay__radio"><img class="form-pay__wallet-image" src="<%=require('./images/pay_card.svg')%>" alt="Банковская карта"></span>
               </label>
               <label for="io" class="form-pay__radio-label form-pay__radio-label_size_medium">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="io" value="io">
+                <input type="radio" class="form-pay__radio-invisible" name="donat_type" id="io" value="io">
                 <span class="form-pay__radio"><img class="form-pay__wallet-image" src="<%=require('./images/pay_io.svg')%>" alt="Юmoney"></span>
               </label>
               <label for="webmoney" class="form-pay__radio-label form-pay__radio-label_size_medium">
-                <input type="radio" class="form-pay__radio-invisible" name="donat_period" id="webmoney" value="webmoney">
+                <input type="radio" class="form-pay__radio-invisible" name="donat_type" id="webmoney" value="webmoney">
                 <span class="form-pay__radio"><img class="form-pay__wallet-image" src="<%=require('./images/pay_webmoney.svg')%>" alt="Webmoney"></span>
               </label>
               <div class="form-pay__wallet-right"></div>
             </fieldset>
             <h5 class="form-pay__title title title_type_h5">Ваши данные</h5>
             <div class="form-pay__container-pers-data">
-              <input type="text" class="form-pay__input" name="name" placeholder="Иван Иванов" required novalidate>
-              <input type="email" class="form-pay__input" name="email" placeholder="myemail@example.com" required novalidate>
+              <div class="form-pay__input-container">
+                <input type="text" class="form-pay__input" minlength=2 maxlength=30 name="name" placeholder="Иван Иванов" required novalidate>
+                <span class="form-pay__input-error">Вы пропустили это поле.</span>
+              </div>
+              <div class="form-pay__input-container">
+                <input type="email" class="form-pay__input" name="email" placeholder="myemail@example.com" required novalidate>
+                <span class="form-pay__input-error">Вы пропустили это поле.</span>
+              </div>
               <label for="oferta" class="form-pay__checkbox-label">
                 <input type="checkbox" class="form-pay__checkbox-invisible" id="oferta" name="oferta" checked required>
                 <span class="form-pay__checkbox"></span>

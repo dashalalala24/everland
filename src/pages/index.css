@@ -61,6 +61,7 @@
 @import url("../blocks/form-pay/__title/form-pay__title.css");
 @import url("../blocks/form-pay/__description/form-pay__description.css");
 @import url("../blocks/form-pay/__input/form-pay__input.css");
+@import url("../blocks/form-pay/__input/_invalid/form-pay__input_invalid.css");
 @import url("../blocks/form-pay/__checkbox-label/form-pay__checkbox-label.css");
 @import url("../blocks/form-pay/__checkbox-invisible/form-pay__checkbox-invisible.css");
 @import url("../blocks/form-pay/__checkbox/form-pay__checkbox.css");
@@ -81,6 +82,9 @@
 @import url("../blocks/form-pay/__wallet-right/form-pay__wallet-right.css");
 @import url("../blocks/form-pay/__container-pers-data/form-pay__container-pers-data.css");
 @import url("../blocks/form-pay/__checkbox-link/form-pay__checkbox-link.css");
+@import url("../blocks/form-pay/__input-container/form-pay__input-container.css");
+@import url("../blocks/form-pay/__input-error/form-pay__input-error.css");
+@import url("../blocks/form-pay/__input-error/_active/form-pay__input-error_active.css");
 
 
 /* ---------------------logo------------ */
