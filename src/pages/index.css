@@ -171,6 +171,13 @@
 /* остальные элементы */
 @import url("../blocks/menu/__link/menu__link.css");
 @import url("../blocks/menu/__link/_accordeon/menu__link_accordeon.css");
+@import url("../blocks/menu/menu.css");
+@import url("../blocks/menu/_hidden/menu_hidden.css");
+@import url("../blocks/menu/__arrow/menu__arrow.css");
+@import url("../blocks/menu/__column-header/menu__column-header.css");
+@import url("../blocks/menu/__column/menu__column.css");
+@import url("../blocks/menu/__column/_type/menu__column_type_gratitude.css");
+@import url("../blocks/menu/__arrow/_type/menu__arrow_type_up.css");
 
 /* ---------------------support------------ */
 
