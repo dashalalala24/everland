@@ -20,7 +20,7 @@
 
 /* ---------------------text------------ */
 
-@import url(../blocks/text/text.css);
+@import url('../blocks/text/text.css');
 @import url('../blocks/text/_size/_big/text_size_big.css');
 @import url('../blocks/text/_size/_small/text_size_small.css');
 @import url('../blocks/text/_type/_main/text_type_main.css');
@@ -47,15 +47,13 @@
 /* ---------------------cards------------ */
 
 @import url("../blocks/cards/cards.css");
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 @import url("../blocks/cards/_type/_horizontal/cards_type_horizontal.css");
 @import url("../blocks/cards/_type/_horizontal/_small/cards_type_horizontal_small.css");
-=======
-@import url("../blocks/cards/_type/_horizontale/cards_type_horizontale.css");
 
 
 /* ---------------------card------------ */
->>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef
+/* >>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef */
 
 @import url("../blocks/card/card.css");
 @import url("../blocks/card/_color/_blue/card_color_blue.css");
@@ -64,22 +62,22 @@
 @import url("../blocks/card/_color/_purple/card_color_purple.css");
 @import url("../blocks/card/_color/_white/white.css");
 @import url("../blocks/card/_color/_transparent/card_color_transparent.css");
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 @import url("../blocks/card/_type/_horizontal/card_type_horizontal.css");
 @import url("../blocks/card/_type/_horizontal/_small/card_type_horizontal_small.css");
 
-=======
->>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef
+/* ======= */
+/* >>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef */
 @import url("../blocks/card/__icon-container/card__icon-container.css");
 @import url("../blocks/card/__icon/card__icon.css");
 @import url("../blocks/card/__image-container/card__image-container.css");
 @import url("../blocks/card/__image/card__image.css");
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 @import url("../blocks/card/__avatar-container/card__avatar-container.css");
 @import url("../blocks/card/__avatar/card__avatar.css");
-
+/* 
 =======
->>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef
+>>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef */
 @import url("../blocks/card/__text-container/card__text-container.css");
 @import url("../blocks/card/__discription/card__discription.css");
 @import url("../blocks/card/__publication-date/card__publication-date.css");
@@ -89,7 +87,7 @@
 
 /* ---------------------form-pay------------ */
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 @import url("../blocks/button/button.css");
 @import url("../blocks/button/__icon/button__icon.css");
 @import url("../blocks/button/_type/_primary/button_type_primary.css");
@@ -105,7 +103,7 @@
 @import url("../blocks/button/_color/_purple/button_color_purple.css");
 @import url("../blocks/button/_type/_question/button_type_question.css");
 @import url("../blocks/button/_type/_slider/_previous/button_type_slider_previous.css");
-=======
+/* ======= */
 @import url("../blocks/form-pay/form-pay.css");
 @import url("../blocks/form-pay/__title/form-pay__title.css");
 @import url("../blocks/form-pay/__description/form-pay__description.css");
@@ -140,7 +138,7 @@
 /* ---------------------SECTIONS------------ */
 
 /* ---------------------section------------ */
->>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef
+/* >>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef */
 
 @import url(../blocks/section/section.css);
 @import url("../blocks/section/__title-container/section__title-container.css");
@@ -208,7 +206,7 @@
 
 @import url("../blocks/gallery/gallery.css");
 @import url("../blocks/gallery/__actions/gallery__actions.css");
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 @import url("../blocks/slider/slider.css");
 @import url("../blocks/slider/__list/slider__list.css");
 @import url("../blocks/slider/__slide/slide.css");
@@ -220,7 +218,7 @@
 @import url("../blocks/slider/__title/slider__title.css");
 @import url("../blocks/slider/__text/slider__text.css");
 
-=======
+
 
 /* ---------------------news------------ */
 
@@ -268,4 +266,4 @@
 @import url(../blocks/footer/__subscribe-icon-tg/footer__subscribe-icon-tg.css);
 @import url(../blocks/footer/__subscribe-icon-vk/footer__subscribe-icon-vk.css);
 @import url(../blocks/footer/__subscribe/footer__subscribe.css);
->>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef
+
