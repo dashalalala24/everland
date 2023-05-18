@@ -16,5 +16,6 @@
   .footer__platform {
     max-width: 300px;
     padding-bottom: 41px;
+    padding-right: 0;
   }
 }
