@@ -15,3 +15,9 @@
     flex-wrap: wrap;
   }
 } 
+
+@media screen and (max-width: 600px) {
+  .form-pay__container-wallet-type {
+    flex-direction: column;
+  }
+} 

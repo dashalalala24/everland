@@ -10,18 +10,19 @@
   max-width: 691px;
   padding: 30px 17px 30px 17px;
   box-sizing: border-box;
+  height: min-content;
 }
 
 @media screen and (max-width: 768px) {
   .form-pay {
-    max-width: 688px;
+    max-width: calc(100vw - 20px);
+    margin: 0 auto;
     padding: 30px 30px 30px 30px;
   }
 } 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .form-pay {
-    max-width: 691px;
     padding: 32px 20px 32px 20px;
   }
 } 

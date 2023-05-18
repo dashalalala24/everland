@@ -61,7 +61,7 @@
   }
 } 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .form-pay__input:first-of-type {
     margin-top: 9px;
   }
