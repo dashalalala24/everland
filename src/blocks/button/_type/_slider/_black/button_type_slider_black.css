@@ -4,6 +4,8 @@
     background-color: rgba(51, 51, 51, 1);
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
+    margin: 0;
+
 }
 
 .button_type_slider_black:hover {

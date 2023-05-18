@@ -1,0 +1,7 @@
+.card__avatar-container {
+  display: inherit;
+  filter: drop-shadow(0 4px 30px rgba(42,48,56,.1));
+  margin: 50px 10px 50px 0;
+  max-height: 224px;
+  min-width: 314px;
+}
