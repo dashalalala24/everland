@@ -1,5 +1,5 @@
 import('../pages/index.css');
-
+import './menu';
 
 function openAccordion(parent) {
   if (parent.classList.contains('accordion__item-active')) {

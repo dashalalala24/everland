@@ -1,0 +1,13 @@
+.menu__column{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.menu__column li:first-child {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,10 @@
+@media screen and (min-width: 450px) {
+  .menu__arrow{
+    display: none;
+    }
+}
+
+.menu__arrow{
+  width: 24px;
+  height: 24px;
+}
