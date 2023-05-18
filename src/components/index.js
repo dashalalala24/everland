@@ -1,5 +1,5 @@
 import('../pages/index.css');
-
+import './menu';
 
 const slider = document.querySelector('.slider__list');
 const previousButton = document.querySelector('.button_type_slider_previous');

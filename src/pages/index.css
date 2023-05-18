@@ -12,8 +12,12 @@
 /* ---------------------title------------ */
 
 @import url('../blocks/title/title.css');
+@import url("../blocks/header/__unit/header__unit.css");
 @import url('../blocks/title/_type/title_type_h1.css');
 @import url('../blocks/title/_type/title_type_h2.css');
+@import url("../blocks/header/__menu-text/header__menu-text.css");
+@import url("../blocks/header/__menu-pic/header__menu-pic.css");
+@import url("../blocks/header/__button/header__button.css");
 @import url('../blocks/title/_type/title_type_h3.css');
 @import url('../blocks/title/_type/title_type_h4.css');
 @import url('../blocks/title/_type/title_type_h5.css');
@@ -29,31 +33,30 @@
 
 /* ---------------------button------------ */
 
-@import url('../blocks/button/button.css');
-@import url('../blocks/button/_type/_primary/button_type_primary.css');
-@import url('../blocks/button/_type/_secondary/button_type_secondary.css');
-@import url('../blocks/button/_type/_secondary/_black/button_type_secondary_black.css');
-@import url('../blocks/button/_type/_link/button_type_link.css');
-@import url('../blocks/button/_type/_slider/button_type_slider.css');
-@import url('../blocks/button/_type/_slider/_black/button_type_slider_black.css');
-@import url('../blocks/button/_type/_accordeon/button_type_accordeon.css');
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/__icon/button__icon.css");
+@import url("../blocks/button/_type/_primary/button_type_primary.css");
+@import url("../blocks/button/_type/_secondary/button_type_secondary.css");
+@import url("../blocks/button/_type/_secondary/_black/button_type_secondary_black.css");
+@import url("../blocks/button/_type/_link/button_type_link.css");
+@import url("../blocks/button/_type/_slider/button_type_slider.css");
+@import url("../blocks/button/_type/_slider/_black/button_type_slider_black.css");
+@import url("../blocks/button/_type/_slider/_previous/button_type_slider_previous.css");
+@import url("../blocks/button/_type/_accordeon/button_type_accordeon.css");
 @import url("../blocks/button/_type/_question/button_type_question.css");
-@import url('../blocks/button/_color/_blue/button_color_blue.css');
-@import url('../blocks/button/_color/_green/button_color_green.css');
-@import url('../blocks/button/_color/_orange/button_color_orange.css');
-@import url('../blocks/button/_color/_purple/button_color_purple.css');
-@import url('../blocks/button/__icon/button__icon.css');
+@import url("../blocks/button/_color/_blue/button_color_blue.css");
+@import url("../blocks/button/_color/_green/button_color_green.css");
+@import url("../blocks/button/_color/_orange/button_color_orange.css");
+@import url("../blocks/button/_color/_purple/button_color_purple.css");
 
 /* ---------------------cards------------ */
 
 @import url("../blocks/cards/cards.css");
-/* <<<<<<< HEAD */
 @import url("../blocks/cards/_type/_horizontal/cards_type_horizontal.css");
 @import url("../blocks/cards/_type/_horizontal/_small/cards_type_horizontal_small.css");
 
 
 /* ---------------------card------------ */
-/* >>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef */
 
 @import url("../blocks/card/card.css");
 @import url("../blocks/card/_color/_blue/card_color_blue.css");
@@ -62,22 +65,14 @@
 @import url("../blocks/card/_color/_purple/card_color_purple.css");
 @import url("../blocks/card/_color/_white/white.css");
 @import url("../blocks/card/_color/_transparent/card_color_transparent.css");
-/* <<<<<<< HEAD */
 @import url("../blocks/card/_type/_horizontal/card_type_horizontal.css");
 @import url("../blocks/card/_type/_horizontal/_small/card_type_horizontal_small.css");
-
-/* ======= */
-/* >>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef */
 @import url("../blocks/card/__icon-container/card__icon-container.css");
 @import url("../blocks/card/__icon/card__icon.css");
 @import url("../blocks/card/__image-container/card__image-container.css");
 @import url("../blocks/card/__image/card__image.css");
-/* <<<<<<< HEAD */
 @import url("../blocks/card/__avatar-container/card__avatar-container.css");
 @import url("../blocks/card/__avatar/card__avatar.css");
-/* 
-=======
->>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef */
 @import url("../blocks/card/__text-container/card__text-container.css");
 @import url("../blocks/card/__discription/card__discription.css");
 @import url("../blocks/card/__publication-date/card__publication-date.css");
@@ -87,23 +82,6 @@
 
 /* ---------------------form-pay------------ */
 
-/* <<<<<<< HEAD */
-@import url("../blocks/button/button.css");
-@import url("../blocks/button/__icon/button__icon.css");
-@import url("../blocks/button/_type/_primary/button_type_primary.css");
-@import url("../blocks/button/_type/_secondary/button_type_secondary.css");
-@import url("../blocks/button/_type/_secondary/_black/button_type_secondary_black.css");
-@import url("../blocks/button/_type/_link/button_type_link.css");
-@import url("../blocks/button/_type/_slider/button_type_slider.css");
-@import url("../blocks/button/_type/_slider/_black/button_type_slider_black.css");
-@import url("../blocks/button/_type/_accordeon/button_type_accordeon.css");
-@import url("../blocks/button/_color/_blue/button_color_blue.css");
-@import url("../blocks/button/_color/_green/button_color_green.css");
-@import url("../blocks/button/_color/_orange/button_color_orange.css");
-@import url("../blocks/button/_color/_purple/button_color_purple.css");
-@import url("../blocks/button/_type/_question/button_type_question.css");
-@import url("../blocks/button/_type/_slider/_previous/button_type_slider_previous.css");
-/* ======= */
 @import url("../blocks/form-pay/form-pay.css");
 @import url("../blocks/form-pay/__title/form-pay__title.css");
 @import url("../blocks/form-pay/__description/form-pay__description.css");
@@ -129,6 +107,18 @@
 @import url("../blocks/form-pay/__checkbox-link/form-pay__checkbox-link.css");
 
 
+/* ---------------------menu------------ */
+
+@import url("../blocks/menu/__link/menu__link.css");
+@import url("../blocks/menu/__link/_accordeon/menu__link_accordeon.css");
+@import url("../blocks/menu/menu.css");
+@import url("../blocks/menu/_hidden/menu_hidden.css");
+@import url("../blocks/menu/__arrow/menu__arrow.css");
+@import url("../blocks/menu/__column-header/menu__column-header.css");
+@import url("../blocks/menu/__column/menu__column.css");
+@import url("../blocks/menu/__column/_type/menu__column_type_gratitude.css");
+@import url("../blocks/menu/__arrow/_type/menu__arrow_type_up.css");
+
 
 /* ---------------------logo------------ */
 
@@ -138,7 +128,6 @@
 /* ---------------------SECTIONS------------ */
 
 /* ---------------------section------------ */
-/* >>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef */
 
 @import url(../blocks/section/section.css);
 @import url("../blocks/section/__title-container/section__title-container.css");
@@ -151,6 +140,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__menu-pic/_type/header__menu-pic_type_close.css);
 /* остальные элементы */
 
 /* ---------------------info-slider------------ */
@@ -196,17 +186,6 @@
 
 @import url(../blocks/project/project.css);
 /* остальные элементы */
-
-/* ---------------------stories------------ */
-
-@import url(../blocks/stories/stories.css);
-/* остальные элементы */
-
-/* ---------------------gallery------------ */
-
-@import url("../blocks/gallery/gallery.css");
-@import url("../blocks/gallery/__actions/gallery__actions.css");
-/* <<<<<<< HEAD */
 @import url("../blocks/slider/slider.css");
 @import url("../blocks/slider/__list/slider__list.css");
 @import url("../blocks/slider/__slide/slide.css");
@@ -219,11 +198,22 @@
 @import url("../blocks/slider/__text/slider__text.css");
 
 
+/* ---------------------stories------------ */
+
+@import url(../blocks/stories/stories.css);
+/* остальные элементы */
+
+/* ---------------------gallery------------ */
+
+@import url("../blocks/gallery/gallery.css");
+@import url("../blocks/gallery/__actions/gallery__actions.css");
+
 
 /* ---------------------news------------ */
 
 @import url(../blocks/news/news.css);
 /* остальные элементы */
+
 
 /* ---------------------support------------ */
 
