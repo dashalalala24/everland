@@ -1,0 +1,20 @@
+.footer__logo-yandex {
+  background-image: url(../../../images/yandex-logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 162px;
+  height: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__logo-yandex {
+    width: 116px;
+    height: 21px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__logo-yandex {
+    padding-bottom: 6px;
+  }
+}

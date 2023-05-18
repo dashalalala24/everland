@@ -1,0 +1,19 @@
+.digits__container {
+  display: flex;
+  column-gap: 133px;
+  padding-top: 47px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .digits__container {
+    padding-top: 23px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits__container {
+    padding-top: 7px;
+    flex-direction: column-reverse;
+  }
+}

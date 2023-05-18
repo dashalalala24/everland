@@ -1,0 +1,17 @@
+.digits__text {
+  display: flex;
+  column-gap: 48px;
+}
+
+@media screen and (max-width: 1439px) {
+  .digits__text {
+    column-gap: 64px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits__text {
+    display: block;
+    padding-bottom: 26px;
+  }
+}

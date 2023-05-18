@@ -1,0 +1,11 @@
+.form-pay__radio-invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(0 0 0 0);
+}
+
+.form-pay__radio-invisible:checked + .form-pay__radio {
+  border: 1px solid #0C4BA0;
+}

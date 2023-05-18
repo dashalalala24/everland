@@ -1,0 +1,16 @@
+.footer__address {
+  width: 315px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__address {
+    max-width: 300px;
+    padding: 15px 0 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__address {
+    padding: 10px 0 24px;
+  }
+}

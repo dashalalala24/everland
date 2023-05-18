@@ -1,16 +1,23 @@
 .text_size_big {
+<<<<<<< HEAD
     font-weight: bold;
     font-size: 20px;
     margin-top: 0;
+=======
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+>>>>>>> 224b609b5ddc3ec2640d81c7b76296d9f11baeef
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .text_size_big {
-        font-size: 16px;
-    }
+@media screen and (max-width: 768px) {
+  .text_size_big {
+    font-size: 16px;
+    line-height: 120%;
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .text_size_big {
         font-size: 14px;
     }

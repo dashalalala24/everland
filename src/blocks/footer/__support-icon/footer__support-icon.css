@@ -1,0 +1,15 @@
+.footer__support-icon {
+  display: flex;
+  column-gap: 50px;
+  padding: 19px 0 51px;
+  list-style-type: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__support-icon {
+    padding-bottom: 45px;
+    padding-left: 14px;
+    column-gap: 19px;
+  }
+}
