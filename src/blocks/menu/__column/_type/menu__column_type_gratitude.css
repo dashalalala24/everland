@@ -1,0 +1,7 @@
+@media screen and (min-width: 1300px) {
+  .menu__column_type_gratitude{
+    grid-column: 4; 
+    align-self: stretch;
+    justify-self: stretch;
+  }
+}

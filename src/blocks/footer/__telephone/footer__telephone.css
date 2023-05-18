@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .footer__telephone {
     display: flex;
     flex-direction: column;
@@ -13,15 +13,9 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   .footer__telephone {
     flex-direction: row;
     column-gap: 16px;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-  .footer__telephone {
-    min-width: 400px;
   }
 }

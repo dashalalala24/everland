@@ -1,33 +1,32 @@
-   .button_type_accordeon {
-       max-height: 45px;
-       max-width: 45px;
-       border-radius: 20px;
-       background-color: rgba(231, 240, 255, 1);
-       color: rgba(12, 75, 160, 1);
-       transition: transform 0.5s ease;
-   }
+.button_type_accordeon {
+    max-height: 45px;
+    max-width: 45px;
+    border-radius: 20px;
+    background-color: rgba(231, 240, 255, 1);
+    color: rgba(12, 75, 160, 1);
+    transition: transform 0.5s ease;
+}
 
-   .button_type_accordeon:hover {
+.button_type_accordeon:hover {
     background-color: rgba(12, 75, 160, 1);
-    color:  rgba(255, 255, 255, 1);
-   }
+    color: rgba(255, 255, 255, 1);
+}
 
-   .button_type_accordeon:active {
-       background-color: rgba(12, 75, 160, 1);
-       color:  rgba(255, 255, 255, 1);
-       transform: rotate(45deg);
-   }
+.button_type_accordeon:active {
+    background-color: rgba(12, 75, 160, 1);
+    color: rgba(255, 255, 255, 1);
+    transform: rotate(45deg);
+}
 
-   .button_type_accordeon:disabled {
-       background-color: rgba(12, 75, 160, 1);
-       color: rgba(196, 196, 196, 1);
-       cursor: not-allowed;
-   }
+.button_type_accordeon:disabled {
+    background-color: rgba(12, 75, 160, 1);
+    color: rgba(196, 196, 196, 1);
+    cursor: not-allowed;
+}
 
-   /* .button_type_accordeon.active .button__icon svg {
-       transform: rotate(45deg);
-   }
-
-   .button_type_accordeon.active .button__icon svg path {
-       d: path("M3 18L18 3M3 3l15 15");
-   } */
+@media screen and (max-width: 450px) {
+    .button_type_accordeon {
+        height: 32px;
+        width: 32px;
+    }
+}

@@ -6,15 +6,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .footer__subscribe-icons {
     column-gap: 4px;
     padding: 8px 0 30px;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-  .footer__subscribe-icons {
-    justify-content: center;
   }
 }

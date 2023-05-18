@@ -1,0 +1,29 @@
+.accordion__item {
+  display: flex;
+  width: 670px;
+  min-height: 100px;
+  border: 2px solid #dadada;
+  border-radius: 30px;
+  flex-direction: column;
+  background: transparent;
+  padding: 24px 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .accordion__item {
+    width: calc(100vw - 80px);
+    min-height: 72px;
+    border-radius: 20px;
+    padding: 14px 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .accordion__item {
+    width: calc(100vw - 20px);
+    min-height: 56px;
+    border-radius: 15px;
+    padding: 10px 16px;
+  }
+}

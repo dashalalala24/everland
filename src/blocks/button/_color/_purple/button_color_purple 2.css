@@ -1,0 +1,22 @@
+.button_color_purple {
+    background-color: rgba(234, 230, 255, 1);
+    color: rgba(139, 117, 255, 1);
+    fill: rgba(139, 117, 255, 1);
+}
+
+.button_color_purple:hover {
+    background-color: rgba(139, 117, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    fill: rgba(255, 255, 255, 1);
+}
+
+.button_color_purple:active {
+    background-color: rgba(73, 53, 181, 1);
+}
+
+.button_color_purple:disabled {
+    background-color: rgba(196, 196, 196, 1);
+    color: rgba(38, 38, 38, 0.5);
+    fill: rgba(38, 38, 38, 0.5);
+    cursor: not-allowed;
+}

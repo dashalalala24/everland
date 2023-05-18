@@ -1,0 +1,28 @@
+.header__unit{
+  display: flex;
+  margin: 0px 40px 0px 0px;
+  flex-direction: row;
+  gap: 15px;
+  max-width: 380px;
+  align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+  .header__unit {
+    gap: 8px;
+    order:2;
+    margin: 15px 0px 15px 40px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header__unit {
+    gap: 8px;
+    order:2;
+    width: 100%;
+    justify-content: flex-end;
+    display: none;
+  }
+}

@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .footer__support-icon {
     padding-bottom: 45px;
     padding-left: 14px;
