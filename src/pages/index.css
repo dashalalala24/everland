@@ -21,7 +21,6 @@
 /* ---------------------text------------ */
 
 @import url(../blocks/text/text.css);
-@import url(../blocks/text/_rgba/text_rgba.css);
 @import url('../blocks/text/_size/_big/text_size_big.css');
 @import url('../blocks/text/_size/_small/text_size_small.css');
 @import url('../blocks/text/_type/_main/text_type_main.css');
