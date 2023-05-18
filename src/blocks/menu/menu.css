@@ -3,23 +3,25 @@
   grid-template-columns:  repeat(4, 1fr);
   grid-template-rows: 150px auto; 
   padding-left: 40px;
-  row-gap: 0px;
+  padding-top: 40px;
   width: 100%;
   height: 100%;
   position: fixed;
   z-index: 5;
   background-color: white;
-  grid-row-gap: 20px;
   text-decoration: none;
-  margin: 0 auto;
+  margin: 60px auto;
   overflow: auto;
+  column-gap: 10px;
+  overflow-wrap: break-word;
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1320px) {
   .menu{
-    grid-template-columns:  repeat(3, 1fr);
+    grid-template-columns:  1fr 1fr 1fr;
     grid-template-rows: 270px auto; 
+    margin: 40px auto 0px auto;
   }
 }
 
@@ -33,10 +35,22 @@
 
 @media screen and (max-width: 510px) {
   .menu{
+    padding-left:0;
+    margin-left: 0;
     grid-template-columns:  repeat(1, 1fr);
-    grid-template-rows: auto; 
+    grid-template-rows: max-content max-content max-content max-content max-content;
     padding-left: 40px;/* last row height set to 50px */
     row-gap: 20px;
-    overflow-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .menu{
+    padding-left:0;
+    margin-left: 0;
+    grid-template-columns:  repeat(1, 1fr);
+    grid-template-rows: max-content max-content max-content max-content max-content;
+    padding-left: 15px;/* last row height set to 50px */
+    row-gap: 20px;
   }
 }

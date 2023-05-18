@@ -107,6 +107,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__menu-pic/_type/header__menu-pic_type_close.css);
 /* остальные элементы */
 
 
@@ -172,9 +173,11 @@
 /* остальные элементы */
 @import url("../blocks/menu/menu.css");
 @import url("../blocks/menu/_hidden/menu_hidden.css");
+@import url("../blocks/menu/__arrow/menu__arrow.css");
 @import url("../blocks/menu/__column-header/menu__column-header.css");
 @import url("../blocks/menu/__column/menu__column.css");
 @import url("../blocks/menu/__column/_type/menu__column_type_gratitude.css");
+@import url("../blocks/menu/__arrow/_type/menu__arrow_type_up.css");
 /* ---------------------news------------ */
 
 @import url(../blocks/news/news.css);

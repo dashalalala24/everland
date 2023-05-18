@@ -7,51 +7,58 @@
   <meta name="author" content="Команда 2">
   <title>Everland</title>
 </head>
+
 <body>
   <header class="header">
     <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="лого Эверланд">
-    <div class = "header__menu">
-      <img сlass ="header__menu-pic" src="<%=require('./images/menu.svg')%>" alt="меню">
+    <div class="header__menu">
+      <img class="header__menu-pic" src="<%=require('./images/Menu.svg')%>" alt="меню">
       <p class="header__menu-text">Меню</p>
     </div>
-    <div class = "header__unit">
+    <div class="header__unit">
       <button class="header__button button button_type_secondary">Платформа</button>
       <button class="header__button button button_type_primary">Поддержать</button>
     </div>
   </header>
-  <section class="menu menu_hidden">
+  <nav class="menu menu_hidden">
     <ul class="menu__column">
-      <li class="menu__column-header"><a href="#" class="menu__link">О проекте</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">АНО Пространство&nbsp;равных возможностей</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Новости</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Инклюзия</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Учебным заведениям</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Годовые отчеты</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">О&nbsp;проекте</a><img
+          class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка"></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">АНО Пространство равных&nbsp;возможностей</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Новости</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Инклюзия</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Учебным заведениям</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Годовые отчеты</a></li>
     </ul>
     <ul class="menu__column">
-      <li class="menu__column-header"><a href="#" class="menu__link">Людям&nbsp;с инвалидностью</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Платформа</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Курсы</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Everland Profi</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Бесплатное такси</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Людям
+          с&nbsp;инвалидностью</a><img class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>"
+          alt="Стрелка"></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Платформа</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Курсы</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Everland Profi</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Бесплатное такси</a></li>
     </ul>
     <ul class="menu__column">
-      <li class="menu__column-header"><a href="#" class="menu__link">Услуги</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Услуги агентства</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Готовые сайты</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Доступность для людей с инвалидностью</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Работодателям</a></li>
-      <li class="menu__link_accordeon"><a href="#" class="menu__link">Портфолио</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Услуги</a><img
+          class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка"></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Услуги агентства</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Готовые сайты</a></li>
+      <li class=" menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Доступность для людей с
+          инвалидностью</a>
+      </li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Работодателям</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Портфолио</a></li>
     </ul>
     <ul class="menu__column menu__column_type_gratitude">
-      <li class="menu__column-header"><a href="#" class="menu__link">Мы благодарим</a></li>
-      <li class="menu__column-header"><a href="#" class="menu__link">Программы</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Мы&nbsp;благодарим</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Программы</a></li>
     </ul>
     <ul class="menu__column menu__column_type_gratitude">
-      <li class="menu__column-header"><a href="#" class="menu__link">Наставникам</a></li>
-      <li class="menu__column-header"><a href="#" class="menu__link">Помочь</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Наставникам</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Помочь</a></li>
     </ul>
-  </section>
+  </nav>
   <main class="content">
     <section class='info-slider'>
       <button class="button button_type_primary">
@@ -193,20 +200,20 @@
           <fieldset class="form-pay__container-summ">
             <label for="donat_250" class="form-pay__radio-label form-pay__radio-label_size_small">
               <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_250" value="250">
-              <span class="form-pay__radio text text_type_label">250 &#8381;</span>
+              <span class="form-pay__radio text text_type_label">250&nbsp;₽</span>
             </label>
             <label for="donat_500" class="form-pay__radio-label form-pay__radio-label_size_small">
               <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_500" value="500"
                 checked>
-              <span class="form-pay__radio text text_type_label">500 &#8381;</span>
+              <span class="form-pay__radio text text_type_label">500&nbsp;₽</span>
             </label>
             <label for="donat_750" class="form-pay__radio-label form-pay__radio-label_size_small">
               <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_750" value="750">
-              <span class="form-pay__radio text text_type_label">750 &#8381;</span>
+              <span class="form-pay__radio text text_type_label">750&nbsp;₽</span>
             </label>
             <label for="donat_1000" class="form-pay__radio-label form-pay__radio-label_size_small">
               <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_1000" value="1000">
-              <span class="form-pay__radio text text_type_label">1000 &#8381;</span>
+              <span class="form-pay__radio text text_type_label">1000&nbsp;₽</span>
             </label>
             <label for="donat_other" class="form-pay__radio-label form-pay__radio-label_size_small">
               <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_other" value="other">
@@ -215,8 +222,9 @@
           </fieldset>
           <p class="form-pay__description text text_size_small">Регулярные пожертвования очень важны для Everland. Это
             то, что помогает нашим программам работать бесперебойно, что открывает новые востребованные проекты, что
-            максимально эффективно решает социальную задачу. Если вы захотите поддерживать наши программы постоянно, то
-            каждый месяц с вашей карты будет списываться указанная вами сумма.</p>
+            максимально эффективно решает социальную задачу. Если вы&nbsp;захотите поддерживать наши программы
+            постоянно, то
+            каждый месяц с&nbsp;вашей карты будет списываться указанная вами сумма.</p>
           <h5 class="form-pay__title title title_type_h5">Способ оплаты</h5>
           <fieldset class="form-pay__container-wallet-type">
             <label for="card" class="form-pay__radio-label form-pay__radio-label_size_medium">
@@ -244,13 +252,13 @@
             <label for="oferta" class="form-pay__checkbox-label">
               <input type="checkbox" class="form-pay__checkbox-invisible" id="oferta" name="oferta" checked required>
               <span class="form-pay__checkbox"></span>
-              <span class="text text_type_main form-pay__checkbox-text">Соглашаюсь с <a href="#">офертой</a></span>
+              <span class="text text_type_main form-pay__checkbox-text">Соглашаюсь с&nbsp;<a href="#">офертой</a></span>
             </label>
             <label for="personal_data" class="form-pay__checkbox-label">
               <input type="checkbox" class="form-pay__checkbox-invisible" id="personal_data" name="personal_data"
                 checked required>
               <span class="form-pay__checkbox"></span>
-              <span class="text text_type_main form-pay__checkbox-text">Соглашаюсь на <a href="#">обработку моих
+              <span class="text text_type_main form-pay__checkbox-text">Соглашаюсь на&nbsp;<a href="#">обработку моих
                   персональных данных</a></span>
             </label>
           </div>
@@ -268,15 +276,15 @@
           <div class="logo_footer"></div>
         </a>
         <p class="text text_size_small footer__platform">
-          Платформа Everland — инклюзивный социальный предпринимательский
-          проект. Реализуется&nbsp;ООО&nbsp;«ЭВЕРЛЭНД», АНО «Пространство
-          равных возможностей».
+          Платформа Everland&nbsp;&mdash; инклюзивный социальный предпринимательский
+          проект. Реализуется ООО &laquo;ЭВЕРЛЭНД&raquo;, АНО &laquo;Пространство
+          равных возможностей&raquo;.
         </p>
       </div>
       <div class="footer__about-project">
         <ul class="footer__links">
           <li>
-            <p class="text text_type_main">О проекте</p>
+            <p class="text text_type_main">О&nbsp;проекте</p>
           </li>
           <li>
             <a href="#" class="text text_type_main footer__link">Услуги</a>
@@ -293,7 +301,7 @@
             <a href="#" class="text text_type_main footer__link">Платформа</a>
           </li>
           <li>
-            <a href="#" class="text text_type_main footer__link">Мы благодарим</a>
+            <a href="#" class="text text_type_main footer__link">Мы&nbsp;благодарим</a>
           </li>
         </ul>
       </div>
@@ -319,14 +327,14 @@
             <p class="text text_size_small">+7 (985) 473 08 93</p>
           </div>
           <p class="text text_size_small footer__address">
-            Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.
+            Гоголевский бульвар, дом&nbsp;8, строение&nbsp;2, офис 8, Москва, Россия.
           </p>
         </div>
       </div>
       <div class="footer__subscribe-copyright">
         <div>
           <h4 class="title_type_h4 title footer__subscribe-title">
-            Подписывайтесь на нас в соцсетях
+            Подписывайтесь на&nbsp;нас в&nbsp;соцсетях
           </h4>
           <ul class="footer__subscribe-icons">
             <li>
@@ -342,9 +350,9 @@
           </ul>
         </div>
         <p class="text text_size_small text_rgba footer__copyright">
-          © ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».
-          Если&nbsp;не&nbsp;указано&nbsp;иначе,&nbsp;все&nbsp;материалы сайта
-          доступны по лицензии Creative Commons CC-BY-SA 3.0
+          &copy;&nbsp;ООО &laquo;ЭВЕРЛЭНД&raquo;, АНО &laquo;Пространство равных возможностей&raquo;.
+          Если не&nbsp;указано иначе, все материалы сайта
+          доступны по&nbsp;лицензии Creative Commons CC-BY-SA 3.0
         </p>
       </div>
     </div>
@@ -357,8 +365,7 @@
       </p>
     </div>
   </footer>
-  <script src="./pages/index.js"></script>
-  <script src="./blocks/slider/slider.js"></script>
+  <!-- <script src="./blocks/slider/slider.js"></script> -->
 </body>
 
 </html>
