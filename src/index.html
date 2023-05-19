@@ -8,7 +8,7 @@
   <title>Everland</title>
 </head>
 
-<body>
+<body class="page">
   <header class="header">
     <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="лого Эверланд">
     <div class="header__menu">
@@ -171,7 +171,28 @@
         </button>
       </div>
     </section>
-    <section class='donations'></section>
+    <section class='donations'>
+      <label class="donations__item">
+        <input class="donations__money" type="radio" value="250">
+        <span class="donations__button button button_type_primary">250</span>
+      </label>
+      <label class="donations__item">
+        <input class="donations__money" type="radio" value="500">
+        <span class="donations__button button button_type_primary">500</span>
+      </label>
+      <label class="donations__item">
+        <input class="donations__money" type="radio" value="750">
+        <span class="donations__button button button_type_primary">750</span>
+      </label>
+      <label class="donations__item">
+        <input class="donations__money" type="radio" value="1000">
+        <span class="donations__button button button_type_primary">1000</span>
+      </label>
+      <label class="donations__item">
+        <input class="donations__money" type="radio" value="other">
+        <span class="donations__button button button_type_secondary">другая</span></label>
+    </div>
+    </section>
     <section class="partnering section section_color_grey" id="for">
       <div class="section__title-container">
         <h2 class="title title_type_h2">Для кого мы работаем</h2>

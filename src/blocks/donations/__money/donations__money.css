@@ -1,0 +1,6 @@
+.donations__money{
+  list-style-type: none;
+  background: transparent;
+  appearance: none;
+  -webkit-appearance: none;
+}
