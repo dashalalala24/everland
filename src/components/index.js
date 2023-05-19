@@ -6,108 +6,63 @@ import('../pages/index.css');
 // const prevButton = slider.querySelector('.button_type_slider_previous');
 // const nextButton = slider.querySelector('.button_type_slider_next');
 
-const sliderList = document.querySelector('.slider__list');
-const slide = document.querySelectorAll('.slider__slide');
-const slideLength = slide.length;
+const items = document.querySelectorAll('.slider__slide');
+const itemLength = items.length;
 
 const nextButton = document.querySelector(".button_type_slider_next");
 const previousButton = document.querySelector(".button_type_slider_previous");
-let slider = [];
 
-for (let i = 0; i < slideLength; i++) {
-  slider[i] = slide[i];
-  slide[i].remove();
+let slider = [];
+for (let i = 0; i < itemLength; i++) {
+  slider.push(items[i]);
+  items[i].remove();
 }
 
 let step = 0;
 let offset = 0;
 
 function infoSlider() {
-  let elementSlide = document.createElement('li');
-  elementSlide = slider[slider.length - 1];
-  elementSlide.classList.add('slider__slide');
-  elementSlide.style.left = -1360 + 'px';
-  sliderList.appendChild(elementSlide);
+  let slideElement = document.createElement('li');
+  slideElement.classList.add('card', 'card_type_horizontal', 'card_color_blue', 'slider__slide');
+  slideElement.innerHTML = slider[slider.length - 1].innerHTML;
+  document.querySelector('.slider__list').appendChild(slideElement);
 
-  elementSlide = slider[step];
-  elementSlide.classList.add('slider__slide');
-  elementSlide.style.left = offset * 1360 + 'px';
-  sliderList.appendChild(elementSlide);
+  slideElement = document.createElement('li');
+  slideElement.classList.add('card', 'card_type_horizontal', 'card_color_blue', 'slider__slide');
+  slideElement.style.left = offset * 1360 + 'px';
+  slideElement.innerHTML = slider[step].innerHTML;
+  document.querySelector('.slider__list').appendChild(slideElement);
 
-  elementSlide = slider[step + 1];
-  elementSlide.classList.add('slider__slide');
-  elementSlide.style.left = offset*1360 + 1360 + 'px';
-  sliderList.appendChild(elementSlide);
+  slideElement = document.createElement('li');
+  slideElement.classList.add('card', 'card_type_horizontal', 'card_color_blue', 'slider__slide');
+  slideElement.style.left = offset * 1360 + 1360 + 'px';
+  slideElement.innerHTML = slider[step + 1].innerHTML;
+  document.querySelector('.slider__list').appendChild(slideElement);
 
   offset = 1;
-}
-
-function infoSliderPrevious() {
-  if (step == 0) {
-    step = slider.length - 2;
-  } else {
-    if (step == 1) {
-      step = slider.length - 1;
-    } else {
-      step = step - 2;
-    }
-  }
-
-  let offset = -1;
-  let elementSlide = document.createElement('li');
-  elementSlide = slider[step];
-  elementSlide.classList.add('slider__slide');
-  elementSlide.style.left = offset*1360 + 'px';
-  sliderList.insertBefore(elementSlide, sliderList.firstElementChild);
-
-  if (step == slider.length - 1) {
-    step = 0;
-  } else {
-    step = step + 1;
-  }
-  
-  offset = 1;
-
-}
- 
-
-function previous() {
-  previousButton.onclick = null;
-  let slider2 = document.querySelectorAll('.slider__slide');
-  let offset2 = -1;
-
-  for (let i = 0; i < slider2.length; i++) {
-    slider2[i].style.left = offset2*1360 - 1360 + 'px';
-    offset2++;
-  }
-
-
-  setTimeout(function () {
-    slider2[0].remove();
-    infoSliderPrevious();
-    previousButton.onclick = previous;
-  }, 400);
 }
 
 function infoSliderNext() {
- 
-  if (step == slider.length - 1) {
+
+  if (step === slider.length - 1) {
     step = 1;
   } else {
-    if (step == slider.length - 2) {
+    if (step === slider.length - 2) {
       step = 0;
     } else {
       step = step + 2;
     }
   }
 
-  let elementSlide = document.createElement('li');
-  elementSlide = slider[step];
-  elementSlide.classList.add('slider__slide');
-  elementSlide.style.left = offset*1360 + 'px';
-  sliderList.appendChild(elementSlide);
+  let slideElement = document.createElement('li');
+  slideElement.classList.add('card', 'card_type_horizontal', 'card_color_blue', 'slider__slide');
+  slideElement.style.left = offset * 1360 + 'px';
+  slideElement.innerHTML = slider[step].innerHTML;
+  document.querySelector('.slider__list').appendChild(slideElement);
+  document.querySelector('.slider__list').style.transform = `translateX(-${slideElement.offsetWidth}px)`;
+  document.querySelector('.slider__list').style.transition = 'transform 0.5s ease-in-out';
 
-  if (step == 0) {
+  if (step === 0) {
     step = slider.length - 1;
   } else {
     step = step - 1;
@@ -119,31 +74,88 @@ function infoSliderNext() {
 function next() {
   nextButton.onclick = null;
 
-  let slider2 = document.querySelectorAll('.slider__slide');
-  let offset2 = slider2.length - 1;
+  let sliderItems = document.querySelectorAll('.slider__slide');
+  let offset2 = -1;
 
-  for (let i = slider2.length - 1; i >= 0; i--) {
-    slider2[i].style.left = offset2*1360 + 'px';
-    offset2--;
+  for (let i = 0; i < sliderItems.length; i++) {
+    sliderItems[i].style.left = offset2 * 1360 - 1360 + 'px';
+    offset2++;
   }
 
   setTimeout(function () {
-    slider2[slider2.length - 1].remove();
+    sliderItems[0].remove();
+    document.querySelector('.slider__list').style.transform = 'translateX(0)';
+    document.querySelector('.slider__list').style.transition = 'none';
     infoSliderNext();
     nextButton.onclick = next;
-  }, 400);
+
+  }, 700);
+}
+
+function infoSliderPrevious() {
+  if (step === 0) {
+    step = slider.length - 2;
+  } else {
+    if (step === 1) {
+      step = slider.length - 1;
+    } else {
+      step = step - 2;
+    }
+  }
+  let offset = -1;
+  let slideElement = document.createElement('li');
+  slideElement.classList.add('card', 'card_type_horizontal', 'card_color_blue', 'slider__slide');
+  slideElement.style.left = offset * 100 + 'px';
+  slideElement.innerHTML = slider[step].innerHTML;
+
+  document.querySelector('.slider__list').insertBefore(slideElement, document.querySelector('.slider__slide'));
+  document.querySelector('.slider__list').style.transform = `translateX(-${slideElement.offsetWidth}px)`;
+  document.querySelector('.slider__list').style.transition = 'transform 0.5s ease-in-out';
+
+
+  if (step === slider.length - 1) {
+    step = 0;
+  } else {
+    step = step + 1;
+  }
+
+  offset = 1;
+}
+
+
+function previous() {
+
+  previousButton.onclick = null;
+
+  let sliderItems = document.querySelectorAll('.slider__slide');
+  let offset2 = sliderItems.length - 1;
+
+  for (let i = sliderItems.length - 1; i >= 0; i--) {
+    sliderItems[i].style.left = offset2 * 1360 + 'px';
+    offset2--;
+  }
+
+
+  setTimeout(function () {
+
+    sliderItems[sliderItems.length - 1].remove();
+    document.querySelector('.slider__list').style.transform = 'translateX(0)';
+    document.querySelector('.slider__list').style.transition = 'none';
+    infoSliderPrevious();
+    previousButton.onclick = previous;
+  }, 700);
+
 }
 
 infoSlider();
 step = 0;
 
-previousButton.onclick = previous;
 nextButton.onclick = next;
+previousButton.onclick = previous;
 
 // const slider = document.querySelector('.slider__list');
 // const previousButton = document.querySelector('.button_type_slider_previous');
 // const nextButton = document.querySelector('.button_type_slider_next');
-// const slideWidth = slider.offsetWidth;
 
 // previousButton.addEventListener('click', () => {
 //   slider.style.transform = `translateX(-${slideWidth}px)`;
