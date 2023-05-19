@@ -22,7 +22,7 @@
   margin: 0;
 }
 
-.form-pay__input::placeholder {
+.form-pay__input[placeholder] {
   font-family: 'Raleway';
   font-feature-settings: 'pnum' on, 'lnum' on;
   font-style: normal;
@@ -33,13 +33,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .form-pay__input::placeholder {
+  .form-pay__input[placeholder] {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .form-pay__input::placeholder {
+  .form-pay__input[placeholder] {
     font-size: 14px;
   }
 }
