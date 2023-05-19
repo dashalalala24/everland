@@ -1,5 +1,4 @@
 const projectSlider = document.querySelector('.slider');
-console.log(projectSlider);
 
 
 function slide(slider) {
@@ -35,6 +34,5 @@ function slide(slider) {
 }
 
 slide(projectSlider);
-console.log("закончил")
 const infoSlider = document.querySelector('.info-slider');
 slide(infoSlider);

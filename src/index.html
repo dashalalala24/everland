@@ -22,19 +22,20 @@
   </header>
   <nav class="menu menu_hidden">
     <ul class="menu__column">
-      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">О&nbsp;проекте</a><img
-          class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка"></li>
+      <li class="menu__column-header"><a id="aboutProjectAnc" href="#project"
+          class="menu__link title title_type_h4">О&nbsp;проекте</a><img class="menu__arrow"
+          src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка"></li>
       <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">АНО Пространство
           равных&nbsp;возможностей</a></li>
-      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Новости</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#news" class="menu__link text text_type_main newsAnc">Новости</a></li>
       <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Инклюзия</a></li>
-      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Учебным
+      <li class="menu__link menu__link_accordeon"><a href="#activities" class="menu__link text text_type_main activitiesAnc">Учебным
           заведениям</a></li>
-      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Годовые отчеты</a>
+      <li class="menu__link menu__link_accordeon"><a href="#digits" class="menu__link text text_type_main digitsAnc">Годовые отчеты</a>
       </li>
     </ul>
     <ul class="menu__column">
-      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Людям
+      <li class="menu__column-header"><a href="#activities" class="menu__link title title_type_h4 activitiesAnc">Людям
           с&nbsp;инвалидностью</a><img class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>"
           alt="Стрелка"></li>
       <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Платформа</a></li>
@@ -51,37 +52,39 @@
           агентства</a></li>
       <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Готовые сайты</a>
       </li>
-      <li class=" menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Доступность для
+      <li class=" menu__link menu__link_accordeon"><a href="#activities" class="menu__link text text_type_main activitiesAnc">Доступность для
           людей с
           инвалидностью</a>
       </li>
-      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Работодателям</a>
+      <li class="menu__link menu__link_accordeon"><a href="#activities"  class="menu__link text text_type_main activitiesAnc">Работодателям</a>
       </li>
-      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Портфолио</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#activities"  class="menu__link text text_type_main activitiesAnc">Портфолио</a></li>
     </ul>
     <ul class="menu__column menu__column_type_gratitude">
-      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Мы&nbsp;благодарим</a></li>
+      <li class="menu__column-header"><a href="#footer" id="footerAnc"
+          class="menu__link title title_type_h4">Мы&nbsp;благодарим</a></li>
       <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Программы</a></li>
     </ul>
     <ul class="menu__column menu__column_type_gratitude">
-      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Наставникам</a></li>
-      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Помочь</a></li>
+      <li class="menu__column-header"><a href="#activities" class="menu__link title title_type_h4 activitiesAnc">Наставникам</a></li>
+      <li class="menu__column-header"><a id="supportAnc" href="#support"
+          class="menu__link title title_type_h4">Помочь</a></li>
     </ul>
   </nav>
   <main class="content">
     <nav>
       <ul class="main-nav">
-        <li><a class="main-nav__link text text_type_main" href="#">Для кого</a></li>
-        <li><a class="main-nav__link text text_type_main" href="#">Направления работы</a></li>
-        <li><a class="main-nav__link text text_type_main" href="#">Преимущества</a></li>
-        <li><a class="main-nav__link text text_type_main" href="#">Основные цифры</a></li>
-        <li><a class="main-nav__link text text_type_main" href="#">Спецпроекты</a></li>
-        <li><a class="main-nav__link text text_type_main" href="#">Истории</a></li>
-        <li><a class="main-nav__link text text_type_main" href="#">Агентство</a></li>
-        <li><a class="main-nav__link text text_type_main" href="#">Новости</a></li>
+        <li><a class="main-nav__link text text_type_main" id ="forAnchor" href="#for">Для кого</a></li>
+        <li><a class="main-nav__link text text_type_main activitiesAnc" href="#activities">Направления работы</a></li>
+        <li><a class="main-nav__link text text_type_main" id="importantAnc" href="#important">Преимущества</a></li>
+        <li><a class="main-nav__link text text_type_main digitsAnc" href="#digits">Основные цифры</a></li>
+        <li><a class="main-nav__link text text_type_main newsAnc" href="#news" >Спецпроекты</a></li>
+        <li><a class="main-nav__link text text_type_main" id = 'storiesAnc'href="#stories">Истории</a></li>
+        <li><a class="main-nav__link text text_type_main activitiesAnc" href="#activities">Агентство</a></li>
+        <li><a class="main-nav__link text text_type_main newsAnc" href="#news" >Новости</a></li>
       </ul>
     </nav>
-    <section class='info-slider'>
+    <section class='info-slider' id="project">
       <ul class="slider__list cards cards_type_horizontal info-slider__list">
         <li class="card card_type_horizontal card_color_white info-slider__item">
           <div class="card__discription">
@@ -94,25 +97,57 @@
             <img class="card__image" src="<%=require('./images/Image_4.png')%>" alt="">
           </div>
         </li>
-        <li class="card card_type_horizontal card_color_purple info-slider__item">
-          <div class="card__discription">
-            <h2 class="title title_type_h1 info-slider__title">Everland — социальный предпринимательский проект</h2>
-            <p class="text text_type_main slider__text">Мы работаем с 2016 года по России и СНГ и помогаем людям с
-              инвалидностью устойчиво интегрироваться в открытый рынок труда </p>
+        <li class="card card_type_horizontal card_color_blue info-slider__item">
+          <div class="slider__container">
+            <div class="card__discription">
+              <div class="card__chapter slider__chapter">
+                <p class="text text_size_small">2</p>
+              </div>
+              <h2 class="title title_type_h2 slider__title">Фотопроект «Семья как семья»</h2>
+              <p class="text text_type_main slider__text">Фотопроект Алексея Горшенина включает в себя восемь историй
+                людей и семей,
+                где один или оба супруга имеют инвалидность</p>
+            </div>
+            <div class="slider__actions">
+              <button class="button button_type_secondary_black">
+                <span class="text text_type_label">Посмотреть</span>
+                <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                    stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+                  </svg>
+                </span>
+              </button>
+            </div>
           </div>
-          <div class="info-slider__image-container">
-            <img class="card__image" src="<%=require('./images/Image_4.png')%>" alt="">
+          <div class="sliedr__image-container">
             <img class="card__image" src="<%=require('./images/Image_4.png')%>" alt="">
           </div>
         </li>
-        <li class="card card_type_horizontal card_color_blue info-slider__item">
-          <div class="card__discription">
-            <h2 class="title title_type_h1 info-slider__title">Everland — социальный предпринимательский проект</h2>
-            <p class="text text_type_main slider__text">Мы работаем с 2016 года по России и СНГ и помогаем людям с
-              инвалидностью устойчиво интегрироваться в открытый рынок труда </p>
+        <li class="card card_type_horizontal card_color_purple info-slider__item">
+          <div class="slider__container">
+            <div class="card__discription">
+              <div class="card__chapter slider__chapter">
+                <p class="text text_size_small">3</p>
+              </div>
+              <h2 class="title title_type_h2 slider__title">Фотопроект «Семья как семья»</h2>
+              <p class="text text_type_main slider__text">Фотопроект Алексея Горшенина включает в себя восемь историй
+                людей и семей,
+                где один или оба супруга имеют инвалидность</p>
+            </div>
+            <div class="slider__actions">
+              <button class="button button_type_secondary_black">
+                <span class="text text_type_label">Посмотреть</span>
+                <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+                    stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+                  </svg>
+                </span>
+              </button>
+            </div>
           </div>
-          <div class="info-slider__image-container">
-            <img class="card__image" src="<%=require('./images/Image_4.png')%>" alt="">
+          <div class="sliedr__image-container">
             <img class="card__image" src="<%=require('./images/Image_4.png')%>" alt="">
           </div>
         </li>
@@ -137,7 +172,7 @@
       </div>
     </section>
     <section class='donations'></section>
-    <section class="partnering section section_color_grey">
+    <section class="partnering section section_color_grey" id="for">
       <div class="section__title-container">
         <h2 class="title title_type_h2">Для кого мы работаем</h2>
       </div>
@@ -208,7 +243,7 @@
         </li>
       </ul>
     </section>
-    <section class='activities section'>
+    <section class='activities section' id="activities">
       <div class="section__title-container">
         <h2 class="title title_type_h2">Наши направления</h2>
       </div>
@@ -322,7 +357,7 @@
         </li>
       </ul>
     </section>
-    <section class="accordion">
+    <section class="accordion" id="important">
       <div>
         <h2 class="title title_type_h2 accordion__title">
           Главное в нашей работе
@@ -457,7 +492,7 @@
         </div>
       </div>
     </section>
-    <section class="digits">
+    <section class="digits" id="digits">
       <div>
         <h2 class="title title_type_h2">Everland в цифрах</h2>
         <div class="digits__container">
@@ -616,7 +651,7 @@
         </div>
       </div>
     </section>
-    <section class='stories section'>
+    <section class='stories section' id ='stories'>
       <div class="section__title-container">
         <h2 class="title title_type_h2">Истории</h2>
       </div>
@@ -728,7 +763,7 @@
           <span class="text text_type_label">Посмотреть все</span>
         </button></div>
     </section>
-    <section class="news section">
+    <section class="news section" id="news">
       <div class="section__title-container">
         <h2 class="title title_type_h2">Новости</h2>
       </div>
@@ -786,7 +821,7 @@
         </li>
       </ul>
     </section>
-    <section class='support'>
+    <section class='support' id='support'>
       <div class="support__container">
         <h2 class="title title_type_h2">Поддержите нас</h2>
         <div class="support__container-sub">
@@ -824,8 +859,7 @@
               </label>
               <label for="donat_other" class="form-pay__radio-label form-pay__radio-label_size_small">
                 <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_other" value="other">
-                <span class="form-pay__radio form-pay__radio_type_other text text_type_label">Другая сумма</span>
-                <input type="number" class="form-pay__radio-input text text_type_label" placeholder="Другая сумма" name="donat_summ" value="5000" required novalidate>
+                <span class="form-pay__radio text text_type_label">Другая сумма</span>
               </label>
             </fieldset>
             <p class="form-pay__description text text_size_small">Регулярные пожертвования очень важны для Everland.
@@ -877,7 +911,7 @@
                     href="#">обработку моих персональных данных</a></span>
               </label>
             </div>
-            <button class="form-pay__button button button_type_primary" type="submit" aria-label="Поддержать">
+            <button class="form-pay__button button button_type_primary">
               <span class="text text_type_label">Поддержать</span>
             </button>
           </form>
@@ -955,8 +989,7 @@
       </div>
     </section>
   </main>
-
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="footer__container">
       <div class="footer__logo-container">
         <a href="#">
