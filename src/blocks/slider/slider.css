@@ -1,4 +1,6 @@
 .slider{
     position: relative;
     /* width: 100%; */
+    margin: 50px 40px;
+    overflow: hidden;
 }
