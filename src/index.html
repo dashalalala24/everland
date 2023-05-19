@@ -2,12 +2,68 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Команда 2" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Команда 2">
   <title>Everland</title>
 </head>
 
+<body>
+  <header class="header">
+    <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="лого Эверланд">
+    <div class="header__menu">
+      <img class="header__menu-pic" src="<%=require('./images/Menu.svg')%>" alt="меню">
+      <p class="header__menu-text">Меню</p>
+    </div>
+    <div class="header__unit">
+      <button class="header__button button button_type_secondary">Платформа</button>
+      <button class="header__button button button_type_primary">Поддержать</button>
+    </div>
+  </header>
+  <nav class="menu menu_hidden">
+    <ul class="menu__column">
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">О&nbsp;проекте</a><img
+          class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка"></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">АНО Пространство равных&nbsp;возможностей</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Новости</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Инклюзия</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Учебным заведениям</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Годовые отчеты</a></li>
+    </ul>
+    <ul class="menu__column">
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Людям
+          с&nbsp;инвалидностью</a><img class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>"
+          alt="Стрелка"></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Платформа</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Курсы</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Everland Profi</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Бесплатное такси</a></li>
+    </ul>
+    <ul class="menu__column">
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Услуги</a><img
+          class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка"></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Услуги агентства</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Готовые сайты</a></li>
+      <li class=" menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Доступность для людей с
+          инвалидностью</a>
+      </li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Работодателям</a></li>
+      <li class="menu__link menu__link_accordeon"><a href="#" class="menu__link text text_type_main">Портфолио</a></li>
+    </ul>
+    <ul class="menu__column menu__column_type_gratitude">
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Мы&nbsp;благодарим</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Программы</a></li>
+    </ul>
+    <ul class="menu__column menu__column_type_gratitude">
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Наставникам</a></li>
+      <li class="menu__column-header"><a href="#" class="menu__link title title_type_h4">Помочь</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <section class='info-slider'>
+      <button class="button button_type_primary">
+        <span class="text_type_label">Кнопка</span>
+      </button>
 
 <body class="page">
   <header class="header">
@@ -1008,18 +1064,8 @@
           доступны по лицензии Creative Commons CC-BY-SA 3.0
         </p>
       </div>
-      <div class="footer__made-yandex">
-        <a href="#" target="_blank">
-          <div class="footer__logo-yandex"></div>
-        </a>
-        <p class="text text_size_small">
-          сделано&nbsp;при&nbsp;участии&nbsp;Яндекс&nbsp;Практикума
-        </p>
-      </div>
-    </div>
-  </footer>
-  <script src="./pages/index.js"></script>
-  <script src="./blocks/slider/slider.js"></script>
-</body>
-
+    </footer>
+    <script src="./pages/index.js"></script>
+    <script src="./blocks/slider/slider.js"></script>
+  </body>
 </html>
