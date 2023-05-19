@@ -1,11 +1,11 @@
+import {menu, menuIcon} from './constants'
+
 window.onload = function() {
   const menuButton = document.querySelector('.header__menu');
-  const menuIcon = document.querySelector('.header__menu-pic');
 
   menuButton.addEventListener('click', toggleMenu);
 
   function toggleMenu() {
-    const menu = document.querySelector('.menu');
     console.log(menu.classList);
     if (menu.classList.contains('menu_hidden')) {
       menuIcon.classList.add('header__menu-pic_type_close');

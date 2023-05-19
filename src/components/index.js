@@ -1,9 +1,11 @@
 import('../pages/index.css');
 import('./menu');
 import('./slider')
+import('./navigation')
 import FormValidator from './FormValidator.js';
 import FormPay from './FormPay.js';
 import {formPaySelector, formSettings} from '../utils/constants.js';
+import { scrollToAnchors } from './navigation';
 
 const formPay = new FormPay(formPaySelector, formSettings);
 const formPayValidator = new FormValidator(formPaySelector, formSettings);
@@ -26,3 +28,5 @@ document.querySelectorAll('.accordion__item-container').forEach((item) =>
     openAccordion(parent);
   })
 )
+
+scrollToAnchors()

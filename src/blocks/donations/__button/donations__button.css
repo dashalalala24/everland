@@ -1,0 +1,15 @@
+.donations__button{
+    padding: 10px;
+    border: 1px solid transparent;
+    color: black;
+    background-color: white;
+  }
+  
+.donations__button:hover,
+.donations__button:focus {
+    border-color: #4183DC;
+  }
+  
+.donations__button:active {
+    border-color: #00275C;
+  }

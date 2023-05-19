@@ -165,6 +165,8 @@
 /* ---------------------donations------------ */
 
 @import url(../blocks/donations/donations.css);
+@import url(../blocks/donations/__button/donations__button.css);
+@import url(../blocks/donations/__money/donations__money.css);
 /* остальные элементы */
 
 /* ---------------------partnering------------ */
