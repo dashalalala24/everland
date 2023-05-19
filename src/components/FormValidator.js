@@ -1,12 +1,3 @@
-/*
-  input: '.form-pay__input',
-  inputInvalid: 'form-pay__input_invalid',
-  inputError: '.form-pay__input-error',
-  inputErrorActive: 'form-pay__input-error_active',
-  checkbox: '.form-pay__checkbox',
-  button: '.form-pay__button'
-*/
-
 export default class FormValidator {
   constructor(formSelector, options) {
     this._formSelector = formSelector;
