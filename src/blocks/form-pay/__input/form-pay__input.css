@@ -21,7 +21,7 @@
   color: black;
 }
 
-.form-pay__input::placeholder {
+.form-pay__input[placeholder] {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -38,7 +38,7 @@
     line-height: 120%;
   }
   
-  .form-pay__input::placeholder {
+  .form-pay__input[placeholder] {
     font-size: 14px;
     line-height: 120%;
   }

@@ -1,9 +1,11 @@
 import('../pages/index.css');
 import './menu';
 import FormValidator from './FormValidator.js';
-import {formPay, formSettings} from '../utils/constants.js';
+import FormPay from './FormPay.js';
+import {formPaySelector, formSettings} from '../utils/constants.js';
 
-const formPayValidator = new FormValidator(formPay, formSettings);
+const formPay = new FormPay(formPaySelector, formSettings);
+const formPayValidator = new FormValidator(formPaySelector, formSettings);
 formPayValidator.enableValidation();
 
 

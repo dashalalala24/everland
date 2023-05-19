@@ -771,7 +771,8 @@
               </label>
               <label for="donat_other" class="form-pay__radio-label form-pay__radio-label_size_small">
                 <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_other" value="other">
-                <span class="form-pay__radio text text_type_label">Другая сумма</span>
+                <span class="form-pay__radio form-pay__radio_type_other text text_type_label">Другая сумма</span>
+                <input type="number" class="form-pay__radio-input text text_type_label" placeholder="Другая сумма" name="donat_summ" value="5000" required novalidate>
               </label>
             </fieldset>
             <p class="form-pay__description text text_size_small">Регулярные пожертвования очень важны для Everland.
@@ -823,7 +824,7 @@
                     href="#">обработку моих персональных данных</a></span>
               </label>
             </div>
-            <button class="form-pay__button button button_type_primary">
+            <button class="form-pay__button button button_type_primary" type="submit" aria-label="Поддержать">
               <span class="text text_type_label">Поддержать</span>
             </button>
           </form>
