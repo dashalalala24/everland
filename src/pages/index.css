@@ -78,6 +78,7 @@
 @import url("../blocks/card/__publication-date/card__publication-date.css");
 @import url("../blocks/card/__chapter/card__chapter.css");
 @import url("../blocks/card/__link/card__link.css");
+@import url("../blocks/card/__button-container/card__button-container.css");
 
 
 /* ---------------------form-pay------------ */
