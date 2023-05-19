@@ -7,5 +7,7 @@ export const anchorDigits = document.querySelectorAll('.digitsAnc')
 export const anchorfor = document.querySelectorAll('#forAnc')
 export const anchorImportant = document.querySelectorAll('#importantAnc')
 export const anchorStories = document.querySelectorAll('#storiesAnc')
+export const anchorSlider = document.querySelectorAll('#sliderAnc')
+export const anchorGallery = document.querySelectorAll('#galleryAnc')
 export const menu = document.querySelector('.menu');
 export const menuIcon = document.querySelector('.header__menu-pic');

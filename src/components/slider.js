@@ -4,7 +4,6 @@ const projectSlider = document.querySelector('.slider');
 function slide(slider) {
   const sliderList = slider.querySelector('.slider__list');
   console.log(sliderList);
-  const slideWidth = sliderList.offsetWidth;
   const previousButton = slider.querySelector('.button_type_slider_previous');
   const nextButton = slider.querySelector('.button_type_slider_next');
 

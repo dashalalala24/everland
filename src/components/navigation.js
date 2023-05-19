@@ -1,4 +1,4 @@
-import { anchorSupport, anchorDigits, anchorFooter,anchorActivities, anchorNews, anchorProject, anchorImportant, anchorStories,menu, menuIcon } from "./constants";
+import { anchorSupport, anchorDigits, anchorFooter,anchorActivities, anchorNews, anchorProject, anchorImportant, anchorfor, anchorSlider, anchorGallery,  anchorStories,menu, menuIcon } from "./constants";
 
 
 function scrollToAnchor(anchors) {
@@ -25,4 +25,6 @@ export function scrollToAnchors() {
   scrollToAnchor(anchorDigits);
   scrollToAnchor(anchorImportant);
   scrollToAnchor(anchorStories);
+  scrollToAnchor(anchorGallery);
+  scrollToAnchor(anchorSlider);
 }
