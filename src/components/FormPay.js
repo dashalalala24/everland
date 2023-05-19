@@ -39,5 +39,9 @@ export default class FormPay {
     this._radios.forEach((radio) => {
       radio.addEventListener('change', this._toggleInputState.bind(this));
     });
+    this._form.addEventListener('submit', (evt) => {
+      evt.preventDefault();
+      console.log('submit');
+    })
   }
 }
