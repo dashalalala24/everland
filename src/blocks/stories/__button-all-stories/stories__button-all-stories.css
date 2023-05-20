@@ -1,0 +1,10 @@
+.stories__button-all-stories {
+  width: 200px;
+}
+
+@media screen and (max-width: 450px) {
+  .stories__button-all-stories {
+    width: 300px;
+    margin: 0 auto;
+  }
+}

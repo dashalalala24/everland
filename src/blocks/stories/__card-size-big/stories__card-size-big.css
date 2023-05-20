@@ -1,0 +1,17 @@
+.stories__card-size-big {
+  max-width: 1360px;
+  min-height: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__card-size-big {
+    max-width: 688px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .stories__card-size-big {
+    max-width: 300px;
+    padding-bottom: 14px;
+  }
+}

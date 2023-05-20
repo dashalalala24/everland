@@ -160,9 +160,31 @@
 /* остальные элементы */
 
 /* ---------------------stories------------ */
-
 @import url(../blocks/stories/stories.css);
-/* остальные элементы */
+@import url(../blocks/stories/__box/stories__box.css);
+@import url(../blocks/stories/__button-all-stories/stories__button-all-stories.css);
+@import url(../blocks/stories/__button-bottom/stories__button-bottom.css);
+@import url(../blocks/stories/__button-top-container/stories__button-top-container.css);
+@import url(../blocks/stories/__button-top/stories__button-top.css);
+@import url(../blocks/stories/__button/stories__button.css);
+@import url(../blocks/stories/__card-size-big/stories__card-size-big.css);
+@import url(../blocks/stories/__card-size-small/stories__card-size-small.css);
+@import url(../blocks/stories/__circle-small/stories__circle-small.css);
+@import url(../blocks/stories/__cmall-card-container/stoties__cmall-card-container.css);
+@import url(../blocks/stories/__container/stories__container.css);
+@import url(../blocks/stories/__discription-container/stories__discription-container.css);
+@import url(../blocks/stories/__discription-container/_small/stories__discription-container_small.css);
+@import url(../blocks/stories/__discription/stories__discription.css);
+@import url(../blocks/stories/__discription/_small/stories__discription_small.css);
+@import url(../blocks/stories/__image-circle/stories__image-circle.css);
+@import url(../blocks/stories/__image-circle/_small/stories__image-circle_small.css);
+@import url(../blocks/stories/__item-small/stories__item-small.css);
+@import url(../blocks/stories/__item/stories__item.css);
+@import url(../blocks/stories/__item/_reverse/stories__item_reverse.css);
+@import url(../blocks/stories/__quote-img/stories__quote-img.css);
+@import url(../blocks/stories/__quote/stories__quote.css);
+@import url(../blocks/stories/__small-text-button/stories__small-text-button.css);
+@import url(../blocks/stories/__small-text/stories__small-text.css);
 
 /* ---------------------gallery------------ */
 

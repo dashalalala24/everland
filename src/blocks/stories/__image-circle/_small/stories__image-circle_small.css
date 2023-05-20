@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  .stories__image-circle_small {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .stories__image-circle_small {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+  }
+}
