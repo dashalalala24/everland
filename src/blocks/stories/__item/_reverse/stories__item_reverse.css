@@ -1,0 +1,4 @@
+.stories__item_reverse {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}

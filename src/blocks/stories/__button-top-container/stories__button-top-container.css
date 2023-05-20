@@ -1,0 +1,5 @@
+.stories__button-top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

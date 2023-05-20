@@ -1,0 +1,13 @@
+.footer__subscribe-icon {
+  background-size: contain;
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__subscribe-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
