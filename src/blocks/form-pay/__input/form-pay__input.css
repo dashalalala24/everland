@@ -1,7 +1,6 @@
 .form-pay__input {
   padding: 0 20px 0 20px;
   border: 0;
-  margin-bottom: 21px;
 
   background: #FFFFFF;
   border: 1px solid #DADADA;
@@ -9,7 +8,7 @@
   box-sizing: border-box;
   background-color: transparent;
 
-  max-width: 455px;
+  width: min(60vw, 455px);
   height: 48px;
 
   font-family: 'Raleway';
@@ -22,7 +21,7 @@
   color: black;
 }
 
-.form-pay__input::placeholder {
+.form-pay__input[placeholder] {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -33,36 +32,20 @@
   color: #DADADA;
 }
 
-.form-pay__input:first-of-type {
-  margin-top: 12px;
-}
-
-.form-pay__input:last-of-type {
-  margin-bottom: 40px;
-}
-
 @media screen and (max-width: 768px) {
   .form-pay__input {
     font-size: 14px;
     line-height: 120%;
-    margin-bottom: 16px;
   }
   
-  .form-pay__input::placeholder {
+  .form-pay__input[placeholder] {
     font-size: 14px;
     line-height: 120%;
-  }
-
-  .form-pay__input:first-of-type {
-    margin-top: 0;
-  }
-  .form-pay__input:last-of-type {
-    margin-bottom: 18px;
   }
 } 
 
 @media screen and (max-width: 450px) {
-  .form-pay__input:first-of-type {
-    margin-top: 9px;
+  .form-pay__input {
+    width: max(80vw, 260px);
   }
 } 
