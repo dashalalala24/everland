@@ -75,7 +75,7 @@
     <ul class="menu__column menu__column_type_gratitude">
       <li class="menu__column-header"><a href="#activities"
           class="menu__link title title_type_h4 activitiesAnc">Наставникам</a></li>
-      <li class="menu__column-header"><a id="supportAnc" href="#support"
+      <li class="menu__column-header supportAnc"><a href="#support"
           class="menu__link title title_type_h4">Помочь</a></li>
     </ul>
   </nav>
@@ -180,26 +180,36 @@
       </div>
     </section>
     <section class='donations'>
-      <label class="donations__item">
-        <input class="donations__money" type="radio" value="250">
-        <span class="donations__button button button_type_primary">250</span>
-      </label>
-      <label class="donations__item">
-        <input class="donations__money" type="radio" value="500">
-        <span class="donations__button button button_type_primary">500</span>
-      </label>
-      <label class="donations__item">
-        <input class="donations__money" type="radio" value="750">
-        <span class="donations__button button button_type_primary">750</span>
-      </label>
-      <label class="donations__item">
-        <input class="donations__money" type="radio" value="1000">
-        <span class="donations__button button button_type_primary">1000</span>
-      </label>
-      <label class="donations__item">
-        <input class="donations__money" type="radio" value="other">
-        <span class="donations__button button button_type_secondary">другая</span>
-      </label>
+
+      <div class="donations__item">
+        <label>
+          <input class="donations__money" type="radio" value="250">
+          <span class="text text_type_label button button_type_primary donations__button">250</span>
+        </label>
+        <label>
+          <input class="donations__money" type="radio" value="500">
+          <span class="text text_type_label button button_type_primary donations__button">500</span>
+        </label>
+      </div>
+      <div class="donations__item">
+          <label>
+            <input class="donations__money" type="radio" value="750">
+            <span class="text text_type_label button button_type_primary donations__button">750</span>
+          </label>
+          <label>
+            <input class="donations__money" type="radio" value="1000">
+            <span class="text text_type_label button button_type_primary donations__button">1000</span>
+          </label>
+      </div>
+      <div class="donations__item">
+          <label>
+            <input class="donations__money" type="radio" value="other">
+            <span
+              class="text text_type_label button button_type_primary donations__button donations__button_type_other">Другая
+              сумма</span></label>
+      </div>
+      <button
+          class="supportAnc text text_type_label button button_type_primary donations__button donations__button_type_support" href = '#support'>Поддержать</button>
     </section>
     <section class="partnering section section_color_grey">
       <div class="section__title-container">
@@ -822,10 +832,6 @@
         </div>
       </div>
     </section>
-
-
-
-
     <section class='stories section' id='stories'>
       <div>
         <div class="stories__button-top-container">
@@ -956,8 +962,7 @@
         </div>
       </div>
     </section>
-
-    <section class="gallery section section_color_grey">
+    <section class='gallery section section_color_grey' id='gallery'>
       <div class="section__title-container">
         <h2 class="title title_type_h2">Лучшие проекты агентства</h2>
         <h4 class="title title_type_h4">

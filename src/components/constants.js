@@ -1,4 +1,4 @@
-export const anchorSupport = document.querySelectorAll('#supportAnc');
+export const anchorSupport = document.querySelectorAll('.supportAnc');
 export const anchorFooter = document.querySelectorAll('#footerAnc');
 export const anchorProject = document.querySelectorAll('#aboutProjectAnc');
 export const anchorNews = document.querySelectorAll('.newsAnc');
