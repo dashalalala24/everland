@@ -27,4 +27,5 @@ export function scrollToAnchors() {
   scrollToAnchor(anchorStories);
   scrollToAnchor(anchorGallery);
   scrollToAnchor(anchorSlider);
+  scrollToAnchor(anchorfor);
 }
