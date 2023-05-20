@@ -10,32 +10,37 @@
   z-index: 5;
   background-color: white;
   text-decoration: none;
-  margin: 60px auto;
+  margin: 0px auto;
   overflow: auto;
   column-gap: 10px;
+  row-gap: 20px;
   overflow-wrap: break-word;
 }
 
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1400px) {
   .menu{
-    grid-template-columns:  1fr 1fr 1fr;
-    grid-template-rows: 270px auto; 
-    margin: 40px auto 0px auto;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-template-rows: max-content max-content; 
+    margin: 0px auto 0px auto;
   }
 }
 
 @media screen and (max-width: 750px) {
   .menu{
+    margin: 0 auto;
     grid-template-columns:  repeat(2, 1fr);
-    grid-template-rows: 270px auto; 
+    grid-template-rows: max-content max-content;
+    padding-top: 0px;
     padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
 @media screen and (max-width: 510px) {
   .menu{
     padding-left:0;
+    padding-right:0;
     margin-left: 0;
     grid-template-columns:  repeat(1, 1fr);
     grid-template-rows: max-content max-content max-content max-content max-content;

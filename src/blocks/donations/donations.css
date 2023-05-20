@@ -1,0 +1,26 @@
+.donations{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0px 0px 0px 30px;
+  margin:0px 40px 0px 40px auto;
+  background-color: #E7F0FF;
+}
+
+@media screen and (max-width: 425px) {
+  .donations{
+    margin: 0 10px;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .donations{
+    row-gap: 10px;
+    
+  }
+}

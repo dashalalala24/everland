@@ -1,5 +1,17 @@
 import('../pages/index.css');
 
+import('./menu');
+import('./slider')
+import('./navigation')
+import FormValidator from './FormValidator.js';
+import FormPay from './FormPay.js';
+import {formPaySelector, formSettings} from '../utils/constants.js';
+import { scrollToAnchors } from './navigation';
+
+const formPay = new FormPay(formPaySelector, formSettings);
+const formPayValidator = new FormValidator(formPaySelector, formSettings);
+formPayValidator.enableValidation();
+
 // const slider = document.querySelector('.slider');
 // const sliderList = slider.querySelector('.slider__list');
 // const slides = slider.querySelectorAll('.slider__slide');
@@ -178,6 +190,7 @@ previousButton.onclick = previous;
 //     slider.style.transition = 'none';
 //   }, 600);
 // });
+
 function openAccordion(parent) {
   if (parent.classList.contains('accordion__slide-active')) {
     parent.classList.remove('accordion__slide-active')
@@ -194,3 +207,5 @@ document.querySelectorAll('.accordion__slide-container').forEach((slide) =>
     openAccordion(parent);
   })
 )
+
+scrollToAnchors()

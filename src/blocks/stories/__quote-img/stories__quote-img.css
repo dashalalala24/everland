@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+  .stories__quote-img {
+    width: 28px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stories__quote-img {
+    width: 24px;
+    height: 17px;
+  }
+}

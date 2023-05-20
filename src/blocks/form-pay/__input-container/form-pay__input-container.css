@@ -1,0 +1,30 @@
+.form-pay__input-container {
+  position: relative;
+  margin-bottom: 46px;
+}
+
+.form-pay__input-container:first-of-type {
+  margin-top: 12px;
+}
+
+.form-pay__input-container:last-of-type {
+  margin-bottom: 46px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-pay__input-container {
+    margin-bottom: 38px;
+  }
+  .form-pay__input-container:first-of-type {
+    margin-top: 0;
+  }
+  .form-pay__input-container:last-of-type {
+    margin-bottom: 38px;
+  }
+} 
+
+@media screen and (max-width: 450px) {
+  .form-pay__input-container:first-of-type {
+    margin-top: 9px;
+  }
+} 

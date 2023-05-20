@@ -1,0 +1,22 @@
+.stories__image-circle {
+  width: 224px;
+  height: 224px;
+  border-radius: 112px;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__image-circle {
+    width: 204px;
+    height: 204px;
+    border-radius: 102px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .stories__image-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+  }
+}

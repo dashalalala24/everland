@@ -1,0 +1,17 @@
+.stories__small-text-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__small-text-button {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .stories__small-text-button {
+    width: 24px;
+    height: 24px;
+  }
+}

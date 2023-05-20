@@ -1,0 +1,16 @@
+.stories__item-small {
+  display: flex;
+  column-gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__item-small {
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .stories__item-small {
+    display: flex;
+  }
+}
