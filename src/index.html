@@ -1013,8 +1013,8 @@
         <button class="button button_type_secondary">
           <span class="text text_type_label">Все новости</span>
         </button>
-      </div>
-      <ul class="cards">
+       </div>
+       <ul class="cards">
         <li class="card card_color_white">
           <div class="card__discription">
             <div class="card__chapter">
@@ -1083,7 +1083,7 @@
             </p>
           </div>
         </li>
-      </ul>
+       </ul>
        <div class="card__button-container button_bottom">
         <button class="button button_type_secondary button-size-300px">
           <span class="text text_type_label">Все новости</span>
@@ -1385,6 +1385,11 @@
 </body>
 <style>
 
+.stories {
+  margin: 0 auto;
+}
+
+
 @media screen and (max-width: 768px) {
 .card__image{
 max-width: 274px;
@@ -1440,20 +1445,23 @@ padding-bottom: 50px;
 @media screen and (max-width: 768px) {
 .gallery {
 min-height: 0;
-padding: 100px 40px;
+margin-top: 50px;
+padding-bottom: 50px;
 }
 }
 
 
-@media screen and (max-width: 768px) {
-.gallery {
-padding: 32px 10px;
-}
-}
+
 
 .gallery__container {
   max-width: 1440px;
 margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+.gallery__container {
+padding-top: 50px;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -1516,6 +1524,8 @@ margin-top: 32px;
 }
 
 
+
+
 .button_bottom{
 display: none;
 margin: 0 auto;
@@ -1544,7 +1554,7 @@ display: none;
 
 @media screen and (max-width: 768px) {
 .cards{
-  padding: 32px 40px 0;
+  padding: 32px 40px 50px;
   margin: 0;
 grid-template-columns: repeat(2, 1fr);
 width: calc(100vw - 80px);
