@@ -199,7 +199,7 @@
 /* ---------------------project------------ */
 
 @import url(../blocks/projects/projects.css);
-@import url(../blocks/projects/projects__slider/projects__slider.css);
+@import url(../blocks/projects/__slider/projects__slider.css);
 
 /* остальные элементы */
 
