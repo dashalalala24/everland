@@ -308,7 +308,7 @@
           class="supportAnc text text_type_label button donations__button donations__button_type_support" href = '#support'>Поддержать</button>
 >>>>>>> 339a25cf (donation button fix)
     </section>
-    <section class="partnering section section_color_grey">
+    <section class="section section_color_grey partnering">
       <div class="section__title-container">
         <h2 class="title title_type_h2">Для кого мы работаем</h2>
       </div>
@@ -837,7 +837,7 @@
         </div>
       </div>
     </section>
-    <section class="stories section" id="stories">
+    <section class="stories" id="stories">
       <div>
         <div class="stories__button-top-container">
           <h2 class="title title_type_h2">Наши истории</h2>
@@ -967,8 +967,9 @@
         </div>
       </div>
     </section>
-    <section class="gallery section section_color_grey" id="gallery">
-      <div class="section__title-container">
+    <section class="section section_color_grey gallery" id="gallery">
+      <div class="gallery__container">
+   <div class="section__title-container">
         <h2 class="title title_type_h2">Лучшие проекты агентства</h2>
         <h4 class="title title_type_h4">
           Мы выполняем работы в области веб-разработки, дизайна, права, видео,
@@ -977,19 +978,19 @@
       </div>
       <ul class="cards">
         <li class="card card_color_transparent">
-          <img class="card__image" src="<%=require('./images/Image_5.png')%>"
+          <img class="card__image gallery__card-image" src="<%=require('./images/Image_5.png')%>"
             alt="Скрипты-рекомендации для бизнеса (DisQuestion)" />
           <h5 class="title title_type_h5">
             Скрипты-рекомендации для бизнеса (DisQuestion)
           </h5>
         </li>
         <li class="card card_color_transparent">
-          <img class="card__image" src="<%=require('./images/Image_6.png')%>"
+          <img class="card__image gallery__card-image" src="<%=require('./images/Image_6.png')%>"
             alt="Скрипты-рекомендации для бизнеса (DisQuestion)" />
           <h5 class="title title_type_h5">Проект «Онконавигатор»</h5>
         </li>
-        <li class="card card_color_transparent">
-          <img class="card__image" src="<%=require('./images/Image_7.png')%>"
+        <li class="card card_color_transparent gallery__card-inactive">
+          <img class="card__image gallery__card-image" src="<%=require('./images/Image_7.png')%>"
             alt="Скрипты-рекомендации для бизнеса (DisQuestion)" />
           <h5 class="title title_type_h5">
             Проект «Миграции: приоткрывая личное»
@@ -997,9 +998,10 @@
         </li>
       </ul>
       <div class="gallery__actions">
-        <button class="button button_type_secondary">
+        <button class="button button_type_secondary button-size-300px">
           <span class="text text_type_label">Посмотреть все</span>
         </button>
+      </div>
       </div>
     </section>
 
@@ -1007,7 +1009,7 @@
       <div class="section__title-container">
         <h2 class="title title_type_h2">Новости</h2>
       </div>
-      <div class="card__button-container">
+      <div class="card__button-container button_top">
         <button class="button button_type_secondary">
           <span class="text text_type_label">Все новости</span>
         </button>
@@ -1082,6 +1084,11 @@
           </div>
         </li>
       </ul>
+       <div class="card__button-container button_bottom">
+        <button class="button button_type_secondary button-size-300px">
+          <span class="text text_type_label">Все новости</span>
+        </button>
+      </div>
     </section>
 
     <section class="support" id="support">
@@ -1378,10 +1385,103 @@
 </body>
 <style>
 
-/* .partnering {
-  margin: 0 auto;
+@media screen and (max-width: 768px) {
+.card__image{
+max-width: 274px;
+max-height: 212px;
+}
 }
 
+@media screen and (max-width: 450px) {
+.card__image{
+max-width: 252px;
+max-height: 192px;
+}
+}
+
+@media screen and (max-width: 450px) {
+.card__icon-container {
+margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 450px) {
+.card__text-container {
+min-height: 0;
+}
+}
+
+
+.accordion {
+max-width: 1440px;
+margin: 0 auto;
+}
+
+.digits {
+  max-width: 1440px;
+margin: 0 auto;
+}
+
+.partnering {
+  flex-direction: column;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+.partnering {
+padding-bottom: 50px;
+}
+}
+ 
+.gallery {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+.gallery {
+min-height: 0;
+padding: 100px 40px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+.gallery {
+padding: 32px 10px;
+}
+}
+
+.gallery__container {
+  max-width: 1440px;
+margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+.gallery__card-inactive {
+display: none;
+}
+}
+
+@media screen and (max-width: 450px) {
+.gallery__card-inactive {
+display: block;
+}
+}
+
+@media screen and (max-width: 768px) {
+.gallery__card-image {
+max-width: 334px;
+max-height: 334px;
+}
+}
+
+@media screen and (max-width: 450px) {
+.gallery__card-image {
+max-width: 300px;
+max-height: 300px;
+padding-bottom: 16px;
+}
+}
 
 @media screen and (max-width: 768px) {
 .partnering__cards {
@@ -1408,11 +1508,38 @@ width: 100%;
 margin-top: 32px;
 }
 }
-}
+
 
 .news{
   max-width: 1440px;
   margin: 0 auto;
+}
+
+
+.button_bottom{
+display: none;
+margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+.button_bottom{
+display: block;
+}
+}
+
+
+
+@media screen and (max-width: 450px) {
+.button-size-300px{
+width: 300px;
+}
+}
+
+
+@media screen and (max-width: 1439px) {
+.button_top{
+display: none;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -1447,25 +1574,13 @@ display: block;
 }
 }
 
-@media screen and (max-width: 768px) {
-.card__image{
-width: 274px;
-height: 212px;
-}
-}
 
-@media screen and (max-width: 450px) {
-.card__image{
-width: 252px;
-height: 192px;
-}
-}
 
 @media screen and (max-width: 768px) {
 .card{
-max-width: calc((100vw - 100px) / 2);
+min-height: 0;
 }
-}
+} 
 
 @media screen and (max-width: 450px) {
 .card{
@@ -1495,7 +1610,7 @@ max-height: 192px;
 margin: 0;
 padding: 24px;
 }
-} */
+}
 
 </style>
 </html>
