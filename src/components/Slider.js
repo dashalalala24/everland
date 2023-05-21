@@ -1,17 +1,29 @@
-export default class ProjectSlider {
-  constructor(sliderSelector) {
+export default class Slider {
+  constructor(sliderSelector, elementSelector, textElement) {
     this._sliderSelector = sliderSelector;
 
     this._slider = document.querySelector(sliderSelector);
 
     this._sliderList = this._slider.querySelector('.slider__list');
-    this._cardArray = Array.from(this._sliderList.querySelectorAll('.card'));
+    this._cardArray = Array.from(this._sliderList.querySelectorAll(elementSelector));
     this._previousButton = this._slider.querySelector('.button_type_slider_previous');
     this._nextButton = this._slider.querySelector('.button_type_slider_next');
+    this._textElement = textElement;
+
+    if (!this._previousButton) {
+      this._previousButton = this._slider.parentNode.querySelector('.button_type_slider_previous');
+    };
+    if (!this._nextButton) {
+      this._nextButton = this._slider.parentNode.querySelector('.button_type_slider_next');
+    };
 
     this._elementCount = this._cardArray.length;
     this._position = 0;
     this._active = true;
+
+    if (this._textElement) {
+      this._textElement.textContent = `${1}/${this._elementCount}`;
+    }
   }
 
   _move(position, status, isAnimation = true) {
@@ -45,6 +57,10 @@ export default class ProjectSlider {
       this._position--;
       this._move((this._sliderList.offsetWidth * this._position), true);
     }
+
+    if (this._textElement) {
+      this._textElement.textContent = `${this._position + 1}/${this._elementCount}`;
+    }
   }
   _rightMove() {
     if (!this._active) {
@@ -65,6 +81,9 @@ export default class ProjectSlider {
     } else {
       this._position++;
       this._move((this._sliderList.offsetWidth * this._position), true);
+    }
+    if (this._textElement) {
+      this._textElement.textContent = `${this._position + 1}/${this._elementCount}`;
     }
   }
 
