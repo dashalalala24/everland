@@ -133,35 +133,74 @@
         </li>
       </ul>
     </nav>
-    <section class="info-slider">
+
+    <section class="info">
+      <ul class="info__slider-list slider-list">
+        <li class="slider__slide info__slider-item">
+          <div class="info__title">
+            <h1 class="title title_type_h1 info__title ">
+              <span class="info__title-color">Everland</span> — социальный предпринимательский
+              проект
+            </h1>
+          </div>
+          <div class="info__description">
+            <p class="text text_type_main ">Мы работаем с 2016 года по России и СНГ и помогаем людям с
+              инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
+          </div>
+          <img class="info__second-images card__image" alt="Социальный проект."
+            src="<%=require('./images/Image_2.png')%>">
+          <img class="info__main-images card__image" alt="Социальный проект."
+            src="<%=require('./images/Image_1.png')%>">
+        </li>
+      </ul>
+      <div class="slider__controller info__slider-controller ">
+        <button class="button button_type_slider button_type_slider_previous">
+          <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+              stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+            </svg>
+          </span>
+        </button>
+        <p class="text text_size_big info__slider-controller-text">1/6</p>
+        <button class="button button_type_slider button_type_slider_next">
+          <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
+              stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" />
+            </svg>
+          </span>
+        </button>
+      </div>
+
     </section>
     <section class="donations">
       <div class="donations__item">
         <label>
-          <input class="donations__money" type="radio" value="250">
-          <span class="text text_type_label button donations__button button_type_link">250</span>
+      <input class="donations__money" type="radio" value="250">
+      <span class="text text_type_label button donations__button button_type_link">250</span>
+      </label>
+      <label>
+        <input class="donations__money" type="radio" value="500">
+        <span class="text text_type_label button donations__button button_type_link">500</span>
+      </label>
+      </div>
+      <div class="donations__item">
+        <label>
+          <input class="donations__money" type="radio" value="750">
+          <span class="text text_type_label button donations__button button_type_link">750</span>
         </label>
         <label>
-          <input class="donations__money" type="radio" value="500">
-          <span class="text text_type_label button donations__button button_type_link">500</span>
+          <input class="donations__money" type="radio" value="1000">
+          <span class="text text_type_label button donations__button button_type_link ">1000</span>
         </label>
       </div>
       <div class="donations__item">
-          <label>
-            <input class="donations__money" type="radio" value="750">
-            <span class="text text_type_label button donations__button button_type_link">750</span>
-          </label>
-          <label>
-            <input class="donations__money" type="radio" value="1000">
-            <span class="text text_type_label button donations__button button_type_link ">1000</span>
-          </label>
-      </div>
-      <div class="donations__item">
-          <label>
-            <input class="donations__money" type="radio" value="other">
-            <span
-              class="text text_type_label button donations__button donations__button_type_other button_type_link">Другая
-              сумма</span></label>
+        <label>
+          <input class="donations__money" type="radio" value="other">
+          <span
+            class="text text_type_label button donations__button donations__button_type_other button_type_link">Другая
+            сумма</span></label>
       </div>
       <button
           class="supportAnc text text_type_label button donations__button donations__button_type_support" href = '#support'>Поддержать</button>
