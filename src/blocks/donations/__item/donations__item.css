@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 720px) {
   .donations__unit{
     margin: 0 auto;
     padding: 0;
