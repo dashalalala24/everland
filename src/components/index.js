@@ -191,6 +191,19 @@ previousButton.onclick = previous;
 //   }, 600);
 // });
 
+
+
+function changeButton(button) {
+  if (button.classList.contains('button_type_accordeon-checked')) {
+    button.classList.remove('button_type_accordeon-checked')
+  } else {
+    document.querySelectorAll('.button_type_accordeon').forEach((el) =>
+      el.classList.remove('button_type_accordeon-checked'))
+    button.classList.add('button_type_accordeon-checked')
+  }
+}
+
+
 function openAccordion(parent) {
   if (parent.classList.contains('accordion__item-active')) {
     parent.classList.remove('accordion__item-active')
@@ -201,11 +214,16 @@ function openAccordion(parent) {
   }
 }
 
+
+
 document.querySelectorAll('.accordion__item-container').forEach((item) =>
   item.addEventListener('click', () => {
     const parent = item.parentNode
+    const button = item.querySelector('.button_type_accordeon')
     openAccordion(parent);
+    changeButton(button)
   })
 )
+
 
 scrollToAnchors()

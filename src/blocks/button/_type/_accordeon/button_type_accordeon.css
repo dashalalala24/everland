@@ -12,12 +12,6 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.button_type_accordeon:active {
-  background-color: rgba(12, 75, 160, 1);
-  color: rgba(255, 255, 255, 1);
-  transform: rotate(45deg);
-}
-
 .button_type_accordeon:disabled {
   background-color: rgba(12, 75, 160, 1);
   color: rgba(196, 196, 196, 1);
@@ -29,4 +23,11 @@
     height: 32px;
     width: 32px;
   }
+}
+
+.button_type_accordeon-checked {
+  background-color: rgba(12, 75, 160, 1);
+  color: rgba(255, 255, 255, 1);
+  transform: rotate(45deg);
+  transition-duration: 0.9s;
 }
