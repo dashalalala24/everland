@@ -290,3 +290,18 @@
 @import url(../blocks/footer/__subscribe-icon-tg/footer__subscribe-icon-tg.css);
 @import url(../blocks/footer/__subscribe-icon-vk/footer__subscribe-icon-vk.css);
 @import url(../blocks/footer/__subscribe/footer__subscribe.css);
+
+
+@import '../blocks/info/info.css';
+@import '../blocks/info/__title/info__title.css';
+@import '../blocks/info/__title-color/info__title-color.css';
+@import '../blocks/info/__description/info__description.css';
+@import '../blocks/info/__slider-controller/info__slider-controller.css';
+
+@import '../blocks/info/__slider-controller-text/info__slider-controller-text.css';
+@import '../blocks/info/__slider/info__slider.css';
+@import '../blocks/info/__second-images/info__second-images.css';
+@import '../blocks/info/__main-images/info__main-images.css';
+
+@import '../blocks/info/__slider-list/info__slider-list.css';
+@import '../blocks/info/__slider-item/info__slider-item.css';

@@ -1,0 +1,17 @@
+.info__description {
+  max-width: 543px;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .info__description {
+    max-width: 401px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .info__description {
+    min-width: 300px;
+  }
+}
