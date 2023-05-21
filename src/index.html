@@ -312,8 +312,8 @@
       <div class="section__title-container">
         <h2 class="title title_type_h2">Для кого мы работаем</h2>
       </div>
-      <ul class="cards">
-        <li class="card">
+      <ul class="cards partnering__cards">
+        <li class="card partnering__card">
           <div class="card__discription">
             <div class="card__icon-container card_color_blue">
               <img class="card__icon" src="<%=require('./images/Icon/disabled.svg')%>" alt="инвалид" />
@@ -341,7 +341,7 @@
             </button>
           </div>
         </li>
-        <li class="card">
+        <li class="card partnering__card">
           <div class="card__discription">
             <div class="card__icon-container card_color_orange">
               <img class="card__icon" src="<%=require('./images/Icon/briefcase.svg')%>" alt="портфель" />
@@ -367,7 +367,7 @@
             </button>
           </div>
         </li>
-        <li class="card">
+        <li class="card partnering__card">
           <div class="card__discription">
             <div class="card__icon-container card_color_green">
               <img class="card__icon" src="<%=require('./images/Icon/following.svg')%>" alt="фаворит" />
@@ -1003,7 +1003,7 @@
       </div>
     </section>
 
-    <section class="news section novosti">
+    <section class="news section">
       <div class="section__title-container">
         <h2 class="title title_type_h2">Новости</h2>
       </div>
@@ -1012,14 +1012,14 @@
           <span class="text text_type_label">Все новости</span>
         </button>
       </div>
-      <ul class="cards novosti__cards">
-        <li class="card card_color_white novosti__card">
-          <div class="card__discription novosti__card-text">
+      <ul class="cards">
+        <li class="card card_color_white">
+          <div class="card__discription">
             <div class="card__chapter">
               <p class="text text_size_small">Тема</p>
             </div>
-           <div class="card__image-container novosti__card-img-box">
-              <img class="card__image novosti__card-image" src="<%=require('./images/christmas.png')%>" alt="" />
+           <div class="card__image-container">
+              <img class="card__image" src="<%=require('./images/christmas.png')%>" alt="" />
             </div>
             <h4 class="title title_type_h4">
               Ура! Новое партнерство — с PepsiCo
@@ -1035,8 +1035,8 @@
             </p>
           </div>
         </li>
-        <li class="card card_color_green novosti__card">
-          <div class="card__discription novosti__card-text">
+        <li class="card card_color_green">
+          <div class="card__discription">
             <div class="card__chapter">
               <p class="text text_size_small">Тема</p>
             </div>
@@ -1058,8 +1058,8 @@
             </p>
           </div>
         </li>
-        <li class="card card_color_white novosti__card novisti__card-inactive">
-          <div class="card__discription novosti__card-text">
+        <li class="card card_color_white card_inactive">
+          <div class="card__discription">
             <div class="card__chapter">
               <p class="text text_size_small">Тема</p>
             </div>
@@ -1072,7 +1072,7 @@
               видами инвалидности
             </p>
             <div class="card__image-container">
-              <img class="card__image novosti__card-image" src="<%=require('./images/supermarket.png')%>" alt="" />
+              <img class="card__image" src="<%=require('./images/supermarket.png')%>" alt="" />
             </div>
           </div>
           <div class="card__publication-date">
@@ -1377,69 +1377,105 @@
   </footer>
 </body>
 <style>
-.novosti{
-margin: 0;
+
+.partnering {
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+.partnering__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 }
 
 @media screen and (max-width: 768px) {
-.novosti__cards{
-grid-template-columns: repeat(2, 1fr);
+.partnering__card {
+max-width: 450px;
+width: 100%;
 }
 }
 
+.activities {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+ 
+@media screen and (max-width: 768px) {
+.activities {
+margin-top: 32px;
+}
+}
+}
+
+.news{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+.cards{
+  padding: 32px 40px 0;
+  margin: 0;
+grid-template-columns: repeat(2, 1fr);
+width: calc(100vw - 80px);
+}
+}
+
+
+
 @media screen and (max-width: 450px) {
-.novosti__cards{
+.cards{
 grid-template-columns: 1fr;
 margin: 0;
-padding: 12px 10px 0;
+padding: 12px 10px 20px;
 width: calc(100vw - 20px);
 }
 }
 
 @media screen and (max-width: 768px) {
-.novisti__card-inactive{
+.card_inactive{
 display: none;
 }
 }
 
 @media screen and (max-width: 450px) {
-.novisti__card-inactive{
+.card_inactive{
 display: block;
 }
 }
 
 @media screen and (max-width: 768px) {
-.novosti__card-image{
+.card__image{
 width: 274px;
 height: 212px;
 }
 }
 
 @media screen and (max-width: 450px) {
-.novosti__card-image{
+.card__image{
 width: 252px;
 height: 192px;
 }
 }
 
 @media screen and (max-width: 768px) {
-.novosti__card{
-/* max-width: 334px; */
-width: 100%;
-width: calc(100vw - 20px);
-
+.card{
+max-width: calc((100vw - 100px) / 2);
 }
 }
 
 @media screen and (max-width: 450px) {
-.novosti__card{
-/* max-width: 430px; */
+.card{
+min-height: 0; 
 }
-}
+} 
 
 
 @media screen and (max-width: 768px) {
-.novosti__card-img-box{
+.card__image-container{
 max-width: 274px;
 max-height: 212px;
 margin: 0;
@@ -1447,7 +1483,7 @@ margin: 0;
 }
 
 @media screen and (max-width: 450px) {
-.novosti__card-img-box{
+.card__image-container{
 max-width: 252px;
 max-height: 192px;
 }
@@ -1455,7 +1491,7 @@ max-height: 192px;
 
 
 @media screen and (max-width: 450px) {
-.novosti__card-text{
+.card__discription{
 margin: 0;
 padding: 24px;
 }
