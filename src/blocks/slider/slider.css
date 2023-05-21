@@ -1,6 +1,8 @@
-.slider{
+.slider {
+    width: 1360px;
     position: relative;
     /* width: 100%; */
     margin: 50px 40px;
     overflow: hidden;
+    border-radius: 30px;
 }
