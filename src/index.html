@@ -1002,7 +1002,8 @@
         </button>
       </div>
     </section>
-    <section class="news section">
+
+    <section class="news section novosti">
       <div class="section__title-container">
         <h2 class="title title_type_h2">Новости</h2>
       </div>
@@ -1011,14 +1012,14 @@
           <span class="text text_type_label">Все новости</span>
         </button>
       </div>
-      <ul class="cards">
-        <li class="card card_color_white">
-          <div class="card__discription">
+      <ul class="cards novosti__cards">
+        <li class="card card_color_white novosti__card">
+          <div class="card__discription novosti__card-text">
             <div class="card__chapter">
               <p class="text text_size_small">Тема</p>
             </div>
-            <div class="card__image-container">
-              <img class="card__image" src="<%=require('./images/christmas.png')%>" alt="" />
+           <div class="card__image-container novosti__card-img-box">
+              <img class="card__image novosti__card-image" src="<%=require('./images/christmas.png')%>" alt="" />
             </div>
             <h4 class="title title_type_h4">
               Ура! Новое партнерство — с PepsiCo
@@ -1034,8 +1035,8 @@
             </p>
           </div>
         </li>
-        <li class="card card_color_green">
-          <div class="card__discription">
+        <li class="card card_color_green novosti__card">
+          <div class="card__discription novosti__card-text">
             <div class="card__chapter">
               <p class="text text_size_small">Тема</p>
             </div>
@@ -1057,8 +1058,8 @@
             </p>
           </div>
         </li>
-        <li class="card card_color_white">
-          <div class="card__discription">
+        <li class="card card_color_white novosti__card novisti__card-inactive">
+          <div class="card__discription novosti__card-text">
             <div class="card__chapter">
               <p class="text text_size_small">Тема</p>
             </div>
@@ -1071,7 +1072,7 @@
               видами инвалидности
             </p>
             <div class="card__image-container">
-              <img class="card__image" src="<%=require('./images/supermarket.png')%>" alt="" />
+              <img class="card__image novosti__card-image" src="<%=require('./images/supermarket.png')%>" alt="" />
             </div>
           </div>
           <div class="card__publication-date">
@@ -1375,5 +1376,90 @@
     </div>
   </footer>
 </body>
+<style>
+.novosti{
+margin: 0;
+}
 
+@media screen and (max-width: 768px) {
+.novosti__cards{
+grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media screen and (max-width: 450px) {
+.novosti__cards{
+grid-template-columns: 1fr;
+margin: 0;
+padding: 12px 10px 0;
+width: calc(100vw - 20px);
+}
+}
+
+@media screen and (max-width: 768px) {
+.novisti__card-inactive{
+display: none;
+}
+}
+
+@media screen and (max-width: 450px) {
+.novisti__card-inactive{
+display: block;
+}
+}
+
+@media screen and (max-width: 768px) {
+.novosti__card-image{
+width: 274px;
+height: 212px;
+}
+}
+
+@media screen and (max-width: 450px) {
+.novosti__card-image{
+width: 252px;
+height: 192px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.novosti__card{
+/* max-width: 334px; */
+width: 100%;
+width: calc(100vw - 20px);
+
+}
+}
+
+@media screen and (max-width: 450px) {
+.novosti__card{
+/* max-width: 430px; */
+}
+}
+
+
+@media screen and (max-width: 768px) {
+.novosti__card-img-box{
+max-width: 274px;
+max-height: 212px;
+margin: 0;
+}
+}
+
+@media screen and (max-width: 450px) {
+.novosti__card-img-box{
+max-width: 252px;
+max-height: 192px;
+}
+}
+
+
+@media screen and (max-width: 450px) {
+.novosti__card-text{
+margin: 0;
+padding: 24px;
+}
+}
+
+</style>
 </html>
