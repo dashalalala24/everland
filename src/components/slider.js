@@ -33,5 +33,5 @@ function slide(slider) {
 }
 
 slide(projectSlider);
-const infoSlider = document.querySelector('.info-slider');
-slide(infoSlider);
+// const infoSlider = document.querySelector('.info-slider');
+// slide(infoSlider);
