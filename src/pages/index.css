@@ -266,6 +266,7 @@
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__cards/news__cards.css);
 @import url(../blocks/news/__cards-item/news__cards-item.css);
+@import url(../blocks/news/__button/news__button.css);
 
 /* остальные элементы */
 

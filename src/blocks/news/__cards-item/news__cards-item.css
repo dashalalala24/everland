@@ -16,10 +16,9 @@
     .news__cards-item {
         height: 420px;
         width: 252px;
-        gap: 16px;
+        gap: 10px;
     }
     .news__cards-item:nth-last-of-type(n+3){
         display: flex;
-        height: 100%;
     }
 }

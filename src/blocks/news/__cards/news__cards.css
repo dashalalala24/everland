@@ -10,14 +10,15 @@
         grid-template-columns: repeat(2, 334px);
         margin-top: 32px;
         max-height: 555px;
-        overflow: hidden;
+        
     }
 }
 @media screen and (max-width: 450px) {
     .news__cards {
-        grid-auto-rows: 468px;
+        gap: 16px;
+        grid-auto-rows: 474px;
         grid-template-columns: repeat(1,300px);
         margin-top: 32px;
         max-height: unset;
-        overflow: hidden;
+        margin-bottom: 60px;
     }}
