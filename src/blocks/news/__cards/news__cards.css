@@ -1,0 +1,5 @@
+.news__cards{
+    display: grid;
+    grid-auto-rows: 740px;
+    grid-template-columns: repeat(3,440px);
+}

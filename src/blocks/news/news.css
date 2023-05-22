@@ -1,0 +1,9 @@
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    align-items: flex-end;
+    align-content: center;
+    margin-bottom: 100px;
+}

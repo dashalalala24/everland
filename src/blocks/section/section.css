@@ -1,19 +1,17 @@
 .section {
     display: flex;
     flex-wrap: wrap;
-    min-height: 755px;
     justify-content: space-between;
-
     padding: 0;
     align-content: center;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section {
-        margin: 100px auto;    }
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .section {
-margin: 0;    }
+    }
 }

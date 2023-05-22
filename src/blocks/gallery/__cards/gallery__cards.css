@@ -1,16 +1,15 @@
 .gallery__cards {
-    grid-auto-rows: 535px;
+    display: grid;
+    grid-auto-rows: 538px;
+    grid-template-columns: repeat(3,440px);
 }
 
 @media screen and (max-width: 768px) {
     .gallery__cards {
-
-
         grid-auto-rows: 399px;
         height: 419px;
         margin: 22px 40px 33px;
         overflow: hidden;
-        margin-bottom: 33px;
     }
 }
 

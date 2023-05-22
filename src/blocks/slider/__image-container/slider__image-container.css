@@ -1,4 +1,4 @@
-.sliedr__image-container {
+.slider__image-container {
     max-width: 555px;
     max-height: 393px;
     border-radius: 30px;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .sliedr__image-container {
+    .slider__image-container {
         max-width: 259px;
     max-height: 284px;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .sliedr__image-container {
+    .slider__image-container {
     }
 }

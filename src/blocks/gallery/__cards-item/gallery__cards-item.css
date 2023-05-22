@@ -1,4 +1,5 @@
 .gallery__cards-item {
+    height: 100%;
     padding: 0;
-    height: 393px;
+    width: 100%;
 }
