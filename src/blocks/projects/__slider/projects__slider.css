@@ -1,3 +1,21 @@
 .projects__slider {
     max-height: 453px;
+    position: relative;
+
+}
+
+@media screen and (max-width: 768px) {
+    .projects__slider {
+        max-width: 688px;
+        max-height: 344px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .projects__slider {
+        max-width: 450px;
+        border-radius: 30px;
+        margin: auto 10px;
+        max-height: 496px;
+    }
 }
