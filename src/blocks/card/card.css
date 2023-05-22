@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 768px) {
   .card {
-    min-width: 274px;
+    width: 274px;
     height: 234px;
 
   }
@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 450px) {
   .card {
-    min-width: 252px;
+    width: 252px;
     height: 245px;
     padding: 24px;
   }

@@ -1,23 +1,30 @@
 .gallery__cards {
     display: grid;
     grid-auto-rows: 538px;
-    grid-template-columns: repeat(3,440px);
+    grid-template-columns: repeat(3, 440px);
 }
 
 @media screen and (max-width: 768px) {
     .gallery__cards {
         grid-auto-rows: 399px;
-        height: 419px;
-        margin: 22px 40px 33px;
-        overflow: hidden;
+        grid-template-columns: repeat(2, 334px);
+        margin: 22px auto 33px;
     }
+
+    /* .gallery__cards li:nth-child(n+3) {
+        display: none;
+    } */
 }
 
 @media screen and (max-width: 450px) {
     .gallery__cards {
-        grid-auto-rows: 304px;
-        height: unset;
+        grid-auto-rows: 336px;
         gap: 35px;
-        margin: 24px 10px 22px;
+        margin: 24px auto 22px;
+        grid-template-columns: repeat(1, 300px);
+    }
+
+    .gallery__cards li:nth-child(n+3) {
+        display: flex;
     }
 }

@@ -3,8 +3,7 @@
 }
 
 @media screen and (max-width: 768px) {
-
-.card__button-container {
-    margin: 0;
-    margin-top:18px;
-}}
+    .card__button-container {
+        margin: 18px 40px 0 0;
+    }
+}

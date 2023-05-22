@@ -7,11 +7,17 @@
         height: 491px;
         width: 274px;
     }
+    .news__cards-item:nth-last-of-type(n+3){
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .news__cards-item {
         height: 400px;
         width: 252px;
+    }
+    .news__cards-item:nth-last-of-type(n+3){
+        display: flex;
     }
 }

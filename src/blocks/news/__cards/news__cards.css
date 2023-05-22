@@ -1,5 +1,15 @@
-.news__cards{
+.news__cards {
     display: grid;
     grid-auto-rows: 740px;
-    grid-template-columns: repeat(3,440px);
+    grid-template-columns: repeat(3, 440px);
+}
+
+@media screen and (max-width: 768px) {
+    .news__cards {
+        grid-auto-rows: 550px;
+        grid-template-columns: repeat(2, 334px);
+        margin-top: 32px;
+        max-height: 555px;
+        overflow: hidden;
+    }
 }

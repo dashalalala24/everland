@@ -6,3 +6,10 @@
   object-fit: cover;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .card__image-container {
+    width: 274px;
+    height: 212px;
+  }
+}

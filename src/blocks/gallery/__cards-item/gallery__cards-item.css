@@ -3,3 +3,14 @@
     padding: 0;
     width: 100%;
 }
+@media screen and (max-width: 768px) {
+    .gallery__cards-item:nth-last-of-type(n+3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gallery__cards-item:nth-last-of-type(n+3) {
+        display: flex;
+    }
+}
