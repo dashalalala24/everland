@@ -1,13 +1,28 @@
 .card {
-    background: #fff;
-    border-radius: 30px;
-    list-style-type: none;
-    max-width: 440px;
-    min-height: 428px;
-    /* padding: 30px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    /* margin-bottom: 20px; */
+  background: #fff;
+  display: flex;
+  list-style-type: none;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 30px;
+  max-width: 380px;
+  height: 368px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    min-width: 274px;
+    height: 234px;
+
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    min-width: 252px;
+    height: 245px;
+    padding: 24px;
+  }
 }

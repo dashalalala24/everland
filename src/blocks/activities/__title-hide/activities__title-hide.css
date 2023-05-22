@@ -1,0 +1,9 @@
+.activities__title-hide{
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .activities__title-hide {
+        display: none;
+    }
+}
