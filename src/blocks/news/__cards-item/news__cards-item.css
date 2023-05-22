@@ -14,10 +14,12 @@
 
 @media only screen and (max-width: 450px) {
     .news__cards-item {
-        height: 400px;
+        height: 420px;
         width: 252px;
+        gap: 16px;
     }
     .news__cards-item:nth-last-of-type(n+3){
         display: flex;
+        height: 100%;
     }
 }

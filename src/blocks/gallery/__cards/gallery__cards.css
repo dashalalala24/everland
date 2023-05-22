@@ -8,19 +8,15 @@
     .gallery__cards {
         grid-auto-rows: 399px;
         grid-template-columns: repeat(2, 334px);
-        margin: 22px auto 33px;
+        margin: 22px auto 50px;
     }
-
-    /* .gallery__cards li:nth-child(n+3) {
-        display: none;
-    } */
 }
 
 @media screen and (max-width: 450px) {
     .gallery__cards {
         grid-auto-rows: 336px;
         gap: 35px;
-        margin: 24px auto 22px;
+        margin: 24px auto 50px;
         grid-template-columns: repeat(1, 300px);
     }
 

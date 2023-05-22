@@ -13,3 +13,11 @@
         overflow: hidden;
     }
 }
+@media screen and (max-width: 450px) {
+    .news__cards {
+        grid-auto-rows: 468px;
+        grid-template-columns: repeat(1,300px);
+        margin-top: 32px;
+        max-height: unset;
+        overflow: hidden;
+    }}
