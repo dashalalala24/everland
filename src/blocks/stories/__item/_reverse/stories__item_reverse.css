@@ -1,4 +1,9 @@
 .stories__item_reverse {
   flex-direction: row-reverse;
-  justify-content: space-between;
+}
+
+@media screen and (max-width: 450px) {
+  .stories__item_reverse {
+    flex-direction: column;
+  }
 }
