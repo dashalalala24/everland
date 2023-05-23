@@ -1,0 +1,26 @@
+.gallery__cards {
+    display: grid;
+    grid-auto-rows: 538px;
+    grid-template-columns: repeat(3, 440px);
+}
+
+@media screen and (max-width: 768px) {
+    .gallery__cards {
+        grid-auto-rows: 399px;
+        grid-template-columns: repeat(2, 334px);
+        margin: 22px auto 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gallery__cards {
+        grid-auto-rows: 336px;
+        gap: 35px;
+        margin: 24px auto 50px;
+        grid-template-columns: repeat(1, 300px);
+    }
+
+    .gallery__cards li:nth-child(n+3) {
+        display: flex;
+    }
+}

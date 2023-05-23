@@ -2,20 +2,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 100px auto;
-    min-height: 755px;
     padding: 0;
     align-content: center;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section {
-        margin: 100px;
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 450px) {
     .section {
-        margin: 64px;
     }
 }

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 768px) {
+    .news__button {
+        left: 26%;
+        margin: auto 10px;
+        position: absolute;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .news__button {
+        width: 300px;
+        bottom: 0;
+        left: 7%;
+    }
+}

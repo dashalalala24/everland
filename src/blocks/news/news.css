@@ -1,0 +1,19 @@
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    align-items: flex-end;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 450px) {
+    .news {
+        margin-bottom: 32px;
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center
+    }
+}

@@ -256,7 +256,7 @@
       </div>
 
     </section>
-    <section class="donations">
+    <section class="donations" style="flex-wrap: wrap;">
       <div class="donations__item">
         <label>
       <input class="donations__money" type="radio" value="250">
@@ -291,13 +291,13 @@
       <div class="section__title-container">
         <h2 class="title title_type_h2">Для кого мы работаем</h2>
       </div>
-      <ul class="cards">
-        <li class="card">
+      <ul class="cards partnering__cards">
+        <li class="card partnering__cards-item">
           <div class="card__discription">
             <div class="card__icon-container card_color_blue">
               <img class="card__icon" src="<%=require('./images/Icon/disabled.svg')%>" alt="инвалид" />
             </div>
-            <h4 class="title title_type_h4">
+            <h4 class="title title_type_h4 card__title">
               Для людей с&nbsp;инвалидностью
             </h4>
             <div class="card__text-container">
@@ -319,13 +319,14 @@
               </span>
             </button>
           </div>
+          </div>
         </li>
-        <li class="card">
+        <li class="card partnering__cards-item">
           <div class="card__discription">
             <div class="card__icon-container card_color_orange">
               <img class="card__icon" src="<%=require('./images/Icon/briefcase.svg')%>" alt="портфель" />
             </div>
-            <h4 class="title title_type_h4">Для работодателей</h4>
+            <h4 class="title title_type_h4 card__title">Для работодателей</h4>
             <div class="card__text-container">
               <p class="text text_type_main">
                 Помогаем создать устойчивые инклюзивные команды, вовлекаем
@@ -345,13 +346,14 @@
               </span>
             </button>
           </div>
+          </div>
         </li>
-        <li class="card">
+        <li class="card partnering__cards-item">
           <div class="card__discription">
             <div class="card__icon-container card_color_green">
               <img class="card__icon" src="<%=require('./images/Icon/following.svg')%>" alt="фаворит" />
             </div>
-            <h4 class="title title_type_h4">Для КСО-партнеров</h4>
+            <h4 class="title title_type_h4 card__title">Для КСО-партнеров</h4>
             <div class="card__text-container">
               <p class="text text_type_main">
                 Помогаем найти работу, пройти обучение, предоставляем разные
@@ -371,18 +373,21 @@
               </span>
             </button>
           </div>
+          </div>
         </li>
       </ul>
     </section>
 
     <section class="activities section" id="activities">
       <div class="section__title-container">
-        <h2 class="title title_type_h2">Наши направления</h2>
+        <h2 class="title title_type_h2 activities__title-hide">Наши направления</h2>
+        <h2 class="title title_type_h2 activities__title-show">В каких направлениях мы работаем?</h2>
+
       </div>
       <ul class="cards">
         <li class="card card_color_orange">
           <div class="card__discription">
-            <h4 class="title title_type_h4">Доступность услуг Disquestion</h4>
+            <h4 class="title title_type_h4 card__title">Доступность услуг Disquestion</h4>
             <p class="text text_type_main">
               Сервисы для бизнеса по повышению доступности услуг для
               маломобильных клиентов ― контракты с крупнейшими компаниями в
@@ -401,10 +406,11 @@
               </span>
             </button>
           </div>
+          </div>
         </li>
         <li class="card card_color_blue">
           <div class="card__discription">
-            <h4 class="title title_type_h4">Трудоустройство</h4>
+            <h4 class="title title_type_h4 card__title">Трудоустройство</h4>
             <p class="text text_type_main">
               Решение социальной проблемы с использованием предпринимательских
               инструментов: оказываем услуги разным компаниям и НКО, таким
@@ -423,10 +429,11 @@
               </span>
             </button>
           </div>
+          </div>
         </li>
         <li class="card card_color_green">
           <div class="card__discription">
-            <h4 class="title title_type_h4">
+            <h4 class="title title_type_h4 card__title">
               Биржа проектов и&nbsp;готовые решения
             </h4>
             <p class="text text_type_main">
@@ -447,10 +454,11 @@
               </span>
             </button>
           </div>
+          </div>
         </li>
         <li class="card card_color_blue">
           <div class="card__discription">
-            <h4 class="title title_type_h4">Агентство</h4>
+            <h4 class="title title_type_h4 card__title">Агентство</h4>
             <p class="text text_type_main">
               Услуги специалистов с инвалидностью для крупных компаний
               (дизайн, право, контент и другие)
@@ -468,10 +476,11 @@
               </span>
             </button>
           </div>
+          </div>
         </li>
         <li class="card card_color_green">
           <div class="card__discription">
-            <h4 class="title title_type_h4">Коворкинг</h4>
+            <h4 class="title title_type_h4 card__title">Коворкинг</h4>
             <p class="text text_type_main">
               Уникальное пространство, в котором специалисты с инвалидностью
               могут работать и офлайн – приходить, участвовать в
@@ -491,10 +500,11 @@
               </span>
             </button>
           </div>
+          </div>
         </li>
         <li class="card card_color_orange">
           <div class="card__discription">
-            <h4 class="title title_type_h4">
+            <h4 class="title title_type_h4 card__title">
               Для людей с&nbsp;инвалидностью
             </h4>
             <p class="text text_type_main">
@@ -513,6 +523,7 @@
                 </svg>
               </span>
             </button>
+          </div>
           </div>
         </li>
       </ul>
@@ -706,7 +717,7 @@
     </section>
 
     <section class="projects" id="projects">
-      <div class="slider slider_type_projects">
+      <div class="slider projects__slider">
         <ul class="slider__list cards cards_type_horizontal">
           <li class="card card_type_horizontal card_color_blue slider__slide">
             <div class="slider__container">
@@ -733,8 +744,8 @@
                 </button>
               </div>
             </div>
-            <div class="sliedr__image-container">
-              <img class="card__image" src="<%=require('./images/Image_4.png')%>" alt="">
+            <div class="slider__image-container">
+              <img class="card__image slider__image" src="<%=require('./images/Image_4.png')%>" alt="">
             </div>
           </li>
           <li class="card card_type_horizontal card_color_blue slider__slide">
@@ -762,8 +773,8 @@
                 </button>
               </div>
             </div>
-            <div class="sliedr__image-container">
-              <img class="card__image" src="<%=require('./images/Image_4.png')%>" alt="">
+            <div class="slider__image-container">
+              <img class="card__image slider__image" src="<%=require('./images/Image_4.png')%>" alt="">
             </div>
           </li>
           <li class="card card_type_horizontal card_color_blue slider__slide">
@@ -791,8 +802,8 @@
                 </button>
               </div>
             </div>
-            <div class="sliedr__image-container">
-              <img class="card__image" src="<%=require('./images/Image_4.png')%>" alt="">
+            <div class="slider__image-container">
+              <img class="card__image slider__image" src="<%=require('./images/Image_4.png')%>" alt="">
             </div>
           </li>
         </ul>
@@ -836,7 +847,7 @@
                 </div>
                 <div class="stories__discription">
                   <div class="stories__discription-container">
-                    <h4 class="title title_type_h4">
+                    <h4 class="title title_type_h4 card__title">
                       Мне интересно слушать интервью с людьми. Это мотивация и
                       вдохновение, которых так не хватает
                     </h4>
@@ -869,7 +880,7 @@
                 </div>
                 <div class="stories__discription">
                   <div class="stories__discription-container">
-                    <h4 class="title title_type_h4">
+                    <h4 class="title title_type_h4 card__title">
                       Платформа дала надежду: кто-то заинтересован в
                       трудоустройстве инвалидов
                     </h4>
@@ -954,29 +965,29 @@
           анимации и контента
         </h4>
       </div>
-      <ul class="cards">
-        <li class="card card_color_transparent">
+      <ul class="cards gallery__cards">
+        <li class="card card_color_transparent gallery__cards-item">
           <img class="card__image" src="<%=require('./images/Image_5.png')%>"
             alt="Скрипты-рекомендации для бизнеса (DisQuestion)" />
-          <h5 class="title title_type_h5">
+          <h5 class="title title_type_h5 card__heading">
             Скрипты-рекомендации для бизнеса (DisQuestion)
           </h5>
         </li>
-        <li class="card card_color_transparent">
+        <li class="card card_color_transparent gallery__cards-item">
           <img class="card__image" src="<%=require('./images/Image_6.png')%>"
             alt="Скрипты-рекомендации для бизнеса (DisQuestion)" />
-          <h5 class="title title_type_h5">Проект «Онконавигатор»</h5>
+          <h5 class="title title_type_h5 card__heading">Проект «Онконавигатор»</h5>
         </li>
-        <li class="card card_color_transparent">
+        <li class="card card_color_transparent gallery__cards-item">
           <img class="card__image" src="<%=require('./images/Image_7.png')%>"
             alt="Скрипты-рекомендации для бизнеса (DisQuestion)" />
-          <h5 class="title title_type_h5">
+          <h5 class="title title_type_h5 card__heading">
             Проект «Миграции: приоткрывая личное»
           </h5>
         </li>
       </ul>
       <div class="gallery__actions">
-        <button class="button button_type_secondary">
+        <button class="button button_type_secondary gallery__button">
           <span class="text text_type_label">Посмотреть все</span>
         </button>
       </div>
@@ -985,13 +996,14 @@
       <div class="section__title-container">
         <h2 class="title title_type_h2">Новости</h2>
       </div>
-      <div class="card__button-container">
-        <button class="button button_type_secondary">
+      </div>
+      <div class="card__button-container  news__button">
+        <button class="button button_type_secondary news__button">
           <span class="text text_type_label">Все новости</span>
         </button>
       </div>
-      <ul class="cards">
-        <li class="card card_color_white">
+      <ul class="cards news__cards">
+        <li class="card card_color_white news__cards-item">
           <div class="card__discription">
             <div class="card__chapter">
               <p class="text text_size_small">Тема</p>
@@ -999,7 +1011,7 @@
             <div class="card__image-container">
               <img class="card__image" src="<%=require('./images/christmas.png')%>" alt="" />
             </div>
-            <h4 class="title title_type_h4">
+            <h4 class="title title_type_h4 card__title">
               Ура! Новое партнерство — с PepsiCo
             </h4>
             <p class="text text_type_main">
@@ -1013,12 +1025,12 @@
             </p>
           </div>
         </li>
-        <li class="card card_color_green">
+        <li class="card card_color_green news__cards-item">
           <div class="card__discription">
             <div class="card__chapter">
               <p class="text text_size_small">Тема</p>
             </div>
-            <h4 class="title title_type_h4">
+            <h4 class="title title_type_h4 card__title">
               Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как
               строить&nbsp;эффективные программы»
             </h4>
@@ -1036,12 +1048,12 @@
             </p>
           </div>
         </li>
-        <li class="card card_color_white">
+        <li class="card card_color_white news__cards-item">
           <div class="card__discription">
             <div class="card__chapter">
               <p class="text text_size_small">Тема</p>
             </div>
-            <h4 class="title title_type_h4">
+            <h4 class="title title_type_h4 card__title">
               Тестируем супермаркеты на доступность
             </h4>
             <p class="text text_type_main">
@@ -1049,9 +1061,9 @@
               продуктовых магазинов на доступность&nbsp;для людей с разными
               видами инвалидности
             </p>
-            <div class="card__image-container">
-              <img class="card__image" src="<%=require('./images/supermarket.png')%>" alt="" />
-            </div>
+          </div>
+          <div class="card__image-container">
+            <img class="card__image" src="<%=require('./images/supermarket.png')%>" alt="" />
           </div>
           <div class="card__publication-date">
             <p class="text text_size_small text_color_grey">

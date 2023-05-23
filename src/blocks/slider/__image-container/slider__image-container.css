@@ -1,0 +1,19 @@
+.slider__image-container {
+    max-width: 555px;
+    max-height: 393px;
+    border-radius: 30px;
+    flex: none;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .slider__image-container {
+        max-width: 259px;
+    max-height: 284px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .slider__image-container {
+    }
+}

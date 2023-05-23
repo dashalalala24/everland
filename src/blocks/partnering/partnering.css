@@ -1,0 +1,11 @@
+.partnering {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 450px) {
+    .partnering {
+        margin-top: 32px;
+        padding-bottom: 0;
+    }
+}

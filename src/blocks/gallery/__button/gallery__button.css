@@ -1,0 +1,5 @@
+@media screen and (max-width: 450px) {
+    .gallery__button {
+        width: 300px;
+    }
+}

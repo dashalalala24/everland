@@ -12,11 +12,11 @@
     padding: 0;
     overflow: hidden;
    */
-  
+
     display: flex;
     flex: 0 0 100%;
     flex-wrap: nowrap;
-    max-width: 1360px;
+    max-width: 100%;
     padding: 0;
     transition: transform .5s ease;
     gap: 0;

@@ -1,0 +1,18 @@
+.partnering__cards {
+}
+
+@media screen and (max-width: 768px) {
+    .partnering__cards {
+        margin: 32px auto 50px;
+        align-items: center;
+        display: flex;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .partnering__cards {
+        margin: 24px auto 32px;
+
+    }
+}

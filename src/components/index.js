@@ -13,7 +13,7 @@ const formPay = new FormPay(formPaySelector, formSettings);
 const formPayValidator = new FormValidator(formPaySelector, formSettings);
 formPayValidator.enableValidation();
 
-const projectSlider = new Slider('.slider_type_projects', '.card');
+const projectSlider = new Slider('.projects__slider', '.card');
 projectSlider.setEventListeners();
 
 const infoSlider = new Slider('.slider_type_info', '.info__slider-item', document.querySelector('.info__slider-controller-text'));
