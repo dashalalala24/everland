@@ -7,14 +7,14 @@ export default class Slider {
     this._sliderList = this._slider.querySelector('.slider__list');
     this._cardArray = Array.from(this._sliderList.querySelectorAll(elementSelector));
     this._previousButton = this._slider.querySelector('.button_type_slider-previous');
-    this._nextButton = this._slider.querySelector('.button_type_slider_next');
+    this._nextButton = this._slider.querySelector('.button_type_slider-next');
     this._textElement = textElement;
 
     if (!this._previousButton) {
       this._previousButton = this._slider.parentNode.querySelector('.button_type_slider-previous');
     };
     if (!this._nextButton) {
-      this._nextButton = this._slider.parentNode.querySelector('.button_type_slider_next');
+      this._nextButton = this._slider.parentNode.querySelector('.button_type_slider-next');
     };
 
     this._elementCount = this._cardArray.length;
