@@ -1,4 +1,4 @@
-.button_type_slider_black {
+.button_type_slider-black {
     max-height: 35px;
     max-width: 35px;
     background-color: rgba(51, 51, 51, 1);
@@ -8,15 +8,15 @@
 
 }
 
-.button_type_slider_black:hover {
+.button_type_slider-black:hover {
     background-color: rgba(12, 75, 160, 1);
 }
 
-.button_type_slider_black:active {
+.button_type_slider-black:active {
     background-color: rgba(0, 39, 92, 1);
 }
 
-.button_type_slider_black:disabled {
+.button_type_slider-black:disabled {
     background-color: rgba(196, 196, 196, 1);
     color: rgba(38, 38, 38, 0.5);
     fill: rgba(38, 38, 38, 0.5);
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 450px) {
-    .button_type_slider_black {
+    .button_type_slider-black {
         height: 24px;
         width: 24px;
         background-size: 10px;

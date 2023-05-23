@@ -9,7 +9,7 @@
   <link rel="icon" href="<%=require('./images/favicon-16x16.png')%>" type="image/png" />
 </head>
 
-<body>
+<body class="page">
   <header class="header">
     <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="лого Эверланд" />
     <div class="header__menu">
@@ -25,86 +25,86 @@
       </button>
     </div>
   </header>
-  <nav class="menu menu_hidden">
-    <ul class="menu__column">
-      <li class="menu__column-header">
-        <a id="aboutProjectAnc" href="#projects" class="menu__link title title_type_h4">О&nbsp;проекте</a><img
-          class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка" />
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#" class="menu__link text text_type_main">АНО Пространство равных&nbsp;возможностей</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#news" class="menu__link text text_type_main newsAnc">Новости</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#" class="menu__link text text_type_main">Инклюзия</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#activities" class="menu__link text text_type_main activitiesAnc">Учебным заведениям</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#digits" class="menu__link text text_type_main digitsAnc">Годовые отчеты</a>
-      </li>
-    </ul>
-    <ul class="menu__column">
-      <li class="menu__column-header">
-        <a href="#activities" class="menu__link title title_type_h4 activitiesAnc">Людям с&nbsp;инвалидностью</a><img
-          class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка" />
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#" class="menu__link text text_type_main">Платформа</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#" class="menu__link text text_type_main">Курсы</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#" class="menu__link text text_type_main">Everland Profi</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#" class="menu__link text text_type_main">Бесплатное такси</a>
-      </li>
-    </ul>
-    <ul class="menu__column">
-      <li class="menu__column-header">
-        <a href="#" class="menu__link title title_type_h4">Услуги</a><img class="menu__arrow"
-          src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка" />
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#" class="menu__link text text_type_main">Услуги агентства</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#" class="menu__link text text_type_main">Готовые сайты</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#activities" class="menu__link text text_type_main activitiesAnc">Доступность для людей с
-          инвалидностью</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#activities" class="menu__link text text_type_main activitiesAnc">Работодателям</a>
-      </li>
-      <li class="menu__link menu__link_accordeon">
-        <a href="#activities" class="menu__link text text_type_main activitiesAnc">Портфолио</a>
-      </li>
-    </ul>
-    <ul class="menu__column menu__column_type_gratitude">
-      <li class="menu__column-header">
-        <a href="#footer" id="footerAnc" class="menu__link title title_type_h4">Мы&nbsp;благодарим</a>
-      </li>
-      <li class="menu__column-header">
-        <a href="#" class="menu__link title title_type_h4">Программы</a>
-      </li>
-    </ul>
-    <ul class="menu__column menu__column_type_gratitude">
-      <li class="menu__column-header">
-        <a href="#activities" class="menu__link title title_type_h4 activitiesAnc">Наставникам</a>
-      </li>
-      <li class="menu__column-header supportAnc">
-        <a href="#support" class="menu__link title title_type_h4">Помочь</a>
-      </li>
-    </ul>
-  </nav>
   <main class="content">
+    <nav class="menu menu_hidden">
+      <ul class="menu__column">
+        <li class="menu__column-header">
+          <a id="aboutProjectAnc" href="#projects" class="menu__link title title_type_h4">О&nbsp;проекте</a><img
+            class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка" />
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#" class="menu__link text text_type_main">АНО Пространство равных&nbsp;возможностей</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#news" class="menu__link text text_type_main newsAnc">Новости</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#" class="menu__link text text_type_main">Инклюзия</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#activities" class="menu__link text text_type_main activitiesAnc">Учебным заведениям</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#digits" class="menu__link text text_type_main digitsAnc">Годовые отчеты</a>
+        </li>
+      </ul>
+      <ul class="menu__column">
+        <li class="menu__column-header">
+          <a href="#activities" class="menu__link title title_type_h4 activitiesAnc">Людям с&nbsp;инвалидностью</a><img
+            class="menu__arrow" src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка" />
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#" class="menu__link text text_type_main">Платформа</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#" class="menu__link text text_type_main">Курсы</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#" class="menu__link text text_type_main">Everland Profi</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#" class="menu__link text text_type_main">Бесплатное такси</a>
+        </li>
+      </ul>
+      <ul class="menu__column">
+        <li class="menu__column-header">
+          <a href="#" class="menu__link title title_type_h4">Услуги</a><img class="menu__arrow"
+            src="<%=require('./images/icon_shevron_down.svg')%>" alt="Стрелка" />
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#" class="menu__link text text_type_main">Услуги агентства</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#" class="menu__link text text_type_main">Готовые сайты</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#activities" class="menu__link text text_type_main activitiesAnc">Доступность для людей с
+            инвалидностью</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#activities" class="menu__link text text_type_main activitiesAnc">Работодателям</a>
+        </li>
+        <li class="menu__link menu__link_accordeon">
+          <a href="#activities" class="menu__link text text_type_main activitiesAnc">Портфолио</a>
+        </li>
+      </ul>
+      <ul class="menu__column menu__column_type_gratitude">
+        <li class="menu__column-header">
+          <a href="#footer" id="footerAnc" class="menu__link title title_type_h4">Мы&nbsp;благодарим</a>
+        </li>
+        <li class="menu__column-header">
+          <a href="#" class="menu__link title title_type_h4">Программы</a>
+        </li>
+      </ul>
+      <ul class="menu__column menu__column_type_gratitude">
+        <li class="menu__column-header">
+          <a href="#activities" class="menu__link title title_type_h4 activitiesAnc">Наставникам</a>
+        </li>
+        <li class="menu__column-header supportAnc">
+          <a href="#support" class="menu__link title title_type_h4">Помочь</a>
+        </li>
+      </ul>
+    </nav>
     <nav>
       <ul class="main-nav">
         <li>
@@ -133,7 +133,6 @@
         </li>
       </ul>
     </nav>
-
     <section class="info">
       <div class="slider slider_type_info">
         <ul class="info__slider-list slider__list">
@@ -236,7 +235,7 @@
         </ul>
       </div>
       <div class="slider__controller info__slider-controller ">
-        <button class="button button_type_slider button_type_slider_previous">
+        <button class="button button_type_slider button_type_slider-previous">
           <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
               stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
@@ -244,7 +243,7 @@
             </svg>
           </span>
         </button>
-        <p class="text text_size_big info__slider-controller-text"></p>
+        <p class="text text_type_big info__slider-controller-text"></p>
         <button class="button button_type_slider button_type_slider_next">
           <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
               stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
@@ -260,21 +259,21 @@
       <div class="donations__item">
         <label>
       <input class="donations__money" type="radio" value="250">
-      <span class="text text_type_label button donations__button button_type_link">250</span>
+      <span class="text text_type_label button donations__button button_type_link">250&#8381;</span>
       </label>
       <label>
         <input class="donations__money" type="radio" value="500">
-        <span class="text text_type_label button donations__button button_type_link">500</span>
+        <span class="text text_type_label button donations__button button_type_link">500&#8381;</span>
       </label>
       </div>
       <div class="donations__item">
         <label>
           <input class="donations__money" type="radio" value="750">
-          <span class="text text_type_label button donations__button button_type_link">750</span>
+          <span class="text text_type_label button donations__button button_type_link">750&#8381;</span>
         </label>
         <label>
           <input class="donations__money" type="radio" value="1000">
-          <span class="text text_type_label button donations__button button_type_link ">1000</span>
+          <span class="text text_type_label button donations__button button_type_link ">1000&#8381;</span>
         </label>
       </div>
       <div class="donations__item">
@@ -721,7 +720,7 @@
         <ul class="slider__list cards cards_type_horizontal">
           <li class="card card_type_horizontal card_color_blue slider__slide">
             <div class="slider__chapter">
-              <p class="text text_size_small">1Наши спецпроекты</p>
+              <p class="text text_type_small">1Наши спецпроекты</p>
             </div>
             <div class="slider__container">
               <div class="card__discription">
@@ -732,7 +731,7 @@
                   где один или оба супруга имеют инвалидность</p>
               </div>
               <div class="card__button-container slider__actions">
-                <button class="button button_type_secondary_black">
+                <button class="button button_type_secondary-black">
                   <span class="text text_type_label">Посмотреть</span>
                   <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
                       stroke-width="0" stroke-linecap="round" stroke-linejoin="round"
@@ -750,7 +749,7 @@
           </li>
           <li class="card card_type_horizontal card_color_blue slider__slide">
             <div class="slider__chapter">
-              <p class="text text_size_small">2</p>
+              <p class="text text_type_small">2</p>
             </div>
             <div class="slider__container">
               <div class="card__discription">
@@ -761,7 +760,7 @@
                   где один или оба супруга имеют инвалидность</p>
               </div>
               <div class="card__button-container slider__actions">
-                <button class="button button_type_secondary_black">
+                <button class="button button_type_secondary-black">
                   <span class="text text_type_label">Посмотреть</span>
                   <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
                       stroke-width="0" stroke-linecap="round" stroke-linejoin="round"
@@ -779,7 +778,7 @@
           </li>
           <li class="card card_type_horizontal card_color_blue slider__slide">
             <div class="slider__chapter">
-              <p class="text text_size_small">3</p>
+              <p class="text text_type_small">3</p>
             </div>
             <div class="slider__container">
               <div class="card__discription">
@@ -791,7 +790,7 @@
                   где один или оба супруга имеют инвалидность</p>
               </div>
               <div class="card__button-container slider__actions">
-                <button class="button button_type_secondary_black">
+                <button class="button button_type_secondary-black">
                   <span class="text text_type_label">Посмотреть</span>
                   <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
                       stroke-width="0" stroke-linecap="round" stroke-linejoin="round"
@@ -809,7 +808,7 @@
           </li>
         </ul>
         <div class=" slider__controller">
-          <button class="button button_type_slider_black button_type_slider_previous">
+          <button class="button button_type_slider-black button_type_slider-previous">
             <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
                 stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -817,7 +816,7 @@
               </svg>
             </span>
           </button>
-          <button class="button button_type_slider_black button_type_slider_next">
+          <button class="button button_type_slider-black button_type_slider_next">
             <span class="button__icon"> <svg width="16" height="16" vviewBox="0 24 24 24" stroke="currentColor"
                 stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -917,11 +916,11 @@
               </div>
               <div class="stories__discription stories__discription_small">
                 <div class="stories__discription-container stories__discription-container_small">
-                  <p class="text text_size_big">Айслу Асан</p>
+                  <p class="text text_type_big">Айслу Асан</p>
                   <h4 class="title title_type_h4">Когда хочется жить</h4>
                 </div>
                 <div class="stories__small-text">
-                  <p class="text text_size_small">История Айслу</p>
+                  <p class="text text_type_small">История Айслу</p>
                   <img class="stories__small-text-button" src="<%=require('./images/icon/Icon_paly.svg')%>"
                     alt="кнопка" />
                 </div>
@@ -936,13 +935,13 @@
               </div>
               <div class="stories__discription stories__discription_small">
                 <div class="stories__discription-container stories__discription-container_small">
-                  <p class="text text_size_big">Артём Плаксин</p>
+                  <p class="text text_type_big">Артём Плаксин</p>
                   <h4 class="title title_type_h4">
                     Не видеть и смотреть в будущее
                   </h4>
                 </div>
                 <div class="stories__small-text">
-                  <p class="text text_size_small">История Артёма</p>
+                  <p class="text text_type_small">История Артёма</p>
                   <img class="stories__small-text-button" src="<%=require('./images/icon/Icon_paly.svg')%>"
                     alt="кнопка" />
                 </div>
@@ -1007,7 +1006,7 @@
         <li class="card card_color_white news__cards-item">
           <div class="card__discription">
             <div class="card__chapter">
-              <p class="text text_size_small">Тема</p>
+              <p class="text text_type_small">Тема</p>
             </div>
             <div class="card__image-container">
               <img class="card__image" src="<%=require('./images/christmas.png')%>" alt="" />
@@ -1021,7 +1020,7 @@
             </p>
           </div>
           <div class="card__publication-date">
-            <p class="text text_size_small text_color_grey">
+            <p class="text text_type_small text_color_grey">
               20 сентября 2021
             </p>
           </div>
@@ -1029,7 +1028,7 @@
         <li class="card card_color_green news__cards-item">
           <div class="card__discription">
             <div class="card__chapter">
-              <p class="text text_size_small">Тема</p>
+              <p class="text text_type_small">Тема</p>
             </div>
             <h4 class="title title_type_h4 card__title">
               Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как
@@ -1044,7 +1043,7 @@
             </p>
           </div>
           <div class="card__publication-date">
-            <p class="text text_size_small text_color_grey">
+            <p class="text text_type_small text_color_grey">
               20 сентября 2021
             </p>
           </div>
@@ -1052,7 +1051,7 @@
         <li class="card card_color_white news__cards-item">
           <div class="card__discription">
             <div class="card__chapter">
-              <p class="text text_size_small">Тема</p>
+              <p class="text text_type_small">Тема</p>
             </div>
             <h4 class="title title_type_h4 card__title">
               Тестируем супермаркеты на доступность
@@ -1067,7 +1066,7 @@
             <img class="card__image" src="<%=require('./images/supermarket.png')%>" alt="" />
           </div>
           <div class="card__publication-date">
-            <p class="text text_size_small text_color_grey">
+            <p class="text text_type_small text_color_grey">
               20 сентября 2021
             </p>
           </div>
@@ -1098,20 +1097,20 @@
             <fieldset class="form-pay__container-summ">
               <label for="donat_250" class="form-pay__radio-label form-pay__radio-label_size_small">
                 <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_250" value="250" />
-                <span class="form-pay__radio text text_type_label">250 &#8381;</span>
+                <span class="form-pay__radio text text_type_label">250&#8381;</span>
               </label>
               <label for="donat_500" class="form-pay__radio-label form-pay__radio-label_size_small">
                 <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_500" value="500"
                   checked />
-                <span class="form-pay__radio text text_type_label">500 &#8381;</span>
+                <span class="form-pay__radio text text_type_label">500&#8381;</span>
               </label>
               <label for="donat_750" class="form-pay__radio-label form-pay__radio-label_size_small">
                 <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_750" value="750" />
-                <span class="form-pay__radio text text_type_label">750 &#8381;</span>
+                <span class="form-pay__radio text text_type_label">750&#8381;</span>
               </label>
               <label for="donat_1000" class="form-pay__radio-label form-pay__radio-label_size_small">
                 <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_1000" value="1000" />
-                <span class="form-pay__radio text text_type_label">1000 &#8381;</span>
+                <span class="form-pay__radio text text_type_label">1000&#8381;</span>
               </label>
               <label for="donat_other" class="form-pay__radio-label form-pay__radio-label_size_small">
                 <input type="radio" class="form-pay__radio-invisible" name="donat_summ" id="donat_other"
@@ -1119,7 +1118,7 @@
                 <span class="form-pay__radio text text_type_label">Другая сумма</span>
               </label>
             </fieldset>
-            <p class="form-pay__description text text_size_small">
+            <p class="form-pay__description text text_type_small">
               Регулярные пожертвования очень важны для Everland. Это то, что
               помогает нашим программам работать бесперебойно, что открывает
               новые востребованные проекты, что максимально эффективно решает
@@ -1276,9 +1275,9 @@
     <div class="footer__container">
       <div class="footer__logo-container">
         <a href="#">
-          <div class="logo_footer"></div>
+          <div class="footer__logo"></div>
         </a>
-        <p class="text text_size_small footer__platform">
+        <p class="text text_type_small footer__platform">
           Платформа Everland — инклюзивный социальный предпринимательский
           проект. Реализуется&nbsp;ООО&nbsp;«ЭВЕРЛЭНД», АНО «Пространство
           равных возможностей».
@@ -1324,10 +1323,10 @@
         </ul>
         <div class="footer__contacts">
           <div class="footer__telephone">
-            <p class="text text_size_small">+7 (495) 646 04 28</p>
-            <p class="text text_size_small">+7 (985) 473 08 93</p>
+            <p class="text text_type_small">+7 (495) 646 04 28</p>
+            <p class="text text_type_small">+7 (985) 473 08 93</p>
           </div>
-          <p class="text text_size_small footer__address">
+          <p class="text text_type_small footer__address">
             Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.
           </p>
         </div>
@@ -1350,7 +1349,7 @@
             </li>
           </ul>
         </div>
-        <p class="text text_size_small footer__copyright">
+        <p class="text text_type_small footer__copyright">
           © ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».
           Если&nbsp;не&nbsp;указано&nbsp;иначе,&nbsp;все&nbsp;материалы сайта
           доступны по лицензии Creative Commons CC-BY-SA 3.0
@@ -1360,7 +1359,7 @@
         <a href="#" target="_blank">
           <div class="footer__logo-yandex"></div>
         </a>
-        <p class="text text_size_small">
+        <p class="text text_type_small">
           сделано&nbsp;при&nbsp;участии&nbsp;Яндекс&nbsp;Практикума
         </p>
       </div>
