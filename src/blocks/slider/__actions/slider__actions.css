@@ -1,5 +1,17 @@
-.slider__actions{
+.slider__actions {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+
+@media screen and (max-width: 450px) {
+    .slider__actions {
+        height: 448px;
+        width: 250px;
+        margin: 0;
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 20px;
+    }
 }

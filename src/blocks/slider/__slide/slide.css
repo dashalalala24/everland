@@ -2,11 +2,27 @@
   flex: 0 0 100%;
   align-items: stretch;
   border-radius: 30px;
-  display: flex;
-  flex: 0 0 100%;
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
-  height: 393px;
   max-width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 768px) {
+  .slider__slide {
+    min-height: 284px;
+    border-radius: 20px;
+    display: grid;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .slider__slide {
+    display: grid;
+    margin: 0 auto;
+    padding: 25px;
+    gap: 10px;
+    min-height: 446px;
+    }
 }
