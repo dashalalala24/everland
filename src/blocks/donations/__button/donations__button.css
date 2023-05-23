@@ -26,7 +26,7 @@
     }
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 720px) {
     .donations__button{
       width: 122px;
       margin: 0;
