@@ -158,6 +158,7 @@
 @import url(../blocks/info-slider/__list/info-slider__list.css);
 @import url(../blocks/info-slider/__title/info-slider-title.css);
 @import url(../blocks/info-slider/__image-container/info-slider__image-container.css);
+@import url(../blocks/slider/_type/slider_type_projects.css);
 
 /* ---------------------donations------------ */
 
@@ -196,7 +197,6 @@
 @import url(../blocks/accordion/__item-container/accordion__item-container.css);
 @import url(../blocks/accordion/__item-content/accordion__item-content.css);
 @import url(../blocks/accordion/__item/accordion__item.css);
-@import url(../blocks/accordion/__title/accordion__title.css);
 
 /* ---------------------digits------------ */
 

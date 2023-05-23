@@ -1,4 +1,7 @@
-.slider{
+.slider {
+    width: 1360px;
+    position: relative;
+    /* width: 100%; */
     overflow: hidden;
     position: relative;
     display: flex;
