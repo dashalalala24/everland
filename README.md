@@ -7,7 +7,7 @@
 
 Подробнее о деятельности проекта можно прочитать [по ссылке](https://evland.ru/main/o_project/).
 
-***[Ссылка на Макет](https://www.figma.com/file/59a1PXM1KLWN0hWWMl1Kni/Everland-(%D0%92%D0%B5%D0%B1%2B)?type=design&node-id=430-712&t=cIr8QWmy0lYUV97M-0))***
+***[Ссылка на Макет](https://www.figma.com/file/59a1PXM1KLWN0hWWMl1Kni/Everland-(%D0%92%D0%B5%D0%B1%2B)?type=design&node-id=430-712&t=cIr8QWmy0lYUV97M-0)***
 
 ___
 
