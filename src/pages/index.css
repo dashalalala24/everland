@@ -214,7 +214,6 @@
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__slider/projects__slider.css);
 
-<<<<<<< HEAD
 /* остальные элементы */
 
 @import url(../blocks/slider/slider.css);
@@ -229,8 +228,6 @@
 @import url(../blocks/slider/__text/slider__text.css);
 @import url(../blocks/slider/__chapter/slider__chapter.css);
 
-=======
->>>>>>> dev
 /* ---------------------stories------------ */
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/stories/__box/stories__box.css);
