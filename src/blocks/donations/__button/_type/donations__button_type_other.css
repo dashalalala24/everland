@@ -8,10 +8,10 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 720px) {
   .donations__button_type_other{
     width: 260px;
-    margin: 32px 0px 32px 0px;
+    margin: 0px 0px 32px 0px;
     padding: 0;
   }
 }

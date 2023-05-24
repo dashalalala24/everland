@@ -3,13 +3,13 @@
   height: 368px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .digits__image {
     display: none;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   .digits__image {
     display: block;
     width: 300px;

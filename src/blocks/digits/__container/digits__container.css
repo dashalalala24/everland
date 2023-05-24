@@ -5,13 +5,13 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .digits__container {
     padding-top: 23px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   .digits__container {
     padding-top: 7px;
     flex-direction: column-reverse;

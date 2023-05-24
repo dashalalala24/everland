@@ -6,6 +6,7 @@
         width: 200px;
         left: 50%;
         transform: translateX(-50%);
+
     }
 }
 
@@ -15,6 +16,5 @@
     width: 300px;
     left: 47%;
     transform: translateX(-50%);
-
     }
 }

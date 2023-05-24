@@ -23,17 +23,17 @@
   cursor: not-allowed;
 }
 
-@media screen and (max-width: 425px) {
-  .donations__button_type_support {
-    padding: 0 16.5px;
-    margin: 0;
-    width: 260px;
-  }
-}
-
 @media screen and (max-width: 1320px) {
   .donations__button_type_support {
     width: 135px;
-    margin: 52px 24px 32px 10px;
+    margin: 36px 44px 36px 22px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .donations__button_type_support {
+    padding: 0 16.5px;
+    margin: 0px 0px 32px 0px;
+    width: 265px;
   }
 }

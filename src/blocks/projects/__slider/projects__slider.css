@@ -1,7 +1,6 @@
 .projects__slider {
     max-height: 453px;
     position: relative;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -13,7 +12,7 @@
 
 @media screen and (max-width: 450px) {
     .projects__slider {
-        max-width: 450px;
+        max-width: 300px;
         border-radius: 30px;
         margin: auto 10px;
         max-height: 496px;

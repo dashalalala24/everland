@@ -11,24 +11,20 @@
   width: min(60vw, 455px);
   height: 48px;
 
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
   text-align: left;
-  font-feature-settings: 'pnum' on, 'lnum' on;
   color: black;
 }
 
 .form-pay__input[placeholder] {
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
   text-align: left;
-  font-feature-settings: 'pnum' on, 'lnum' on;
   color: #DADADA;
 }
 

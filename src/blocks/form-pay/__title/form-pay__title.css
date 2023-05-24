@@ -5,7 +5,6 @@
   align-items: center;
   white-space: nowrap;
   overflow: hidden;
-  font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
   text-align: center;
   width: 100%;

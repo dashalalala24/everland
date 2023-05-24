@@ -5,3 +5,7 @@
   -webkit-appearance: none;
   align-self: center;
 }
+
+.donations__money:checked + .donations__button {
+  border-color: #00275C;
+}

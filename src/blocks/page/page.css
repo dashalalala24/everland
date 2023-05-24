@@ -4,13 +4,16 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  font-family: 'Raleway', Arial, sans-serif;
   background-color: #ffffff;
   color: black;
   box-sizing: border-box;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  margin: 0 auto;
+  max-width: 1440px;
 }
