@@ -2,12 +2,12 @@
   max-width: 1360px;
   display: flex;
   justify-content: center;
-  padding: 150px 40px 0;
+  padding: 0 40px ;
 }
 
 @media screen and (max-width: 768px) {
   .stories {
-    padding: 100px 40px 0;
+    padding: 0 40px;
   }
 }
 
