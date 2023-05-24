@@ -9,7 +9,8 @@
 
 ***[Ссылка на Макет](https://www.figma.com/file/59a1PXM1KLWN0hWWMl1Kni/Everland-(%D0%92%D0%B5%D0%B1%2B)?type=design&node-id=430-712&t=cIr8QWmy0lYUV97M-0)***
 
-___
+***[Ссылка на Бриф](https://www.notion.so/2-55bfdc5bbcb14178814d92bb6776b357)***
+
 
 ### Команда
 
