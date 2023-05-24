@@ -1,15 +1,16 @@
 # Everland
 ***[Ссылка на готовый прототип](https://dashalalala24.github.io/everland)***
 
+***[Ссылка на бриф](https://www.notion.so/Everland-1-9c4229cab9644888b709bae9d15369cb)***
+
+***[Ссылка на макет](https://www.figma.com/file/59a1PXM1KLWN0hWWMl1Kni/Everland-(Copy)?node-id=300%3A539)***
+___
+
 ### Описание
 
 Инклюзивный социальный предпринимательский проект.
 
 Подробнее о деятельности проекта можно прочитать [по ссылке](https://evland.ru/main/o_project/).
-
-***[Ссылка на Макет](https://www.figma.com/file/59a1PXM1KLWN0hWWMl1Kni/Everland-(%D0%92%D0%B5%D0%B1%2B)?type=design&node-id=430-712&t=cIr8QWmy0lYUV97M-0)***
-
-***[Ссылка на Бриф](https://www.notion.so/2-55bfdc5bbcb14178814d92bb6776b357)***
 
 
 ### Команда
@@ -29,9 +30,6 @@
 
 
 ___
-
-​
-
 ### Технологический стек:
 
 * ##### HTML5
