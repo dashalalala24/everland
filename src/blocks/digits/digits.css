@@ -1,11 +1,11 @@
 .digits {
-  padding: 180px 40px 0;
+  padding: 157px 40px 0;
+  display: flex;
+  justify-content: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   .digits {
-    padding: 80px 9px 80px;
-    display: flex;
-    justify-content: center;
+    padding: 80px 9px 64px;
   }
 }

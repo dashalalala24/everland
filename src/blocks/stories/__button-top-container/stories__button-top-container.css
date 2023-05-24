@@ -3,3 +3,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width:450px) {
+.stories__button-top-container {
+  flex-direction: column;
+  padding-right: 100px;
+  }
+}
