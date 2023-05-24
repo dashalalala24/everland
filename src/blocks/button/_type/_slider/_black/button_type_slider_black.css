@@ -23,7 +23,7 @@
     cursor: not-allowed;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
     .button_type_slider_black {
         height: 24px;
         width: 24px;
