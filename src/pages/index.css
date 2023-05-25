@@ -137,7 +137,7 @@
 @import url(../blocks/slider/__image-container/slider__image-container.css);
 @import url(../blocks/slider/__image/slider__image.css);
 @import url(../blocks/slider/__controller/slider__controller.css);
-@import url(../blocks/slider/__actions/slider__actions.css);
+@import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/slider/__container/slider__container.css);
 @import url(../blocks/slider/__title/slider__title.css);
 @import url(../blocks/slider/__text/slider__text.css);
