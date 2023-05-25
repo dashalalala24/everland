@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 425px) {
   .donations {
-    margin: 90px 0px 0px 15px;
+    margin: 50px 0px 0px 15px;
     padding: 0;
     flex-direction: column;
     justify-content: space-between;

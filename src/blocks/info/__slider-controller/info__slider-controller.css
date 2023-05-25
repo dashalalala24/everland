@@ -7,15 +7,14 @@
     width: 100%;
     left: unset;
     transform: unset;
-    margin: 0;
-    margin-bottom: 70px;
+    margin-top: 0;
+    margin-bottom: 120px;
 }
 
 @media screen and (max-width: 768px) {
     .info__slider-controller {
-        margin: 16px 0 40px 0;
+        margin: 40px 0 40px 0;
         max-width: 97px;
-
     }
 }
 
@@ -25,5 +24,6 @@
         max-width: 95px;
         left: 113px;
         bottom: -13px;
+        margin-top: 423px;
     }
 }

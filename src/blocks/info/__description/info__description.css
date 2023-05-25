@@ -1,6 +1,7 @@
 .info__description {
   max-width: 543px;
   margin: 0px;
+  padding: 0;
   padding-top: 20px;
 }
 
@@ -12,6 +13,7 @@
 
 @media screen and (max-width: 450px) {
   .info__description {
-    min-width: 300px;
+    max-width: 304px;
+    margin-left: 5px;
   }
 }

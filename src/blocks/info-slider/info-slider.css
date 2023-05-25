@@ -1,8 +1,8 @@
 .info-slider{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: start;
   position: relative;
   overflow: hidden;
-  
 }
+

@@ -1,5 +1,17 @@
 .info-slider__item{
-  height: 550px;
+  margin: 0 auto;
   display: grid;
-  
+  height: max-content;
+}
+
+@media screen and (max-width: 768px) {
+  .info-slider__item{
+    max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+  .info-slider__item{
+    max-width: 425px;
+    }
 }

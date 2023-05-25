@@ -3,5 +3,6 @@
   border-radius: 30px;
   flex: none;
   object-fit: cover;
-  margin: 0 auto;
+  margin: 40px 50px 0px 0px;
+  height: max-content;
 }

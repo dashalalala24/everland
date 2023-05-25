@@ -14,6 +14,7 @@
 
 @media screen and (max-width: 450px) {
   .info__title {
-    min-width: 304px;
+    margin: 0;
+    max-width: 288px;
   }
 }

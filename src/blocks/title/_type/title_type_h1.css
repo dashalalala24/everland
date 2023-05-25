@@ -1,5 +1,6 @@
 .title_type_h1 {
   font-size: 72px;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -10,6 +11,10 @@
 
 @media screen and (max-width: 450px) {
   .title_type_h1 {
-    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    margin-left: 5px;
   }
 }
