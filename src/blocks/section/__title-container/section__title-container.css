@@ -2,7 +2,7 @@
     display: inherit;
     flex-direction: column;
     gap: 20px;
-    margin: 100px 40px 0;
+    margin: 0 40px;
     max-width: 870px;
 }
 
