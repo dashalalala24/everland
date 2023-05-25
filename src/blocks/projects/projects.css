@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 450px) {
     .projects {
-       margin: 0;
-       max-height: 496px;
+        margin: 0;
+        max-height: 500px;
     }
 }

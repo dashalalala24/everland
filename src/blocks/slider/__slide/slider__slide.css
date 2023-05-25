@@ -11,19 +11,21 @@
 
 @media screen and (max-width: 768px) {
   .slider__slide {
-    min-height: 284px;
     border-radius: 20px;
     display: grid;
-    gap: 20px;
+    column-gap: 30px;
+    min-height: 284px;
+    grid-auto-columns: minmax(250px, 715px) minmax(200px, 555px);
   }
 }
 
 @media screen and (max-width: 450px) {
   .slider__slide {
     display: grid;
+    grid-template-columns: repeat(1, 2fr);
     margin: 0 auto;
     padding: 25px;
     gap: 10px;
     min-height: 446px;
-    }
+  }
 }

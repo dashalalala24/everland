@@ -1,16 +1,14 @@
-.slider__title{
-    max-width: 615px;
+.slider__title {
+  max-width: 615px;
+
 }
+
 @media screen and (max-width: 768px) {
-    .slider__title {
-        /* font-size: 36px;
-    margin-top: 12px;
-    min-width: 339px; */
-    }
+  .slider__title {
+    letter-spacing: -0.01em;
   }
-  
-  @media screen and (max-width: 450px) {
-    .slider__title {
-    }
-  }
-  
+}
+
+@media screen and (max-width: 450px) {
+  .slider__title {}
+}
