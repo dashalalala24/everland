@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    flex: auto;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 450px) {

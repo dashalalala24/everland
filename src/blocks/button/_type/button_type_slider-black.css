@@ -23,13 +23,8 @@
     cursor: not-allowed;
 }
 
-<<<<<<< HEAD:src/blocks/button/_type/_slider/_black/button_type_slider_black.css
-@media screen and (max-width: 768px) {
-    .button_type_slider_black {
-=======
 @media screen and (max-width: 450px) {
     .button_type_slider-black {
->>>>>>> dev:src/blocks/button/_type/button_type_slider-black.css
         height: 24px;
         width: 24px;
         background-size: 10px;

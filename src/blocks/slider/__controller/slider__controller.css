@@ -1,4 +1,5 @@
 .slider__controller {
+    /* margin-bottom: 30px; */
     gap: 8px;
     position: absolute;
     bottom: 30px;
@@ -10,12 +11,10 @@
 
 @media screen and (max-width: 450px) {
     .slider__controller {
-        display: flex;
-        gap: 8px;
         position: absolute;
-        right: 24px;
         top: 24px;
         transform: none;
-        left: unset;
+        right: 24px;
+        justify-content: flex-end;
     }
 }
