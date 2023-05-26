@@ -12,6 +12,6 @@
 
 @media screen and (max-width: 450px) {
   .stories__discription {
-    row-gap: 13px;
+    row-gap: 0;
   }
 }
