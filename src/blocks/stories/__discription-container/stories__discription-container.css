@@ -8,11 +8,13 @@
 @media screen and (max-width: 768px) {
   .stories__discription-container {
     padding-top: 19px;
+    row-gap: 7px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .stories__discription-container {
     padding-top: 11px;
+    row-gap: 9px;
   }
 }

@@ -15,7 +15,7 @@
 @media screen and (max-width: 450px) {
   .footer__platform {
     max-width: 300px;
-    padding-bottom: 41px;
+    padding-bottom: 21px;
     padding-right: 0;
   }
 }
