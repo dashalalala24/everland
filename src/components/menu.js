@@ -1,4 +1,4 @@
-import {menu, menuIcon} from './constants'
+import {menu, menuIcon} from '../utils/constants.js'
 
 window.onload = function() {
   const menuButton = document.querySelector('.header__menu');

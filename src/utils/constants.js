@@ -1,3 +1,17 @@
+export const anchorSupport = document.querySelectorAll('.supportAnc');
+export const anchorFooter = document.querySelectorAll('#footerAnc');
+export const anchorProject = document.querySelectorAll('#aboutProjectAnc');
+export const anchorNews = document.querySelectorAll('.newsAnc');
+export const anchorActivities = document.querySelectorAll('.activitiesAnc');
+export const anchorDigits = document.querySelectorAll('.digitsAnc')
+export const anchorfor = document.querySelectorAll('#forAnc')
+export const anchorImportant = document.querySelectorAll('#importantAnc')
+export const anchorStories = document.querySelectorAll('#storiesAnc')
+export const anchorSlider = document.querySelectorAll('#sliderAnc')
+export const anchorGallery = document.querySelectorAll('#galleryAnc')
+export const menu = document.querySelector('.menu');
+export const menuIcon = document.querySelector('.header__menu-pic');
+
 export const formPaySelector = '.form-pay';
 export const formSettings = {
   input: '.form-pay__input',

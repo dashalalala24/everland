@@ -1,4 +1,4 @@
-import { anchorSupport, anchorDigits, anchorFooter,anchorActivities, anchorNews, anchorProject, anchorImportant, anchorfor, anchorSlider, anchorGallery,  anchorStories,menu, menuIcon } from "./constants";
+import { anchorSupport, anchorDigits, anchorFooter,anchorActivities, anchorNews, anchorProject, anchorImportant, anchorfor, anchorSlider, anchorGallery,  anchorStories,menu, menuIcon } from "../utils/constants.js";
 
 
 function scrollToAnchor(anchors) {
