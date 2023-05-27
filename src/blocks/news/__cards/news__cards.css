@@ -10,7 +10,6 @@
         grid-template-columns: repeat(2, 334px);
         margin-top: 32px;
         max-height: 555px;
-        
     }
 }
 @media screen and (max-width: 450px) {
@@ -21,4 +20,5 @@
         margin-top: 32px;
         max-height: unset;
         margin-bottom: 60px;
-    }}
+    }
+}

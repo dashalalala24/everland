@@ -6,15 +6,14 @@
         width: 200px;
         left: 50%;
         transform: translateX(-50%);
-
     }
 }
 
 @media only screen and (max-width: 450px) {
     .news__button {
-    bottom: 0;
-    width: 300px;
-    left: 47%;
-    transform: translateX(-50%);
+        bottom: 0;
+        width: 300px;
+        left: 47%;
+        transform: translateX(-50%);
     }
 }
