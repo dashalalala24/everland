@@ -5,6 +5,7 @@ accordion {
   display: flex;
 }
 
+
 @media screen and (max-width: 768px) {
   .accordion {
     padding: 47px 40px 0;
