@@ -5,16 +5,10 @@ export default class FormPay {
     
     this._form = document.querySelector(this._formSelector);
 
-    console.log(this._form);
-
     this._inputOtherSumm = this._form.querySelector(this._options.radioInput);
     this._radioOtherSumm = this._form.querySelector(this._options.radioSpanOther);
     this._localState = false;
     this._radios = [];
-
-    console.log(this._inputOtherSumm);
-    console.log(this._radioOtherSumm);
-
 
     Array.from(this._form.querySelectorAll(this._options.radio)).forEach((radio) => {
       if (radio.name === this._options.radioSumm) {
