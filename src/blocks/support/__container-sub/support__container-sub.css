@@ -2,14 +2,15 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 117px;
   padding-top: 50px;
+  align-items: center;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1375px) {
   .support__container-sub {
     gap: 50px;
+    justify-content: center;
   }
 } 
 

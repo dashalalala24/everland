@@ -2,15 +2,16 @@
   display: inline-flex;
   flex-direction: column;
   padding-bottom: 100px;
-  margin: 0 20px 0 20px;
+  margin: 0 40px 0 40px;
+  width: 100%;
 }
 
-@media screen and (max-width: 1335px) {
+@media screen and (max-width: 1375px) {
   .support__container {
-    margin: unset;
     align-items: center;
+    margin: unset;
   }
-} 
+}
 
 @media screen and (max-width: 768px) {
   .support__container {

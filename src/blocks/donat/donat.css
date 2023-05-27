@@ -1,6 +1,11 @@
 .donat {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   position: relative;
   max-width: 488px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1335px) {

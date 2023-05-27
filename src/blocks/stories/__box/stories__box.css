@@ -16,6 +16,5 @@
 @media screen and (max-width: 450px) {
   .stories__box {
     padding-top: 0;
-    row-gap: 0;
   }
 }

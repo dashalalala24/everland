@@ -11,7 +11,6 @@
 
 @media screen and (max-width: 768px) {
   .donat__text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 120%;
   }

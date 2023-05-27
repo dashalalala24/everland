@@ -14,15 +14,12 @@
   .info__slider {
     width: 97px;
     height: 24px;
-    justify-self: end;
-    left: 40px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .info__slider {
     width: 95px;
-    height: 24px;
     left: calc(50% - 47.5px);
   }
 }
