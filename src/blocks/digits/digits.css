@@ -4,8 +4,14 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .digits {
+    padding: 100px 40px 0;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .digits {
-    padding: 80px 9px 64px;
+    padding: 65px 9px 64px;
   }
 }
