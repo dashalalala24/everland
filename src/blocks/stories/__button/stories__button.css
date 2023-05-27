@@ -1,5 +1,6 @@
 .stories__button {
   width: 229px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -11,5 +12,6 @@
 @media screen and (max-width: 450px) {
   .stories__button {
     margin: 0;
+    width: 173px;
   }
 }
