@@ -18,7 +18,7 @@
 @media screen and (max-width: 450px) {
   .stoties__cmall-card-container {
     padding-top: 24px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     row-gap: 16px;
   }
 }

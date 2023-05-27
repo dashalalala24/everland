@@ -1,7 +1,7 @@
 .stories__discription-container {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 3px;
   padding-bottom: 20px;
 }
 
@@ -9,6 +9,7 @@
   .stories__discription-container {
     padding-top: 19px;
     row-gap: 7px;
+    padding-bottom: 6px;
   }
 }
 
@@ -16,5 +17,6 @@
   .stories__discription-container {
     padding-top: 11px;
     row-gap: 9px;
+    padding-bottom: 15px;
   }
 }
