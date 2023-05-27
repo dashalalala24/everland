@@ -1,5 +1,5 @@
-.footer__support-icon-bilain {
-  background-image: url(../../../images/bilain.svg);
+.footer__support-icon_bilain {
+  background-image: url(../../../../images/bilain.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100px;
@@ -7,16 +7,17 @@
 }
 
 @media screen and (max-width: 768px) {
-  .footer__support-icon-bilain {
-    background-image: url(../../../images/bilain-768.svg);
+  .footer__support-icon_bilain {
+    background-image: url(../../../../images/bilain-768.svg);
     width: 56px;
     height: 40px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .footer__support-icon-bilain {
+  .footer__support-icon_bilain {
     width: 48px;
     height: 34px;
   }
 }
+

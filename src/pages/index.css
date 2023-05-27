@@ -305,12 +305,13 @@
 @import url(../blocks/footer/__support-icon/footer__support-icon.css);
 @import url(../blocks/footer/__about-project/footer__about-project.css);
 @import url(../blocks/footer/__logo-container/footer__logo-container.css);
-@import url(../blocks/footer/__support-icon-bilain/footer__support-icon-bilain.css);
-@import url(../blocks/footer/__support-icon-fond/footer__support-icon-fond.css);
+@import url(../blocks/footer/__support-icon/_fond/footer__support-icon_fond.css);
+@import url(../blocks/footer/__support-icon/_bilain/footer__support-icon_bilain.css);
 @import url(../blocks/footer/__subscribe-icon/footer__subscribe-icon.css);
 @import url(../blocks/footer/__subscribe-icons/footer__subscribe-icons.css);
 @import url(../blocks/footer/__subscribe-title/footer__subscribe-title.css);
-@import url(../blocks/footer/__subscribe-icon-tg/footer__subscribe-icon-tg.css);
-@import url(../blocks/footer/__subscribe-icon-vk/footer__subscribe-icon-vk.css);
+@import url(../blocks/footer/__subscribe-icon/_tg/footer__subscribe-icon_tg.css);
+@import url(../blocks/footer/__subscribe-icon/_vk/footer__subscribe-icon_vk.css);
 @import url(../blocks/footer/__subscribe/footer__subscribe.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__hover/footer__hover.css);
