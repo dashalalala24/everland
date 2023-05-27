@@ -1,5 +1,5 @@
-.footer__support-icon-fond {
-  background-image: url(../../../images/fond-grant.svg);
+.footer__support-icon_fond {
+  background-image: url(../../../../images/fond-grant.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100px;
@@ -7,15 +7,16 @@
 }
 
 @media screen and (max-width: 768px) {
-  .footer__support-icon-fond {
+  .footer__support-icon_fond {
     width: 89px;
     height: 30px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .footer__support-icon-fond {
+  .footer__support-icon_fond {
     width: 73px;
     height: 25px;
   }
 }
+
