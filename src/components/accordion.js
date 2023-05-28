@@ -9,11 +9,11 @@ export function changeButton(button) {
 }
 
 export function openAccordion(parent) {
-  if (parent.classList.contains('accordion__item-active')) {
-    parent.classList.remove('accordion__item-active')
+  if (parent.classList.contains('accordion__item_active')) {
+    parent.classList.remove('accordion__item_active')
   } else {
     document.querySelectorAll('.accordion__item').forEach((child) =>
-      child.classList.remove('accordion__item-active'))
-    parent.classList.add('accordion__item-active')
+      child.classList.remove('accordion__item_active'))
+    parent.classList.add('accordion__item_active')
   }
 }

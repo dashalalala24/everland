@@ -1,0 +1,3 @@
+.accordion__item_active .accordion__item-content {
+  display: block;
+}

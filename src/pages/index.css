@@ -197,7 +197,7 @@
 
 @import url(../blocks/accordion/accordion.css);
 @import url(../blocks/accordion/__container/accordion__container.css);
-@import url(../blocks/accordion/__item-active/accordion__item-active.css);
+@import url(../blocks/accordion/__item/_active/accordion__item_active.css);
 @import url(../blocks/accordion/__item-container/accordion__item-container.css);
 @import url(../blocks/accordion/__item-content/accordion__item-content.css);
 @import url(../blocks/accordion/__item/accordion__item.css);
@@ -230,18 +230,19 @@
 @import url(../blocks/stories/__cmall-card-container/stoties__cmall-card-container.css);
 @import url(../blocks/stories/__container/stories__container.css);
 @import url(../blocks/stories/__discription-container/stories__discription-container.css);
-@import url(../blocks/stories/__discription-container/_small/stories__discription-container_small.css);
+@import url(../blocks/stories/__discription-container/_size_small/stories__discription-container_size_small.css);
 @import url(../blocks/stories/__discription/stories__discription.css);
-@import url(../blocks/stories/__discription/_small/stories__discription_small.css);
+@import url(../blocks/stories/__discription/_size_small/stories__discription_size_small.css);
 @import url(../blocks/stories/__image-circle/stories__image-circle.css);
-@import url(../blocks/stories/__image-circle/_small/stories__image-circle_small.css);
+@import url(../blocks/stories/__image-circle/_size_small/stories__image-circle_size_small.css);
 @import url(../blocks/stories/__item-small/stories__item-small.css);
 @import url(../blocks/stories/__item/stories__item.css);
-@import url(../blocks/stories/__item/_reverse/stories__item_reverse.css);
+@import url(../blocks/stories/__item/_theme_reverse/stories__item_theme_reverse.css);
 @import url(../blocks/stories/__quote-img/stories__quote-img.css);
 @import url(../blocks/stories/__quote/stories__quote.css);
 @import url(../blocks/stories/__small-text-button/stories__small-text-button.css);
 @import url(../blocks/stories/__small-text/stories__small-text.css);
+@import url(../blocks/stories/__discription-container-title/stories__discription-container-title.css);
 
 /* ---------------------gallery------------ */
 
