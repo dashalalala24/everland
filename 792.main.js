@@ -5,19 +5,19 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(688);
+/* harmony import */ var _utils_constants_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(674);
 
 window.onload = function () {
   var menuButton = document.querySelector('.header__menu');
   menuButton.addEventListener('click', toggleMenu);
   function toggleMenu() {
-    console.log(_constants__WEBPACK_IMPORTED_MODULE_0__/* .menu.classList */ .GI.classList);
-    if (_constants__WEBPACK_IMPORTED_MODULE_0__/* .menu.classList.contains */ .GI.classList.contains('menu_hidden')) {
-      _constants__WEBPACK_IMPORTED_MODULE_0__/* .menuIcon.classList.add */ .FO.classList.add('header__menu-pic_type_close');
-      _constants__WEBPACK_IMPORTED_MODULE_0__/* .menu.classList.remove */ .GI.classList.remove('menu_hidden');
+    console.log(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .menu.classList */ .GI.classList);
+    if (_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .menu.classList.contains */ .GI.classList.contains('menu_hidden')) {
+      _utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .menuIcon.classList.add */ .FO.classList.add('header__menu-pic_type_close');
+      _utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .menu.classList.remove */ .GI.classList.remove('menu_hidden');
     } else {
-      _constants__WEBPACK_IMPORTED_MODULE_0__/* .menuIcon.classList.remove */ .FO.classList.remove('header__menu-pic_type_close');
-      _constants__WEBPACK_IMPORTED_MODULE_0__/* .menu.classList.add */ .GI.classList.add('menu_hidden');
+      _utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .menuIcon.classList.remove */ .FO.classList.remove('header__menu-pic_type_close');
+      _utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .menu.classList.add */ .GI.classList.add('menu_hidden');
     }
   }
 };

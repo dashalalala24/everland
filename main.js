@@ -2,11 +2,51 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 688:
+/***/ 587:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "scrollToAnchors": () => (/* binding */ scrollToAnchors)
+/* harmony export */ });
+/* harmony import */ var _utils_constants_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(674);
+
+function scrollToAnchor(anchors) {
+  anchors.forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      var sectionID = anchor.getAttribute('href');
+      _utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .menuIcon.classList.remove */ .FO.classList.remove('header__menu-pic_type_close');
+      _utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .menu.classList.add */ .GI.classList.add('menu_hidden');
+      document.querySelector(sectionID).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    });
+  });
+}
+function scrollToAnchors() {
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorSupport */ .mT);
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorFooter */ .aR);
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorActivities */ .Yp);
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorNews */ .Y3);
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorProject */ .HN);
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorDigits */ .$j);
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorImportant */ .vK);
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorStories */ .Js);
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorGallery */ .Jn);
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorSlider */ .dt);
+  scrollToAnchor(_utils_constants_js__WEBPACK_IMPORTED_MODULE_0__/* .anchorfor */ .FZ);
+}
+
+/***/ }),
+
+/***/ 674:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "$j": () => (/* binding */ anchorDigits),
+/* harmony export */   "B7": () => (/* binding */ formPaySelector),
 /* harmony export */   "FO": () => (/* binding */ menuIcon),
 /* harmony export */   "FZ": () => (/* binding */ anchorfor),
 /* harmony export */   "GI": () => (/* binding */ menu),
@@ -17,6 +57,7 @@
 /* harmony export */   "Yp": () => (/* binding */ anchorActivities),
 /* harmony export */   "aR": () => (/* binding */ anchorFooter),
 /* harmony export */   "dt": () => (/* binding */ anchorSlider),
+/* harmony export */   "ib": () => (/* binding */ formSettings),
 /* harmony export */   "mT": () => (/* binding */ anchorSupport),
 /* harmony export */   "vK": () => (/* binding */ anchorImportant)
 /* harmony export */ });
@@ -33,45 +74,22 @@ var anchorSlider = document.querySelectorAll('#sliderAnc');
 var anchorGallery = document.querySelectorAll('#galleryAnc');
 var menu = document.querySelector('.menu');
 var menuIcon = document.querySelector('.header__menu-pic');
-
-/***/ }),
-
-/***/ 587:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "scrollToAnchors": () => (/* binding */ scrollToAnchors)
-/* harmony export */ });
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(688);
-
-function scrollToAnchor(anchors) {
-  anchors.forEach(function (anchor) {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      var sectionID = anchor.getAttribute('href');
-      _constants__WEBPACK_IMPORTED_MODULE_0__/* .menuIcon.classList.remove */ .FO.classList.remove('header__menu-pic_type_close');
-      _constants__WEBPACK_IMPORTED_MODULE_0__/* .menu.classList.add */ .GI.classList.add('menu_hidden');
-      document.querySelector(sectionID).scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
-    });
-  });
-}
-function scrollToAnchors() {
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorSupport */ .mT);
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorFooter */ .aR);
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorActivities */ .Yp);
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorNews */ .Y3);
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorProject */ .HN);
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorDigits */ .$j);
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorImportant */ .vK);
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorStories */ .Js);
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorGallery */ .Jn);
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorSlider */ .dt);
-  scrollToAnchor(_constants__WEBPACK_IMPORTED_MODULE_0__/* .anchorfor */ .FZ);
-}
+var formPaySelector = '.form-pay';
+var formSettings = {
+  input: '.form-pay__input',
+  inputInvalid: 'form-pay__input_invalid',
+  inputError: '.form-pay__input-error',
+  inputErrorActive: 'form-pay__input-error_active',
+  checkbox: '.form-pay__checkbox-invisible',
+  button: '.form-pay__button',
+  radioSpanOther: '.form-pay__radio_type_other',
+  radioInput: '.form-pay__radio-input',
+  radioInputActive: 'form-pay__radio-input_active',
+  radio: '.form-pay__radio-invisible',
+  radioSumm: 'donat_summ',
+  radioDonatOther: 'donat_other',
+  radioDisable: 'form-pay__radio_disabled'
+};
 
 /***/ })
 
@@ -105,36 +123,6 @@ function scrollToAnchors() {
 /******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/create fake namespace object */
-/******/ 	(() => {
-/******/ 		var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
-/******/ 		var leafPrototypes;
-/******/ 		// create a fake namespace object
-/******/ 		// mode & 1: value is a module id, require it
-/******/ 		// mode & 2: merge all properties of value into the ns
-/******/ 		// mode & 4: return value when already ns object
-/******/ 		// mode & 16: return value when it's Promise-like
-/******/ 		// mode & 8|1: behave like require
-/******/ 		__webpack_require__.t = function(value, mode) {
-/******/ 			if(mode & 1) value = this(value);
-/******/ 			if(mode & 8) return value;
-/******/ 			if(typeof value === 'object' && value) {
-/******/ 				if((mode & 4) && value.__esModule) return value;
-/******/ 				if((mode & 16) && typeof value.then === 'function') return value;
-/******/ 			}
-/******/ 			var ns = Object.create(null);
-/******/ 			__webpack_require__.r(ns);
-/******/ 			var def = {};
-/******/ 			leafPrototypes = leafPrototypes || [null, getProto({}), getProto([]), getProto(getProto)];
-/******/ 			for(var current = mode & 2 && value; typeof current == 'object' && !~leafPrototypes.indexOf(current); current = getProto(current)) {
-/******/ 				Object.getOwnPropertyNames(current).forEach((key) => (def[key] = () => (value[key])));
-/******/ 			}
-/******/ 			def['default'] = () => (value);
-/******/ 			__webpack_require__.d(ns, def);
-/******/ 			return ns;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -416,16 +404,121 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 
-;// CONCATENATED MODULE: ./src/components/FormValidator.js
+;// CONCATENATED MODULE: ./src/components/Slider.js
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+var Slider = /*#__PURE__*/function () {
+  function Slider(sliderSelector, elementSelector, textElement) {
+    _classCallCheck(this, Slider);
+    this._sliderSelector = sliderSelector;
+    this._slider = document.querySelector(sliderSelector);
+    this._sliderList = this._slider.querySelector('.slider__list');
+    this._cardArray = Array.from(this._sliderList.querySelectorAll(elementSelector));
+    this._previousButton = this._slider.querySelector('.button_type_slider-previous');
+    this._nextButton = this._slider.querySelector('.button_type_slider-next');
+    this._textElement = textElement;
+    if (!this._previousButton) {
+      this._previousButton = this._slider.parentNode.querySelector('.button_type_slider-previous');
+    }
+    ;
+    if (!this._nextButton) {
+      this._nextButton = this._slider.parentNode.querySelector('.button_type_slider-next');
+    }
+    ;
+    this._elementCount = this._cardArray.length;
+    this._position = 0;
+    this._active = true;
+    if (this._textElement) {
+      this._textElement.textContent = "".concat(1, "/", this._elementCount);
+    }
+  }
+  _createClass(Slider, [{
+    key: "_move",
+    value: function _move(position, status) {
+      var isAnimation = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+      this._sliderList.style.transform = "translateX(-".concat(position, "px)");
+      if (isAnimation) {
+        this._sliderList.style.transition = 'transform 0.5s ease-in-out';
+      } else {
+        this._sliderList.style.transition = 'none';
+      }
+      this._active = status;
+    }
+  }, {
+    key: "_leftMove",
+    value: function _leftMove() {
+      var _this = this;
+      if (!this._active) {
+        return;
+      }
+      if (this._position <= 0) {
+        this._position = this._elementCount - 1;
+        this._move(this._sliderList.offsetWidth * 1, false, false);
+        var fakeNode = this._cardArray[this._cardArray.length - 1].cloneNode(true);
+        this._sliderList.prepend(fakeNode);
+        setTimeout(function () {
+          _this._move(0, false, true);
+        }, 1);
+        setTimeout(function () {
+          fakeNode.remove();
+          _this._move(_this._sliderList.offsetWidth * (_this._elementCount - 1), true, false);
+        }, 500);
+      } else {
+        this._position--;
+        this._move(this._sliderList.offsetWidth * this._position, true);
+      }
+      if (this._textElement) {
+        this._textElement.textContent = "".concat(this._position + 1, "/").concat(this._elementCount);
+      }
+    }
+  }, {
+    key: "_rightMove",
+    value: function _rightMove() {
+      var _this2 = this;
+      if (!this._active) {
+        return;
+      }
+      if (this._position >= this._elementCount - 1) {
+        this._position = 0;
+        var fakeNode = this._cardArray[0].cloneNode(true);
+        this._sliderList.append(fakeNode);
+        this._move(this._sliderList.offsetWidth * this._elementCount, false);
+        setTimeout(function () {
+          _this2._move(0, true, false);
+          fakeNode.remove();
+        }, 500);
+      } else {
+        this._position++;
+        this._move(this._sliderList.offsetWidth * this._position, true);
+      }
+      if (this._textElement) {
+        this._textElement.textContent = "".concat(this._position + 1, "/").concat(this._elementCount);
+      }
+    }
+  }, {
+    key: "setEventListeners",
+    value: function setEventListeners() {
+      this._previousButton.addEventListener('click', this._leftMove.bind(this));
+      this._nextButton.addEventListener('click', this._rightMove.bind(this));
+    }
+  }]);
+  return Slider;
+}();
+
+;// CONCATENATED MODULE: ./src/components/FormValidator.js
+function FormValidator_typeof(obj) { "@babel/helpers - typeof"; return FormValidator_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, FormValidator_typeof(obj); }
+function FormValidator_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function FormValidator_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, FormValidator_toPropertyKey(descriptor.key), descriptor); } }
+function FormValidator_createClass(Constructor, protoProps, staticProps) { if (protoProps) FormValidator_defineProperties(Constructor.prototype, protoProps); if (staticProps) FormValidator_defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function FormValidator_toPropertyKey(arg) { var key = FormValidator_toPrimitive(arg, "string"); return FormValidator_typeof(key) === "symbol" ? key : String(key); }
+function FormValidator_toPrimitive(input, hint) { if (FormValidator_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (FormValidator_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 var FormValidator = /*#__PURE__*/function () {
   function FormValidator(formSelector, options) {
-    _classCallCheck(this, FormValidator);
+    FormValidator_classCallCheck(this, FormValidator);
     this._formSelector = formSelector;
     this._options = options;
     this._form = document.querySelector(this._formSelector);
@@ -433,7 +526,7 @@ var FormValidator = /*#__PURE__*/function () {
     this._checkboxs = Array.from(this._form.querySelectorAll(this._options.checkbox));
     this._button = this._form.querySelector(this._options.button);
   }
-  _createClass(FormValidator, [{
+  FormValidator_createClass(FormValidator, [{
     key: "_disableButton",
     value: function _disableButton() {
       this._button.disabled = true;
@@ -571,198 +664,55 @@ var FormPay = /*#__PURE__*/function () {
   return FormPay;
 }();
 
-;// CONCATENATED MODULE: ./src/utils/constants.js
-var formPaySelector = '.form-pay';
-var formSettings = {
-  input: '.form-pay__input',
-  inputInvalid: 'form-pay__input_invalid',
-  inputError: '.form-pay__input-error',
-  inputErrorActive: 'form-pay__input-error_active',
-  checkbox: '.form-pay__checkbox-invisible',
-  button: '.form-pay__button',
-  radioSpanOther: '.form-pay__radio_type_other',
-  radioInput: '.form-pay__radio-input',
-  radioInputActive: 'form-pay__radio-input_active',
-  radio: '.form-pay__radio-invisible',
-  radioSumm: 'donat_summ',
-  radioDonatOther: 'donat_other',
-  radioDisable: 'form-pay__radio_disabled'
-};
+// EXTERNAL MODULE: ./src/utils/constants.js
+var constants = __webpack_require__(674);
 // EXTERNAL MODULE: ./src/components/navigation.js
 var navigation = __webpack_require__(587);
+;// CONCATENATED MODULE: ./src/components/accordion.js
+function changeButton(button) {
+  if (button.classList.contains('button_type_accordeon-checked')) {
+    button.classList.remove('button_type_accordeon-checked');
+  } else {
+    document.querySelectorAll('.button_type_accordeon').forEach(function (el) {
+      return el.classList.remove('button_type_accordeon-checked');
+    });
+    button.classList.add('button_type_accordeon-checked');
+  }
+}
+function openAccordion(parent) {
+  if (parent.classList.contains('accordion__item_active')) {
+    parent.classList.remove('accordion__item_active');
+  } else {
+    document.querySelectorAll('.accordion__item').forEach(function (child) {
+      return child.classList.remove('accordion__item_active');
+    });
+    parent.classList.add('accordion__item_active');
+  }
+}
 ;// CONCATENATED MODULE: ./src/components/index.js
 __webpack_require__.e(/* import() */ 289).then(__webpack_require__.bind(__webpack_require__, 289));
 __webpack_require__.e(/* import() */ 792).then(__webpack_require__.bind(__webpack_require__, 792));
-__webpack_require__.e(/* import() */ 149).then(__webpack_require__.t.bind(__webpack_require__, 149, 23));
 Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 587));
 
 
 
 
-var formPay = new FormPay(formPaySelector, formSettings);
-var formPayValidator = new FormValidator(formPaySelector, formSettings);
+
+
+var formPay = new FormPay(constants/* formPaySelector */.B7, constants/* formSettings */.ib);
+var formPayValidator = new FormValidator(constants/* formPaySelector */.B7, constants/* formSettings */.ib);
 formPayValidator.enableValidation();
-
-// const slider = document.querySelector('.slider');
-// const sliderList = slider.querySelector('.slider__list');
-// const slides = slider.querySelectorAll('.slider__slide');
-// const prevButton = slider.querySelector('.button_type_slider_previous');
-// const nextButton = slider.querySelector('.button_type_slider_next');
-
-var items = document.querySelectorAll('.slider__slide');
-var itemLength = items.length;
-var nextButton = document.querySelector(".button_type_slider_next");
-var previousButton = document.querySelector(".button_type_slider_previous");
-var slider = [];
-for (var i = 0; i < itemLength; i++) {
-  slider.push(items[i]);
-  items[i].remove();
-}
-var step = 0;
-var offset = 0;
-function infoSlider() {
-  var slideElement = document.createElement('li');
-  slideElement.classList.add('card', 'card_type_horizontal', 'card_color_blue', 'slider__slide');
-  slideElement.innerHTML = slider[slider.length - 1].innerHTML;
-  document.querySelector('.slider__list').appendChild(slideElement);
-  slideElement = document.createElement('li');
-  slideElement.classList.add('card', 'card_type_horizontal', 'card_color_blue', 'slider__slide');
-  slideElement.style.left = offset * 1360 + 'px';
-  slideElement.innerHTML = slider[step].innerHTML;
-  document.querySelector('.slider__list').appendChild(slideElement);
-  slideElement = document.createElement('li');
-  slideElement.classList.add('card', 'card_type_horizontal', 'card_color_blue', 'slider__slide');
-  slideElement.style.left = offset * 1360 + 1360 + 'px';
-  slideElement.innerHTML = slider[step + 1].innerHTML;
-  document.querySelector('.slider__list').appendChild(slideElement);
-  offset = 1;
-}
-function infoSliderNext() {
-  if (step === slider.length - 1) {
-    step = 1;
-  } else {
-    if (step === slider.length - 2) {
-      step = 0;
-    } else {
-      step = step + 2;
-    }
-  }
-  var slideElement = document.createElement('li');
-  slideElement.classList.add('card', 'card_type_horizontal', 'card_color_blue', 'slider__slide');
-  slideElement.style.left = offset * 1360 + 'px';
-  slideElement.innerHTML = slider[step].innerHTML;
-  document.querySelector('.slider__list').appendChild(slideElement);
-  document.querySelector('.slider__list').style.transform = "translateX(-".concat(slideElement.offsetWidth, "px)");
-  document.querySelector('.slider__list').style.transition = 'transform 0.5s ease-in-out';
-  if (step === 0) {
-    step = slider.length - 1;
-  } else {
-    step = step - 1;
-  }
-  offset = 1;
-}
-function next() {
-  nextButton.onclick = null;
-  var sliderItems = document.querySelectorAll('.slider__slide');
-  var offset2 = -1;
-  for (var _i = 0; _i < sliderItems.length; _i++) {
-    sliderItems[_i].style.left = offset2 * 1360 - 1360 + 'px';
-    offset2++;
-  }
-  setTimeout(function () {
-    sliderItems[0].remove();
-    document.querySelector('.slider__list').style.transform = 'translateX(0)';
-    document.querySelector('.slider__list').style.transition = 'none';
-    infoSliderNext();
-    nextButton.onclick = next;
-  }, 700);
-}
-function infoSliderPrevious() {
-  if (step === 0) {
-    step = slider.length - 2;
-  } else {
-    if (step === 1) {
-      step = slider.length - 1;
-    } else {
-      step = step - 2;
-    }
-  }
-  var offset = -1;
-  var slideElement = document.createElement('li');
-  slideElement.classList.add('card', 'card_type_horizontal', 'card_color_blue', 'slider__slide');
-  slideElement.style.left = offset * 100 + 'px';
-  slideElement.innerHTML = slider[step].innerHTML;
-  document.querySelector('.slider__list').insertBefore(slideElement, document.querySelector('.slider__slide'));
-  document.querySelector('.slider__list').style.transform = "translateX(-".concat(slideElement.offsetWidth, "px)");
-  document.querySelector('.slider__list').style.transition = 'transform 0.5s ease-in-out';
-  if (step === slider.length - 1) {
-    step = 0;
-  } else {
-    step = step + 1;
-  }
-  offset = 1;
-}
-function previous() {
-  previousButton.onclick = null;
-  var sliderItems = document.querySelectorAll('.slider__slide');
-  var offset2 = sliderItems.length - 1;
-  for (var _i2 = sliderItems.length - 1; _i2 >= 0; _i2--) {
-    sliderItems[_i2].style.left = offset2 * 1360 + 'px';
-    offset2--;
-  }
-  setTimeout(function () {
-    sliderItems[sliderItems.length - 1].remove();
-    document.querySelector('.slider__list').style.transform = 'translateX(0)';
-    document.querySelector('.slider__list').style.transition = 'none';
-    infoSliderPrevious();
-    previousButton.onclick = previous;
-  }, 700);
-}
-infoSlider();
-step = 0;
-nextButton.onclick = next;
-previousButton.onclick = previous;
-
-// const slider = document.querySelector('.slider__list');
-// const previousButton = document.querySelector('.button_type_slider_previous');
-// const nextButton = document.querySelector('.button_type_slider_next');
-
-// previousButton.addEventListener('click', () => {
-//   slider.style.transform = `translateX(-${slideWidth}px)`;
-//   slider.style.transition = 'transform 0.5s ease-in-out';
-
-//   setTimeout(() => {
-//     slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
-//     slider.style.transform = 'translateX(0)';
-//     slider.style.transition = 'none';
-//   }, 500);
-// });
-
-// nextButton.addEventListener('click', () => {
-//   slider.style.transform = `translateX(${slideWidth}px)`;
-//   slider.style.transition = 'transform 0.5s ease-in-out';
-
-//   setTimeout(() => {
-//     slider.appendChild(slider.firstElementChild);
-//     slider.style.transform = 'translateX(0)';
-//     slider.style.transition = 'none';
-//   }, 600);
-// });
-
-function openAccordion(parent) {
-  if (parent.classList.contains('accordion__item-active')) {
-    parent.classList.remove('accordion__item-active');
-  } else {
-    document.querySelectorAll('.accordion__item').forEach(function (child) {
-      return child.classList.remove('accordion__item-active');
-    });
-    parent.classList.add('accordion__item-active');
-  }
-}
-document.querySelectorAll('.accordion__item-container').forEach(function (item) {
+var projectSlider = new Slider('.projects__slider', '.card');
+projectSlider.setEventListeners();
+var infoSlider = new Slider('.slider_type_info', '.info__slider-item', document.querySelector('.info__slider-controller-text'));
+infoSlider.setEventListeners();
+var accordionButton = document.querySelectorAll('.accordion__item-container');
+accordionButton.forEach(function (item) {
   return item.addEventListener('click', function () {
     var parent = item.parentNode;
+    var button = item.querySelector('.button_type_accordeon');
     openAccordion(parent);
+    changeButton(button);
   });
 });
 (0,navigation.scrollToAnchors)();
