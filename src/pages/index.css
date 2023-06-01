@@ -52,7 +52,6 @@
 @import url(../blocks/button/_type/button_type_slider-previous.css);
 @import url(../blocks/button/_type/button_type_slider.css);
 
-
 /* ---------------------cards------------ */
 
 @import url(../blocks/cards/cards.css);
@@ -60,7 +59,6 @@
 @import url(../blocks/cards/_type/_horizontal/_small/cards_type_horizontal_small.css);
 
 /* ---------------------card------------ */
-
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_color/_blue/card_color_blue.css);
@@ -180,7 +178,6 @@
 @import url(../blocks/donations/__money/donations__money.css);
 @import url(../blocks/donations/__item/donations__item.css);
 
-
 /* ---------------------partnering------------ */
 
 @import url(../blocks/partnering/partnering.css);
@@ -230,14 +227,14 @@
 @import url(../blocks/stories/__cmall-card-container/stoties__cmall-card-container.css);
 @import url(../blocks/stories/__container/stories__container.css);
 @import url(../blocks/stories/__discription-container/stories__discription-container.css);
-@import url(../blocks/stories/__discription-container/_size_small/stories__discription-container_size_small.css);
+@import url(../blocks/stories/__discription-container/_size/stories__discription-container_size_small.css);
 @import url(../blocks/stories/__discription/stories__discription.css);
-@import url(../blocks/stories/__discription/_size_small/stories__discription_size_small.css);
+@import url(../blocks/stories/__discription/_size/stories__discription_size_small.css);
 @import url(../blocks/stories/__image-circle/stories__image-circle.css);
-@import url(../blocks/stories/__image-circle/_size_small/stories__image-circle_size_small.css);
+@import url(../blocks/stories/__image-circle/_size/stories__image-circle_size_small.css);
 @import url(../blocks/stories/__item-small/stories__item-small.css);
 @import url(../blocks/stories/__item/stories__item.css);
-@import url(../blocks/stories/__item/_theme_reverse/stories__item_theme_reverse.css);
+@import url(../blocks/stories/__item/_theme/stories__item_theme_reverse.css);
 @import url(../blocks/stories/__quote-img/stories__quote-img.css);
 @import url(../blocks/stories/__quote/stories__quote.css);
 @import url(../blocks/stories/__small-text-button/stories__small-text-button.css);
@@ -308,13 +305,13 @@
 @import url(../blocks/footer/__support-icon/footer__support-icon.css);
 @import url(../blocks/footer/__about-project/footer__about-project.css);
 @import url(../blocks/footer/__logo-container/footer__logo-container.css);
-@import url(../blocks/footer/__support-icon/_fond/footer__support-icon_fond.css);
-@import url(../blocks/footer/__support-icon/_bilain/footer__support-icon_bilain.css);
+@import url(../blocks/footer/__support-icon/_name/footer__support-icon_name_fond.css);
+@import url(../blocks/footer/__support-icon/_name/footer__support-icon_name_bilain.css);
 @import url(../blocks/footer/__subscribe-icon/footer__subscribe-icon.css);
 @import url(../blocks/footer/__subscribe-icons/footer__subscribe-icons.css);
 @import url(../blocks/footer/__subscribe-title/footer__subscribe-title.css);
-@import url(../blocks/footer/__subscribe-icon/_tg/footer__subscribe-icon_tg.css);
-@import url(../blocks/footer/__subscribe-icon/_vk/footer__subscribe-icon_vk.css);
+@import url(../blocks/footer/__subscribe-icon/_name/footer__subscribe-icon_name_tg.css);
+@import url(../blocks/footer/__subscribe-icon/_name/footer__subscribe-icon_name_vk.css);
 @import url(../blocks/footer/__subscribe/footer__subscribe.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__hover/footer__hover.css);
