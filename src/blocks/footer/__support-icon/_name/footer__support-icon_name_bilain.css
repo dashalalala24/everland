@@ -1,4 +1,4 @@
-.footer__support-icon_bilain {
+.footer__support-icon_name_bilain {
   background-image: url(../../../../images/bilain.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .footer__support-icon_bilain {
+  .footer__support-icon_name_bilain {
     background-image: url(../../../../images/bilain-768.svg);
     width: 56px;
     height: 40px;
@@ -15,9 +15,8 @@
 }
 
 @media screen and (max-width: 450px) {
-  .footer__support-icon_bilain {
+  .footer__support-icon_name_bilain {
     width: 48px;
     height: 34px;
   }
 }
-
