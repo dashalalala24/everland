@@ -1,0 +1,8 @@
+.info-slider{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  position: relative;
+  overflow: hidden;
+}
+

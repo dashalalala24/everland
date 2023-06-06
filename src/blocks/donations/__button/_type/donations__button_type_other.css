@@ -1,0 +1,17 @@
+.donations__button_type_other{
+  width: 211px;
+}
+
+@media screen and (max-width: 1320px) {
+  .donations__button_type_other{
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .donations__button_type_other{
+    width: 260px;
+    margin: 0px 0px 32px 0px;
+    padding: 0;
+  }
+}

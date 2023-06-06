@@ -1,0 +1,13 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    max-width: 1360px;
+    margin: 150px 40px;
+}
+
+@media screen and (max-width: 450px) {
+    .projects {
+       margin: 0;
+       max-height: 496px;
+    }
+}

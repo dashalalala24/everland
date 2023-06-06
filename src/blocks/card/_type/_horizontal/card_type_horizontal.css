@@ -1,0 +1,10 @@
+.card_type_horizontal {
+    align-items: stretch;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    min-height: 324px;
+    max-width: none;
+}

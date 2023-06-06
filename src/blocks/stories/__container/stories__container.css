@@ -1,0 +1,11 @@
+.stories__container {
+  display: flex;
+  column-gap: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__container {
+    display: flex;
+    flex-direction: column;
+  }
+}

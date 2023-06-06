@@ -1,0 +1,9 @@
+.card__button-container {
+    margin: 0 40px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .card__button-container {
+        margin: 18px 40px 0 0;
+    }
+}

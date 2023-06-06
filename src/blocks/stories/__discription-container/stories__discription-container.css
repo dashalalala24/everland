@@ -1,0 +1,22 @@
+.stories__discription-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__discription-container {
+    padding-top: 19px;
+    row-gap: 7px;
+    padding-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .stories__discription-container {
+    padding-top: 11px;
+    row-gap: 9px;
+    padding-bottom: 15px;
+  }
+}

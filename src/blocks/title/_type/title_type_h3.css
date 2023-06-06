@@ -1,0 +1,15 @@
+.title_type_h3 {
+  font-size: 34px;
+}
+
+@media screen and (max-width: 768px) {
+  .title_type_h3 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .title_type_h3 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,18 @@
+.text_type_label {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .text_type_label {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .text_type_label {
+    font-size: 14px;
+  }
+}

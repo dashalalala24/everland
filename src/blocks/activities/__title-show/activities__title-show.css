@@ -1,0 +1,11 @@
+.activities__title-show {
+    display: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    .activities__title-show {
+        display: block;
+        max-width: 420px;
+    }
+}

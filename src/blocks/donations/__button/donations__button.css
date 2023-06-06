@@ -1,0 +1,35 @@
+.donations__button{
+    padding: 0;
+    border: 1px solid transparent;
+    color: black;
+    background-color: white;
+    width: 159px;
+    max-height: 48px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+  }
+  
+.donations__button:hover,
+.donations__button:focus {
+    border-color: #4183DC;
+  }
+  
+.donations__button:active {
+    border-color: #00275C;
+  }
+
+  @media screen and (max-width: 1320px) {
+    .donations__button{
+      width: 75px;
+      margin-bottom:36px;
+      margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .donations__button{
+      width: 122px;
+      margin: 0;
+      padding: 0;
+    }
+  }

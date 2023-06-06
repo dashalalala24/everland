@@ -1,0 +1,13 @@
+.form-pay__checkbox-invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(0 0 0 0);
+  appearance: none;
+}
+
+.form-pay__checkbox-invisible:checked + .form-pay__checkbox {
+  background-image: url("../../../images/Icon_check.svg");
+  background-color: #dadada;
+}

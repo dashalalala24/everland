@@ -1,0 +1,19 @@
+.slider__controller {
+    /* margin-bottom: 30px; */
+    gap: 8px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+    .slider__controller {
+        top: 24px;
+        transform: none;
+        right: 24px;
+        justify-content: flex-end;
+    }
+}

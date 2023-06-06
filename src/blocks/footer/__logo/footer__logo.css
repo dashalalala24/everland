@@ -1,0 +1,13 @@
+.footer__logo {
+  background-image: url(../../../images/Logo.svg);
+  background-size: contain;
+  width: 263px;
+  height: 46px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__logo {
+    width: 137px;
+    height: 24px;
+  }
+}

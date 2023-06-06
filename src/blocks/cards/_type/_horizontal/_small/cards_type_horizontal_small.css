@@ -1,0 +1,4 @@
+.cards_type_horizontal_small {
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+}

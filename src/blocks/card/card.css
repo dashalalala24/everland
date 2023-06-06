@@ -1,0 +1,28 @@
+.card {
+  background: #fff;
+  display: flex;
+  list-style-type: none;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 30px;
+  width: 380px;
+  height: 368px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 274px;
+    height: 234px;
+
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 252px;
+    height: 245px;
+    padding: 24px;
+  }
+}

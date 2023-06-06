@@ -1,0 +1,27 @@
+.header__menu{
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  margin:0px 0px 0px 100px;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .header__menu {
+    margin: 0px 40px 0px 0px;
+    font-size: 16px;
+    line-height: 120%;
+    order:3;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__menu{
+    margin: 15px 10px 15px 80px;
+  }
+}

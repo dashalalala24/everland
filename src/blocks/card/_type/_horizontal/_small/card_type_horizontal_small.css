@@ -1,0 +1,11 @@
+.card_type_horizontal_small{
+    gap: 20px;
+    height: 225px;
+    /* justify-content: start; */
+    /* justify-items: start; */
+    max-width: 670px;
+    min-height: 225px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}

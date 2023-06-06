@@ -1,0 +1,10 @@
+.main-nav__link {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-nav__link:hover {
+  opacity: .6;
+  transition: .2s;
+}

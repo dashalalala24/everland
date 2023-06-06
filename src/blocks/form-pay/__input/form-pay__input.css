@@ -1,0 +1,47 @@
+.form-pay__input {
+  padding: 0 20px 0 20px;
+  border: 0;
+
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+
+  width: min(60vw, 455px);
+  height: 48px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: left;
+  color: black;
+}
+
+.form-pay__input[placeholder] {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: left;
+  color: #DADADA;
+}
+
+@media screen and (max-width: 768px) {
+  .form-pay__input {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  
+  .form-pay__input[placeholder] {
+    font-size: 14px;
+    line-height: 120%;
+  }
+} 
+
+@media screen and (max-width: 450px) {
+  .form-pay__input {
+    width: max(80vw, 260px);
+  }
+} 

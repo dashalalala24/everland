@@ -1,0 +1,21 @@
+.stories__box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 129px;
+  padding-top: 100px;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__box {
+    padding-top: 33px;
+    row-gap: 29px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .stories__box {
+    padding-top: 0;
+    row-gap: 8px;
+  }
+}

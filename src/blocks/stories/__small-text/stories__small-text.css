@@ -1,0 +1,13 @@
+.stories__small-text {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__small-text {
+    column-gap: 19px;
+  }
+}

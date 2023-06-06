@@ -1,0 +1,7 @@
+.card__avatar{
+width: 224px;
+border-radius: 150px;
+background-position: center;
+background-repeat: no-repeat;
+object-fit: cover;
+}

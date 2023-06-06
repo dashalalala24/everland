@@ -1,0 +1,12 @@
+.form-pay__checkbox-link {
+  margin: 0;
+  padding: 0;
+  color: #0C4BA0;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity .2s;
+}
+
+.form-pay__checkbox-link:hover {
+  opacity: .6;
+}

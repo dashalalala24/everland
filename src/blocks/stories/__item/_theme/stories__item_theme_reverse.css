@@ -1,0 +1,9 @@
+.stories__item_theme_reverse {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 450px) {
+  .stories__item_theme_reverse {
+    flex-direction: column;
+  }
+}

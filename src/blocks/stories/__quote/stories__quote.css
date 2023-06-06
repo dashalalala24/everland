@@ -1,0 +1,17 @@
+.stories__quote {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__quote {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .stories__quote {
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  .stories__discription-container_size_small {
+    padding-top: 4px;
+    row-gap: 9px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .stories__discription-container_size_small {
+    padding-top: 2px;
+    row-gap: 3px;
+    padding-bottom: 8px;
+  }
+}

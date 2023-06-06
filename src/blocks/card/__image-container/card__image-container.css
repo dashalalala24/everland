@@ -1,0 +1,24 @@
+.card__image-container {
+  width: 380px;
+  height: 300px;
+  border-radius: 20px;
+  flex: none;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .card__image-container {
+    width: 274px;
+    height: 212px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card__image-container {
+    width: 252px;
+    height: 192px;
+    margin-bottom: 20px;
+
+  }
+}

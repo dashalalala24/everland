@@ -1,0 +1,19 @@
+.section__title-container {
+    display: inherit;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 40px;
+    max-width: 870px;
+}
+
+@media screen and (max-width: 768px) {
+    .section__title-container {
+        margin: 50px 40px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section__title-container {
+        margin: 32px 10px 0;
+    }
+}
